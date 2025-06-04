@@ -1,0 +1,183 @@
+No,S,Plate No,PM ID,Group Name,Driver,Date Time,Last Weight Out Time,Capacity,Speed,Odometer,Fuel1,Fuel2,Idling,Location,Start Time
+1,"Running, Stopped",AAO-1097,H-523,GSDCBULACAN,-,2025/06/01 12:15:52,2024/11/12 01:21:27,0,0,5256,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+2,"Running, Stopped",AAO-1102,H-527,GSDCBULACAN,-,2025/06/01 12:16:41,--,0,0,313986,,,," Unnamed Road, Balagtas, Bulacan, Philippines",
+3,"Running, Stopped",AAO-1103,H-528,GSDCBULACAN,"AÑANA, DOMINIC OLIVEROS",2025/06/01 09:15:10,2022/04/23 17:09:10,0,0,267229,,,," Quezon Rd, San Simon, Pampanga, Philippines",
+4,"Running, Stopped",AAO-1104,H-529,GSDCBULACAN,-,2025/06/01 12:15:36,--,0,0,41887,,,," Quirino Highway, Barangay Minuyan, Norzagaray, 3013, Philippines",2025/06/01 06:56:33
+5,"Running, Stopped",AAO-1106,H-531,GSDCBULACAN,-,2025/06/01 12:15:57,2025/05/26 01:02:04,0,0,21733,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",
+6,"Running, Idling",ABG-6430,H-711,GSDCBULACAN,-,2025/06/01 12:28:24,2025/01/28 11:25:00,0,0,26680,,,1362," Kaymino Road, Norzagaray, Bulakan, Philippines",2025/06/01 00:00:20
+7,"Running, Idling",ABG-6436,H-703,GSDCBULACAN,-,2025/06/01 12:28:37,2024/11/12 11:07:17,0,0,17136,,,1," 205 M San Juan St, Marilao, Bulacan, Philippines",2025/06/01 00:00:06
+8,"Running, Stopped",ABG-6441,H-701,GSDCBULACAN,-,2025/06/01 12:15:22,--,0,0,8585,,,," Calabarzon Expy, Lipa, Batangas, Philippines",
+9,"Running, Stopped",ABG-6442,H-709,GSDCBULACAN,-,2025/06/01 12:15:39,--,0,0,1693,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",2025/06/01 08:43:51
+10,"Running, Stopped",ABG-6443,H-702,GSDCBULACAN,-,2025/06/01 12:15:28,--,0,0,--,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+11,"Running, Idling",ARA-7547,H-581,GSDCBULACAN,-,2025/06/01 12:28:24,2025/05/24 15:13:39,0,0,13717,,,21," Phase 2 Lot 8 Blk 2, Golden Gate, Brgy. Buenavista II, Gen. Trias, Cavite, Philippines",2025/06/01 00:00:19
+12,"Date Time: 2025/01/27 08:27:02
+Unit Data Not Coming, Travelling",ARA-7551,H-580,GSDCBULACAN,-,2025/01/27 08:27:02,2025/05/25 16:21:03,0,41,9709,,,," 150 National Hwy, Cuenca, Batangas, Philippines",
+13,"Running, Stopped",AWA-5742,H-576,GSDCDAVAO,-,2025/06/01 12:15:28,2025/05/20 09:48:00,0,0,48390,41,,,GSDC GARAGE (0.0KM),
+14,"Date Time: 2025/03/01 17:15:42
+Unit Data Not Coming, Stopped",H-2140,NHD-2549,GSDCBULACAN,-,2025/03/01 17:15:42,--,0,0,72388,,,," Unnamed Road, Balagtas, Bulacan, Philippines",
+15,"Running, Idling",H-2230,NKH-5539,GSDCBULACAN,-,2025/06/01 12:28:08,--,0,0,130039,,,180," Unnamed Road, Calaca, Batangas, Philippines",2025/06/01 00:00:11
+16,"Running, Stopped",H-2232,NKH-5530,GSDCBULACAN,-,2025/06/01 12:15:16,--,0,0,20,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",2025/06/01 00:00:11
+17,"Running, Stopped",H-2233,NKH-5529,GSDCBULACAN,-,2025/06/01 12:15:26,--,0,0,22059,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",2025/06/01 06:24:56
+18,"Running, Stopped",H-2234,NKH-5520,GSDCBULACAN,-,2025/06/01 12:15:51,--,0,0,261,,,," Unnamed Road, Calaca, Batangas, Philippines",2025/06/01 00:00:21
+19,"Running, Idling",NAB-4365/H-1433,H-1433,GSDCDAVAO,-,2025/06/01 12:28:40,--,0,0,6924,,,2408,GSDC DAVAO GARAGE,2025/06/01 00:00:10
+20,"Date Time: 2025/05/31 17:30:46
+Unit Power Cut, Stopped",NAJ-1190,H-1430,GSDCLUGAIT,-,2025/05/31 17:30:46,2025/02/20 09:49:00,0,0,19410,30,,,GSDC LUGAIT GARAGE,
+21,"Running, Stopped",NAY-6256,H-1477,GSDCLUGAIT,ALEX GO,2025/06/01 12:26:25,2025/04/17 05:23:00,0,0,71527,,,,REPUBLIC CEMENT,2025/06/01 08:28:16
+22,"Running, Stopped",NAY-6257,H-1473,GSDCDAVAO,"SALADA, CRISTITUTO",2025/06/01 12:15:46,2025/04/30 22:34:00,0,0,5813,,,,PDV0_GARAGE_GSDC2,2025/06/01 00:00:13
+23,"Running, Stopped",NAY-6260,H-1483,GSDCDAVAO,DIOSCORO B. SARSABA,2025/06/01 12:15:01,2025/05/31 09:03:00,0,0,173899,,,,GSDC GARAGE (0.5KM),2025/06/01 08:00:14
+24,"Running, Stopped",NAY-6261,H-1475,GSDCLUGAIT,"BATIANCILA, EMELITO",2025/06/01 12:15:19,2025/03/30 10:58:00,0,0,61814,,,," Linamon - Zamboanga Rd, Kauswagan, Lanao del Norte, Philippines",
+25,"Running, Stopped",NAY-6262,H-1478,GSDCLUGAIT,John Bag-ao Pundulan,2025/06/01 12:28:23,2025/04/16 23:10:00,0,0,85698,,,,GSDC LUGAIT GARAGE,2025/06/01 12:11:48
+26,"Running, Stopped",NAY-6263,H-1482,GSDCDAVAO,TISARA JOHNNY,2025/06/01 12:15:24,2025/04/30 15:03:00,0,0,23560,279,,,PDV0_GARAGE_GSDC2,
+27,"Running, Stopped",NAY-6264,H-1474,GSDCDAVAO,"CAÑA, NORMAN",2025/06/01 12:15:58,2025/03/09 07:52:00,0,0,25985,,,," 339 Davao - Cotabato Rd, Santa Cruz, Davao del Sur, Philippines",2025/06/01 05:35:54
+28,"Date Time: 2025/05/28 20:00:40
+Unit Data Not Coming, Stopped",NAY-6265,H-1470,GSDCDAVAO,TISARA JOHNNY,2025/05/28 20:00:40,2024/10/21 13:34:34,0,0,17544,,,,GSDC DAVAO GARAGE,
+29,"Running, Stopped",NAY-6266,H-1471,GSDCDAVAO,BATIANCILA ALEX,2025/06/01 12:15:49,2024/09/26 19:32:58,0,0,8590,,,,GSDC DAVAO GARAGE,
+30,"Date Time: 2025/05/27 14:45:27
+Unit Data Not Coming, Stopped",NAY-6267,H-1479,GSDCLUGAIT,-,2025/05/27 14:45:27,2024/03/15 01:33:12,0,0,4838,94,,," Maramag - Maradugao Rd, Pangantucan, Bukidnon, Philippines",
+31,"Running, Stopped",NAY-6268,H-1489,GSDCLUGAIT,RICHARD B. GOMEZ,2025/06/01 12:16:31,2025/04/28 23:00:00,0,0,6509,27,,,GSDC LUGAIT GARAGE,2025/06/01 10:20:54
+32,"Running, Stopped",NAY-6269,H-1480,GSDCLUGAIT,"TAHUD, ARJIE",2025/06/01 12:16:04,2025/02/10 16:01:00,0,0,6693,56,,," Butuan - Cagayan de Oro - Iligan Rd, Initao, Misamis Oriental, Philippines",2025/06/01 07:00:21
+33,"Running, Stopped",NAY-6270,H-1485,GSDCLUGAIT,"OLIVEROS, JOHN REY",2025/06/01 12:16:04,2025/04/29 10:56:00,0,0,6609,,,,GSDC LUGAIT GARAGE,2025/06/01 09:26:00
+34,"Running, Stopped",NAY-6271,H-1486,GSDCDAVAO,-,2025/06/01 12:15:56,2025/02/28 23:24:00,0,0,15490,,,,PDV0_GARAGE_GSDC2,2025/06/01 00:00:15
+35,"Date Time: 2025/05/09 12:45:45
+Unit Data Not Coming, Stopped",NAY-6272,H-1488,GSDCDAVAO,RELATIVO ART BRYAN,2025/05/09 12:45:45,2025/05/25 04:30:00,0,0,5791,,,," Sayre Hwy, Kibawe, Bukidnon, Philippines",
+36,"Date Time: 2025/05/18 12:30:24
+Unit Data Not Coming, Stopped",NAY-6273,H-1481,GSDCLUGAIT,JOEL VASQUEZ,2025/05/18 12:30:24,2024/10/17 02:29:00,0,0,6289,,,,GSDC LUGAIT GARAGE,
+37,"Running, Stopped",NAY-6274,H-1487,GSDCDAVAO,"SALADA, CHRISTITUTO",2025/06/01 12:15:17,2025/03/13 11:29:00,0,0,58360,65,,,PDV0_GARAGE_GSDC2,2025/06/01 00:32:27
+38,"Date Time: 2025/05/31 22:00:53
+Unit Power Cut, Stopped",NBA-1702,H-1298,GSDCBULACAN,BENJAMIN ABAD,2025/05/31 22:00:53,2025/02/21 22:58:00,0,0,26064,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",
+39,"Running, Stopped",NBA-1703,H-1295,GSDCBULACAN,-,2025/06/01 12:16:20,2025/02/01 15:43:00,0,0,28536,,,," Quirino Highway, Barangay Minuyan, Norzagaray, 3013, Philippines",
+40,"Running, Stopped",NBA-1704,H-1286,GSDCBULACAN,JOSEPH LANUZA,2025/06/01 12:16:33,2025/02/14 17:37:00,0,0,19249,,,," 26 Palico - Balayan - Batangas Rd, Calaca, Batangas, Philippines",
+41,"Running, Stopped",NBB-2330,H-1348,GSDCBULACAN,-,2025/06/01 12:16:14,2025/04/28 03:51:52,0,0,15666,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",
+42,"Date Time: 2025/05/09 12:45:23
+Unit Data Not Coming, Stopped",NBC-5347,H-1344,GSDCDAVAO,ROBERT DURAN,2025/05/09 12:45:23,2025/02/15 10:42:00,0,0,37152,64,,,GSDC LUGAIT GARAGE,
+43,"Running, Stopped",NBC-5348,H-1342,GSDCDAVAO,-,2025/06/01 12:15:14,2025/01/30 17:41:00,0,0,33242,,,,PDV0_GARAGE_GSDC2,
+44,"Date Time: 2025/05/31 16:45:33
+Unit Power Cut, Stopped",NBC-5350,H-1339,GSDCLUGAIT,DONALD DABLO,2025/05/31 16:45:33,2024/11/30 14:31:00,1000,0,15714,26,,,GSDC LUGAIT GARAGE,
+45,"Running, Idling",NBC-5351,H-1337,GSDCLUGAIT,REYNALDO DIVINO,2025/06/01 12:28:42,2024/08/25 11:02:19,0,0,123380,41,,35,GSDC LUGAIT GARAGE,2025/06/01 11:52:08
+46,"Running, Stopped",NBC-5352,H-1346,GSDCDAVAO,Unknown Driver_NBC-5352,2025/06/01 12:16:08,2025/04/22 02:05:00,0,0,17277,17,,,PDV0_GARAGE_GSDC2,2025/06/01 05:31:08
+47,"Running, Stopped",NBC-5356,H-1347,GSDCDAVAO,MARLON CAMPONG,2025/06/01 12:15:09,2025/05/21 11:53:00,0,0,43583,,,,PDV0_GARAGE_GSDC2,
+48,"Running, Stopped",NBE-7525,H-1492,GSDCLUGAIT,JESTHONY JEFF DESIERTO,2025/06/01 12:15:34,2024/06/15 11:19:59,2,0,1382,17,,,GSDC LUGAIT GARAGE,2025/06/01 09:04:34
+49,"Running, Idling",NBF-4728,H-1503,GSDCLUGAIT,-,2025/06/01 12:28:44,2025/02/27 09:59:00,0,0,32578,,,1," Don Pedro Celdran Ave, Iligan City, Lanao del Norte, Philippines",2025/06/01 11:05:37
+50,"Running, Stopped",NBF-4733,H-1505,GSDCDAVAO,DANIEL BAUTISTA,2025/06/01 12:21:31,2025/05/31 00:25:00,0,0,10900,243,,," Pan-Philippine Hwy, Santa Cruz, Davao del Sur, Philippines",2025/06/01 01:18:47
+51,"Running, Stopped",NBF-4735,H-1504,GSDCLUGAIT,JOEL FERNANDEZ,2025/06/01 12:16:12,2024/09/15 12:51:59,0,0,4375,,,,GSDC LUGAIT GARAGE,2025/06/01 09:01:05
+52,"Date Time: 2025/05/09 12:44:14
+Unit Data Not Coming, Idling",NBH-8616,H-1499,GSDCDAVAO,"RAMOS, NOEL",2025/05/09 12:44:14,2025/05/10 19:59:00,0,0,6047,77,,153,GSDC GARAGE (0.5KM),
+53,"Running, Idling",NBM-3959,H-1400,GSDCBULACAN,Intia Rayvin,2025/06/01 12:28:06,2025/05/25 18:51:05,0,0,16879,,,34," Unnamed Road, Calaca, Batangas, Philippines",2025/06/01 00:00:30
+54,"Running, Stopped",NBM-8265,H-1427,GSDCDAVAO,"GELVEZ, JEREMIAS LOPEZ",2025/06/01 12:15:25,2025/03/18 19:36:00,0,0,3621,,,," 313 Pearl St, Talomo, Davao City, Davao del Sur, Philippines",2025/06/01 00:00:18
+55,"Running, Stopped",NBM-8266,H-1432,GSDCDAVAO,JANDEL GONZALES,2025/06/01 12:15:42,2025/04/13 09:26:00,0,0,1505,84,,,GSDC GARAGE (0.5KM),
+56,"Running, Stopped",NBM-8346,H-1432,GSDCDAVAO,-,2025/06/01 12:20:04,2024/07/29 20:05:03,0,0,16022,7,,,SEA OIL MALAGAMOT,2025/06/01 08:11:44
+57,"Date Time: 2025/05/04 15:31:02
+Unit Data Not Coming, Stopped",NBM-8347,H-1429,GSDCDAVAO,RAFFY BINATON,2025/05/04 15:31:02,2025/04/30 15:18:00,0,0,1973,20,,,GSDC DAVAO GARAGE,
+58,"Running, Stopped",NBM-8349,H-1428,GSDCDAVAO,JASON MARABULAS,2025/06/01 12:16:02,2025/05/30 02:34:00,0,0,20092,24,,,GSDC GARAGE (0.0KM),2025/06/01 01:24:02
+59,"Running, Idling",NBO-7288,H-1515,GSDCDAVAO,-,2025/06/01 12:28:46,2025/05/31 02:48:00,0,0,30226,,,1,SEA OIL MALAGAMOT,2025/06/01 10:23:54
+60,"Running, Stopped",NBO-7289,H-1514,GSDCDAVAO,-,2025/06/01 12:15:59,2025/03/18 19:06:00,0,0,3379,41,,,GSDC DAVAO GARAGE,
+61,"Running, Stopped",NBO-7290,H-1516,GSDCDAVAO,-,2025/06/01 12:24:44,2025/05/29 09:05:00,0,0,9409,,,,GSDC DAVAO GARAGE,2025/06/01 07:18:08
+62,"Date Time: 2025/05/30 00:16:22
+Unit Data Not Coming, Stopped",NBP-2058,H-1484,GSDCLUGAIT,NOEL FRASCO,2025/05/30 00:16:22,2022/08/19 10:45:34,0,0,3589,67,,," Manolo Fortich - Libona - Indahag Rd, Manolo Fortich, Bukidnon, Philippines",
+63,"Running, Stopped",NBQ-4602,H-1525,GSDCBULACAN,-,2025/06/01 12:16:25,2025/05/26 13:15:15,0,0,27086,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",2025/06/01 00:00:23
+64,"Running, Stopped",NBQ-5950,H-1539,GSDCBULACAN,-,2025/06/01 12:15:40,2024/10/23 22:47:48,0,0,19617,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+65,"Running, Travelling",NCG-4608,H-998,GSDCBULACAN,LORETO MORALES,2025/06/01 12:28:23,2025/05/26 02:27:04,0,58,17314,,,," Pan-Philippine Hwy, Calamba, Laguna, Philippines",2025/06/01 00:00:00
+66,"Running, Idling",NCG-4616,,GSDCBULACAN,-,2025/06/01 12:28:28,2025/05/24 03:15:35,0,0,18136,,,1," 80 Eulogio Rodriguez Jr. Ave, Bagumbayan, Quezon City, 1110 Metro Manila, Philippines",2025/06/01 00:26:26
+67,"Running, Stopped",NCG-4617,H-999,GSDCBULACAN,-,2025/06/01 12:15:30,--,0,0,9591,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+68,"Running, Stopped",NCG-4620,H-1018,GSDCBULACAN,"VILLARINO, EMMANUEL HERAMIL",2025/06/01 12:15:36,--,0,0,21155,,,," 26 Palico - Balayan - Batangas Rd, Calaca, Batangas, Philippines",2025/06/01 00:00:03
+69,"Running, Stopped",NCJ-4699,H-1070,GSDCBULACAN,"POMIDA, ROLIE CAPADA",2025/06/01 12:16:18,--,0,0,30148,,,," 49 Puting Bato - Solid Cement Rd, Antipolo, Rizal, Philippines",2025/06/01 10:27:15
+70,"Date Time: 2025/05/26 16:35:11
+Unit Data Not Coming, Stopped",NCT-3477,H-1465,GSDCLUGAIT,-,2025/05/26 16:35:11,2024/06/18 12:30:25,0,0,26240,25,,,GSDC LUGAIT GARAGE,
+71,"Running, Stopped",NCT-3478,H-1466,GSDCLUGAIT,-,2025/06/01 12:16:02,2024/10/11 17:29:48,0,0,2191,64,,,GSDC LUGAIT GARAGE,
+72,"Date Time: 2025/05/31 21:30:54
+Unit Power Cut, Stopped",NCX-7639,H-1061,GSDCBULACAN,-,2025/05/31 21:30:54,2025/05/25 03:33:20,0,0,25812,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+73,"Running, Stopped",NCX-7640,H-1059,GSDCBULACAN,"NOFIES, MARK IAN",2025/06/01 12:15:45,2024/10/23 01:20:34,0,0,17423,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",2025/06/01 08:04:38
+74,"Date Time: 2025/05/04 01:26:01
+Unit Data Not Coming, Travelling",NCX-7641,H-1102,GSDCBULACAN,-,2025/05/04 01:26:01,2025/04/21 22:36:00,0,53,9501,,,," Rosario - San Juan - Candelaria Rd, Candelaria, Quezon, Philippines",
+75,"Running, Idling",NCX-7642,H-1060,GSDCBULACAN,ZALDY GONZAGA,2025/06/01 12:28:34,2025/01/30 22:56:00,0,0,23805,,,1," 205 M San Juan St, Marilao, Bulacan, Philippines",2025/06/01 00:00:08
+76,"Running, Stopped",NDL-7347,H-1559,GSDCDAVAO,-,2025/06/01 12:15:20,2025/04/21 17:41:00,0,0,76118,,,,GSDC GARAGE (0.0KM),2025/06/01 07:01:13
+77,"Running, Stopped",NDL-7348,H-1556,GSDCDAVAO,ARIEL LAMSON,2025/06/01 12:15:25,2025/04/24 12:47:00,0,0,79570,,,,GSDC DAVAO GARAGE,
+78,"Running, Stopped",NDL-7350,H-1555,GSDCDAVAO,-,2025/06/01 12:15:46,2025/05/21 18:29:00,0,0,15921,,,,GSDC DAVAO GARAGE,
+79,"Running, Stopped",NDL-7351,,GSDCDAVAO,ALBERTO ENTERINA JR,2025/06/01 12:15:35,--,0,0,3200,,,," Provincial Rd, Mawab, Compostela Valley, Philippines",2025/06/01 00:00:03
+80,"Running, Stopped",NDL-7353,H-1557,GSDCDAVAO,-,2025/06/01 12:15:15,2025/03/26 21:12:00,0,0,150280,193,,,GSDC GARAGE (0.3KM),
+81,"Running, Stopped",NDL-8980,H-1560,GSDCDAVAO,-,2025/06/01 12:15:15,2025/05/30 01:16:00,0,0,61095,,,,GSDC DAVAO GARAGE,
+82,"Running, Stopped",NDN-2683,H-1561,GSDCDAVAO,-,2025/06/01 12:15:18,2025/05/23 11:22:00,0,0,4356,,,,GSDC DAVAO GARAGE,2025/06/01 07:45:48
+83,"Date Time: 2025/03/05 09:04:27
+Unit UNDER MAINTENANCE - REPAIR, Stopped",NDU-4808,H-918,GSDCDAVAO,-,2025/02/04 17:30:07,2025/01/28 21:04:00,0,0,1921,,,,GSDC DAVAO GARAGE,
+84,"Running, Stopped",NDV-8034,H-9006/TH-09,GSDCBULACAN,-,2025/06/01 12:15:57,2025/05/26 06:24:35,0,0,20428,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+85,"Running, Stopped",NDZ-4738,H-1431,GSDCDAVAO,-,2025/06/01 12:15:53,--,0,0,5954,,,,GSDC GARAGE (0.0KM),
+86,"Running, Travelling",NDZ-4744,H-1424,GSDCDAVAO,-,2025/06/01 12:25:06,--,0,10,3475,,,," Unnamed Road, Tiwi, Albay, Philippines",2025/06/01 00:37:22
+87,"Running, Stopped",NEA-1027,H-1549,GSDCDAVAO,RUSTAN JAY PINO,2025/06/01 12:15:30,2024/12/09 16:48:00,0,0,103010,122,,,GSDC GARAGE (0.0KM),2025/06/01 00:00:47
+88,"Running, Stopped",NEA-1028,H-1548,GSDCDAVAO,-,2025/06/01 12:16:19,2024/12/12 19:58:00,0,0,10946,27,,,GSDC DAVAO GARAGE,
+89,"Running, Stopped",NEG-8466,H-1655,GSDCBULACAN,"CAPILI, JESUS",2025/06/01 09:45:34,2025/05/25 23:36:20,0,0,159550,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+90,"Date Time: 2025/04/23 11:33:30
+Unit Data Not Coming, Stopped",NEG-8467,H-1637,GSDCBULACAN,"ABAYATO, JESSIE ESPINA",2025/04/23 11:33:30,2024/10/09 23:07:26,0,0,134450,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+91,"Running, Idling",NEG-8470,H-1633,GSDCBULACAN,"RAPIZ, JONAS ABALONA",2025/06/01 12:27:56,2025/05/25 14:34:04,0,0,210819,,,33," 26 Palico - Balayan - Batangas Rd, Calaca, Batangas, Philippines",2025/06/01 00:10:57
+92,"Running, Stopped",NEI-4683,H-1547,GSDCDAVAO,DIOLAN SUGUITARIOS,2025/06/01 10:15:45,2025/03/23 14:35:00,0,0,--,,,,GSDC GARAGE (0.5KM),
+93,"Running, Stopped",NEI-6684,H-1550,GSDCDAVAO,-,2025/06/01 10:15:20,2024/11/12 23:33:00,0,0,207398,94,,,GSDC GARAGE (0.8KM),2025/06/01 00:09:59
+94,"Running, Stopped",NEP-6855,H-1824,GSDCBULACAN,ANTHONY MILLARES,2025/06/01 12:15:55,2024/11/13 08:34:13,0,0,163219,,,," 26 Palico - Balayan - Batangas Rd, Calaca, Batangas, Philippines",2025/06/01 00:00:13
+95,"Running, Stopped",NEP-6856,H-1819,GSDCBULACAN,-,2025/06/01 12:15:46,2025/05/25 20:18:34,0,0,33049,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+96,"Running, Stopped",NEP-6858,H-1823,GSDCBULACAN,-,2025/06/01 12:16:15,2025/02/10 22:26:00,0,0,25221,,,," San Pablo Proper, Pampanga, Philippines",2025/06/01 00:00:15
+97,"Running, Stopped",NEP-6859,H-1825,GSDCBULACAN,RODGIE SANTILLAN,2025/06/01 12:16:32,2024/11/12 20:31:31,0,0,11317,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",
+98,"Running, Idling",NEP-6860,H-1822,GSDCBULACAN,Alexander Canceller,2025/06/01 12:28:42,2025/02/14 13:02:00,0,0,26066,,,1," Mariveles Diversion Rd, Mariveles, Bataan, Philippines",2025/06/01 00:05:32
+99,"Running, Stopped",NEX-8064,H-1862,GSDCDAVAO,-,2025/06/01 12:15:37,2025/05/30 14:11:00,0,0,115135,,,,GSDC DAVAO GARAGE,
+100,"Running, Stopped",NEX-8065,H-1865,GSDCDAVAO,-,2025/06/01 12:15:18,2025/05/30 17:32:00,0,0,47805,,,," Daang Maharlika Highway, Mawab, Compostela Valley, Philippines",
+101,"Running, Stopped",NEX-8066,H-1864,GSDCDAVAO,PABLO GORGONIO,2025/06/01 12:15:51,2025/05/31 13:19:00,0,0,106132,199,,," Pan-Philippine Hwy, Toril, Santa Cruz, Davao del Sur, Philippines",2025/06/01 08:59:09
+102,"Running, Stopped",NEX-8067,H-1863,GSDCDAVAO,-,2025/06/01 12:15:18,2025/05/25 03:05:00,0,0,83834,52,,,GSDC GARAGE (0.4KM),
+103,"Running, Stopped",NFJ-6030,H-1899,GSDCDAVAO,-,2025/06/01 12:15:37,2024/08/06 23:11:41,0,0,73273,48,,,PDV0_GARAGE_GSDC2,
+104,"Running, Stopped",NFL-4209,,GSDCDAVAO,-,2025/06/01 12:15:56,--,0,0,3519,,,,PDV0_GARAGE_GSDC2,
+105,"Date Time: 2025/05/31 19:16:01
+Unit Power Cut, Stopped",NFL-4211,H-1996,GSDCBULACAN,-,2025/05/31 19:16:01,2025/02/22 20:42:00,0,0,31678,,,," 625 United Glorietta, Pasig, 1606 Kalakhang Maynila, Philippines",
+106,"Running, Stopped",NFL-4213,H-1991,GSDCBULACAN,-,2025/06/01 12:15:43,2025/05/24 09:00:07,0,0,18399,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",
+107,"Running, Stopped",NFL-4214,H-1997,GSDCBULACAN,ARTHUR TAN,2025/06/01 12:15:22,2025/02/17 19:39:00,0,0,2715,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+108,"Running, Idling",NFL-4217,H-2002,GSDCBULACAN,-,2025/06/01 12:28:36,--,0,0,11702,,,31," 254 Taysan - Lobo Rd, Taysan, Batangas, Philippines",2025/06/01 10:22:40
+109,"Date Time: 2025/04/29 20:01:40
+Unit Data Not Coming, Stopped",NFL-4218,H-1999,GSDCBULACAN,-,2025/04/29 20:01:40,2025/02/15 15:41:00,0,0,15804,,,," Unnamed Road, Balagtas, Bulacan, Philippines",
+110,"Running, Stopped",NFL-4219,,GSDCBULACAN,-,2025/06/01 12:15:02,2025/05/25 05:08:14,0,0,1884,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",
+111,"Running, Stopped",NFL-4223,H-1989,GSDCBULACAN,jerson Capili,2025/06/01 12:15:51,2025/05/30 12:53:08,0,0,2682,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+112,"Running, Stopped",NFL-4224,H-1986,GSDCDAVAO,-,2025/06/01 12:16:05,2024/11/13 14:50:13,0,0,13661,,,,GSDC DAVAO GARAGE,
+113,"Running, Travelling",NFL-4225,H-1982,GSDCBULACAN,LUZANO MORALES,2025/06/01 12:28:47,2025/05/26 03:31:33,0,56,22896,,,," Pan-Philippine Hwy, Calamba, Laguna, Philippines",2025/06/01 00:41:00
+114,"Date Time: 2025/05/31 20:30:39
+Unit Power Cut, Stopped",NFL-4227,H-1992,GSDCBULACAN,-,2025/05/31 20:30:39,2025/05/26 07:52:06,0,0,15139,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+115,"Running, Stopped",NFL-4228,H-1983,GSDCBULACAN,JUNREY ABAYATO,2025/06/01 12:15:58,2024/11/26 14:17:00,0,0,17260,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",2025/06/01 00:07:49
+116,"Running, Travelling",NFL-4230,H-2004,GSDCBULACAN,-,2025/06/01 12:28:35,--,0,22,6450,,,," V Mauricio, Bocaue, Bulacan, Philippines",2025/06/01 00:00:04
+117,"Running, Stopped",NFL-4232,H-1984,GSDCBULACAN,-,2025/06/01 12:20:09,2025/05/26 11:34:30,0,0,818,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+118,"Running, Stopped",NFS-6362,H-2124,GSDCBULACAN,FLORO RUBANG,2025/06/01 12:15:45,--,0,0,6631,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+119,"Running, Stopped",NFS-6392,H-2133,GSDCBULACAN,-,2025/06/01 12:16:48,--,0,0,14337,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",2025/06/01 00:05:37
+120,"Running, Stopped",NFY-5908,H-1703,GSDCBULACAN,-,2025/06/01 12:15:57,2025/05/24 21:25:51,0,0,20019,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+121,"Running, Stopped",NFY-5911,H-1700,GSDCBULACAN,RICKY DULACA,2025/06/01 12:15:42,2025/02/25 23:18:00,0,0,24968,,,," 49 Puting Bato - Solid Cement Rd, Antipolo, Rizal, Philippines",2025/06/01 00:00:22
+122,"Running, Stopped",NFY-5918,H-1674,GSDCBULACAN,JERSON CAPILI,2025/06/01 12:16:09,2025/05/25 05:36:10,0,0,6103,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",2025/06/01 07:42:46
+123,"Running, Stopped",NFY-5920,H-1677,GSDCBULACAN,"NOFIES, MARK IAN",2025/06/01 12:15:05,2025/05/30 11:22:12,0,0,166361,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+124,"Running, Stopped",NFY-5921,H-1673,GSDCBULACAN,ARCHIE CUIZON,2025/06/01 12:14:57,2024/10/18 02:58:21,0,0,49564,,,," Quirino Highway, Barangay Minuyan, Norzagaray, 3013, Philippines",2025/06/01 00:00:26
+125,"Running, Stopped",NFY-5922,H-1675,GSDCBULACAN,SONNY GONZAGA,2025/05/31 21:46:48,2025/05/25 00:10:39,0,0,174295,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+126,"Running, Idling",NFY-5923,H-1676,GSDCBULACAN,"GUADAMOR, LEO LABAO",2025/06/01 12:28:00,--,0,0,86873,,,57," Unnamed Road, Norzagaray, Bulacan, Philippines",2025/06/01 00:00:00
+127,"Running, Stopped",NFY-9034,H-1660,GSDCBULACAN,"RAYO, JAYFREY DE GUZMAN",2025/06/01 11:53:19,2024/12/15 19:12:00,0,0,160788,,,," 49 Puting Bato - Solid Cement Rd, Antipolo, Rizal, Philippines",2025/06/01 06:10:32
+128,"Date Time: 2025/04/23 15:12:18
+Unit Data Not Coming, Stopped",NFY-9036,H-1659,GSDCBULACAN,RAFFY PALERMO,2025/04/23 15:12:18,2024/11/11 22:46:44,0,0,137296,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",
+129,"Running, Stopped",NFY-9037,H-1661,GSDCBULACAN,"BALASSU, MICHAEL HIDALGO",2025/06/01 12:15:56,2025/05/25 09:44:22,0,0,90874,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",2025/06/01 00:00:55
+130,"Date Time: 2025/05/31 09:25:05
+Unit Data Not Coming, Stopped",NFY-9039,H-1656,GSDCBULACAN,"MADALI, JOMER RELOX",2025/05/31 09:25:05,2025/01/15 10:30:00,0,0,6280,,,," 26 Palico - Balayan - Batangas Rd, Calaca, Batangas, Philippines",
+131,"Running, Stopped",NFY-9040,H-1658,GSDCBULACAN,"PEDRANO, ROLLY ISIDTO",2025/06/01 12:15:25,2025/05/26 01:52:56,0,0,15701,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",2025/06/01 10:41:50
+132,"Running, Stopped",NGA-4357,H-1755,GSDCDAVAO,-,2025/06/01 12:15:05,2025/03/19 23:22:00,0,0,97865,140,,,GSDC DAVAO GARAGE,2025/06/01 10:48:33
+133,"Date Time: 2025/05/26 17:15:48
+Unit Data Not Coming, Stopped",NGF-6511,H-1613,GSDCDAVAO,-,2025/05/26 17:15:48,2025/01/13 23:22:00,0,0,79001,3,,,GSDC DAVAO GARAGE,
+134,"Running, Stopped",NGL-6713,H-1654,GSDCBULACAN,Edward Sanipit,2025/06/01 10:16:04,2025/05/25 17:49:24,0,0,212247,,,," 26 Palico - Balayan - Batangas Rd, Calaca, Batangas, Philippines",2025/06/01 00:14:22
+135,"Running, Stopped",NGP-1760,H-1752,GSDCBULACAN,-,2025/06/01 12:15:54,2025/05/31 09:28:50,0,0,30285,,,," Quirino Highway, Barangay Minuyan, Norzagaray, 3013, Philippines",2025/06/01 00:00:23
+136,"Running, Stopped",NGU-2837,H-1786,GSDCBULACAN,-,2025/06/01 12:15:26,2025/01/24 17:38:00,0,0,15940,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",
+137,"Running, Stopped",NGU-2838,H-1783,GSDCDAVAO,JOMAR DAVID,2025/06/01 12:15:23,2025/03/26 15:40:00,0,0,122153,136,,,GSDC DAVAO GARAGE,2025/06/01 06:20:41
+138,"Date Time: 2025/02/12 14:30:47
+Unit Data Not Coming, Stopped",NGU-2840,H-1792,GSDCBULACAN,-,2025/02/12 14:30:47,--,0,0,16425,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",
+139,"Running, Stopped",NGU-2841,H-1784,GSDCBULACAN,"MARCIAL, JOEY SANTOS",2025/06/01 12:14:55,--,0,0,163757,,,," Quirino Highway, Barangay Minuyan, Norzagaray, 3013, Philippines",
+140,"Running, Stopped",NGU-2842,H-1790,GSDCDAVAO,-,2025/06/01 12:15:59,2025/05/30 12:42:00,0,0,8231,46,,,PDV0_YARD_IN_LONGTRAILER,
+141,"Running, Stopped",NGU-2844,H-1788,GSDCBULACAN,"BAYDO, EDWIN",2025/06/01 12:16:12,2025/02/04 14:46:00,0,0,26219,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",2025/06/01 01:28:27
+142,"Running, Stopped",NGU-2845,H-1787,GSDCBULACAN,-,2025/06/01 12:15:20,2025/01/07 17:35:00,0,0,22677,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+143,"Running, Stopped",NHH-9823,H-2141,GSDCBULACAN,-,2025/06/01 12:16:15,--,0,0,15529,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",
+144,"Running, Travelling",NIK-4843,H-2089,GSDCBULACAN,-,2025/06/01 12:28:34,2025/01/09 07:28:00,0,37,33251,,,," 254 Katipunan Ave, Project 4, Quezon City, 1108 Metro Manila, Philippines",2025/06/01 02:24:03
+145,"Running, Idling",NIK-4851,H-2101,GSDCBULACAN,-,2025/06/01 12:28:33,--,0,0,13447,,,33," Del Monte - Norzagaray Rd, Norzagaray, Bulacan, Philippines",2025/06/01 00:00:18
+146,"Running, Stopped",NIL-8537,H-2052,GSDCDAVAO,-,2025/06/01 12:14:48,2025/05/29 12:29:00,0,0,47141,,,,GSDC GARAGE (0.1KM),
+147,"Running, Stopped",NIL-8538,H-2053,GSDCDAVAO,-,2025/06/01 12:15:33,2025/05/30 20:47:00,0,0,25740,,,,GSDC DAVAO GARAGE,
+148,"Running, Stopped",NIN-5529,H-2070,GSDCBULACAN,-,2025/06/01 12:15:09,--,0,0,32826,,,," Unnamed Road, Balagtas, Bulacan, Philippines",
+149,"Date Time: 2025/04/03 09:31:10
+Unit Data Not Coming, Stopped",NIU-9833,H-2144,GSDCBULACAN,-,2025/04/03 09:31:10,--,0,0,11507,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",
+150,"Running, Idling",NKE-4736,H-2189,GSDCBULACAN,-,2025/06/01 12:28:46,2025/04/17 06:49:00,0,0,12190,,,13," Del Monte - Norzagaray Rd, Norzagaray, Bulacan, Philippines",2025/06/01 00:00:14
+151,"Running, Stopped",NKE-4774,H-2175,GSDCBULACAN,-,2025/06/01 12:15:19,2025/05/25 19:09:59,0,0,17765,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+152,"Running, Stopped",NKE-4777,H-2187,GSDCBULACAN,-,2025/06/01 12:15:39,--,0,0,25906,,,," 26 Palico - Balayan - Batangas Rd, Calaca, Batangas, Philippines",2025/06/01 10:12:57
+153,"Running, Stopped",NKK-6230,H-2236,GSDCBULACAN,-,2025/06/01 12:15:44,--,19999,0,22790,,,," Kaymino Road, Norzagaray, Bulakan, Philippines",
+154,"Running, Stopped",NKK-6249,,GSDCBULACAN,-,2025/06/01 12:15:43,--,0,0,378,,,," Unnamed Road, Calaca, Batangas, Philippines",2025/06/01 00:00:08
+155,"Running, Stopped",NKK-8659,H-2206,GSDCBULACAN,-,2025/06/01 12:15:20,--,0,0,7847,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",
+156,"Running, Stopped",NKK-8668,H-2203,GSDCBULACAN,-,2025/06/01 12:15:35,2025/01/14 20:52:00,0,0,23760,,,," 583 Villarama Road, Norzagaray, Bulakan, Philippines",2025/06/01 07:35:38

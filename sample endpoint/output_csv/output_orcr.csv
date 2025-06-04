@@ -1,0 +1,2316 @@
+Body Number,Plate Number,OR Expiry Date,Fleet Group,Status,Action
+A-3,130110,N/A,CUSTOMER,Sold,Action
+ABJ 8782,ABJ 8782,N/A,Customer,Sold,Action
+ACN 1355,ACN 1355,N/A,Customer,Sold,Action
+ACN 4686,ACN 4686,N/A,Customer,Sold,Action
+ACN 6388,ACN 6388,N/A,Customer,Sold,Action
+ACO 5727,ACO 5727,N/A,Customer,Sold,Action
+ACO 5728,ACO 5728,N/A,Customer,Sold,Action
+ACO 6015,ACO 6015,N/A,Customer,Sold,Action
+ACO 6795,ACO 6795,N/A,Customer,Sold,Action
+ACO 6969,ACO 6969,N/A,Customer,Sold,Action
+ACO 7603,ACO 7603,N/A,Customer,Sold,Action
+ACO 7616,ACO 7616,N/A,Customer,Sold,Action
+ACO 7739,ACO 7739,N/A,Customer,Sold,Action
+ACO 8156,ACO 8156,N/A,Customer,Sold,Action
+ACO 8312,ACO 8312,N/A,Customer,Sold,Action
+ACO 8865,ACO 8865,N/A,Customer,Sold,Action
+ACO 9960,ACO 9960,N/A,Customer,Sold,Action
+AMA 1652,AMA 1652,N/A,Customer,Sold,Action
+B-011,30107,N/A,Customer,Sold,Action
+B-012,ABK 6066,N/A,Customer,Sold,Action
+CCO 5783,CCO 5783,N/A,Customer,Sold,Action
+CCO 6434,CCO 6434,N/A,Customer,Sold,Action
+CCO 7773,CCO 7773,10/23/2019,Intercity,Available,Action
+H-010,,,INTERCITY,Condemn,Action
+H-011,RHW 167,,,Sold,Action
+H-012,RGY 175,,,Sold,Action
+H-013,TQO 492,,,Condemn,Action
+H-014,TBG 613,,,Sold,Action
+H-015,UOR 242,,,Sold,Action
+H-016,UNM 375,,CUSTOMER,Sold,Action
+H-017,UNUSED,N/A,N/A,Old Unit,Action
+H-018,WQH 831,,,Sold,Action
+H-019,PIK 455,,,Sold,Action
+H-020,PIK 465,,,Sold,Action
+H-021,PYP 513,,,Sold,Action
+H-022,RFS 488,,,Sold,Action
+H-023,RGU 675,,CUSTOMER,Sold,Action
+H-024,RHU 441,,,Sold,Action
+H-025,RJH 202,,,Sold,Action
+H-026,RJL 551,,CUSTOMER,Sold,Action
+H-027,RJN 199,,,Sold,Action
+H-028,RKM 386,,,Sold,Action
+H-029,RLV 233,,INTERCITY,Old Unit In Ic,Action
+H-030,RLV 573,,N/A,Sold,Action
+H-031,RLZ 266,,,Sold,Action
+H-032,RMB 153,,,Sold,Action
+H-033,RMB 173,,VAS OPS,Sold,Action
+H-034,RMB 332,,,Old Unit In Ic,Action
+H-035,TDQ 674,,,Sold,Action
+H-036,TQO 402,,,Sold,Action
+H-037,UCP 286,,INTERCITY,Condemn,Action
+H-038,UCY 117,,,Sold,Action
+H-039,UDS 686,,,Sold,Action
+H-040,UDW 883,,,Condemn,Action
+H-041,UER 446,,,Sold,Action
+H-042,UER 473,,,Sold,Action
+H-043,UGS 624,,,Sold,Action
+H-044,UGX 365,,,Sold,Action
+H-045,UHM 242,,,Condemn,Action
+H-046,UHX 898,,,Sold,Action
+H-047,UIW 905,,,Sold,Action
+H-048,UIW 906,,,Sold,Action
+H-049,UIW 917,,,Sold,Action
+H-050,UJG 647,,,Sold,Action
+H-051,UJW 585,,,Sold,Action
+H-052,UKI 497,,,Sold,Action
+H-053,ULH 380,,INTERCITY,Condemn,Action
+H-054,UMG 713,,,Sold,Action
+H-055,UMG 936,,,Condemn,Action
+H-056,UMM 905,,,Sold,Action
+H-057,UMW 159,,,Sold,Action
+H-058,UNE 643,,,Sold,Action
+H-059,UNK 126,,,Condemn,Action
+H-060,UNK 134,,,Sold,Action
+H-061,UNW 375,,,Sold,Action
+H-062,UOR 519,,,Sold,Action
+H-063,UOR 559,,,Sold,Action
+H-064,UOR 600,,,Sold,Action
+H-065,UOR 610,,,Sold,Action
+H-066,UOR 640,,,Sold,Action
+H-067,UOS 730,,,Sold,Action
+H-068,UOX 544,,,Sold,Action
+H-069,UPE 156,,INTERCITY,Old Unit In Ic,Action
+H-070,UPY 866,,N/A,Condemn,Action
+H-071,URM 118,,,Sold,Action
+H-072,UST 329,,,Sold,Action
+H-073,UTD 749,,,Sold,Action
+H-074,UTI 466,,,Sold,Action
+H-075,UTI 467,,,Sold,Action
+H-076,UTI 468,,,Sold,Action
+H-077,UOR 173,,,Sold,Action
+H-078,UOR 389,N/A,Customer,Sold,Action
+H-079,RLZ 136,,CUSTOMER,Sold,Action
+H-080,UOR 269,,N/A,Sold,Action
+H-081,UOS 760,,,Sold,Action
+H-082,UOR 400,,,Sold,Action
+H-083,UOR 641,,,Sold,Action
+H-084,RLV 292,,,Sold,Action
+H-085,RMB 312,,,Sold,Action
+H-086,URI 352,,,Sold,Action
+H-087,RLV 522,,,Sold,Action
+H-088,RLV 733,,,Sold,Action
+H-089,UOX 556,,,Sold,Action
+H-090,UOS 759,,,Sold,Action
+H-091,UQY 344,,,Sold,Action
+H-092,CMV 177,,,Sold,Action
+H-093,UQB 549,,,Condemn,Action
+H-094,UQB 559,,,Sold,Action
+H-095,UQQ 130,,,Sold,Action
+H-096,UQQ 131,,,Sold,Action
+H-097,UQQ 180,,,Old Unit In Ic,Action
+H-098,UQQ 190,,,Sold,Action
+H-099,UIW 916,,,Sold,Action
+H-100,ZJB 464,,,Condemn,Action
+H-1000,NCG 4616,06/07/2026,,Running,Action
+H-1001,NCG 4611,01/07/2026,VAS OPS,Running,Action
+H-1002,NCG 4621,01/07/2026,VAS OPS,Running,Action
+H-1003,NCG 4612,02/07/2026,VAS OPS,Running,Action
+H-1004,NAD 6791,,,Sold,Action
+H-1005,NAD 6792,,VILLADO TRUCKING SERVICES,Rental,Action
+H-1006,NCG 4615,05/07/2026,VAS OPS,Running,Action
+H-1007,NCG 4606,06/30/2026,BD OPS,Running,Action
+H-1008,NAD 6789,,VILLADO TRUCKING SERVICES,Rental,Action
+H-1009,NAD 6790,,N/A,Condemn,Action
+H-101,UOX 925,,,Sold,Action
+H-1010,NAD 6793,,VAS OPS,Condemn,Action
+H-1011,NBI 6500,,VAS OPS,Sold,Action
+H-1012,NCG 4619,09/07/2025,VAS OPS,Running,Action
+H-1013,NCG 4610,10/07/2025,VAS OPS,Running,Action
+H-1014,NCG 4609,09/30/2025,VAS OPS,Running,Action
+H-1015,NCG 4613,03/07/2026,VAS OPS,Running,Action
+H-1016,NCG 4607,07/31/2025,BD OPS,Running,Action
+H-1017,NCG 4618,08/07/2025,VAS OPS,Running,Action
+H-1018,NCG 4620,10/07/2025,VAS OPS,Running,Action
+H-1019,NCG 4614,04/07/2026,VAS OPS,Running,Action
+H-102,UOX 945,,,Sold,Action
+H-1020,NCE 1178,08/21/2025,VAS OPS,Running,Action
+H-1021,NCE 1176,06/21/2026,,Running,Action
+H-1022,NCE 1179,,VAS OPS,Condemn,Action
+H-1023,NCE 1180,10/21/2025,VAS OPS,Running,Action
+H-1024,CCN 3729,,,Sold,Action
+H-1025,CCN 4383,,,Sold,Action
+H-1026,NCE 1362,,,Sold,Action
+H-1027,NCE 1399,,,Sold,Action
+H-1028,NCE 1400,,,Sold,Action
+H-1029,NCE 1363,,,Sold,Action
+H-103,UOX 917,,,Sold,Action
+H-1030,NCE 1397,,,Sold,Action
+H-1031,NCE 1383,,,Sold,Action
+H-1032,NCE 1398,,,Sold,Action
+H-1033,NCE 1382,,,Sold,Action
+H-1034,NCE 1384,N/A,Customer,Sold,Action
+H-1035,NCE 1381,,,Sold,Action
+H-1036,NAM 1055,05/14/2026,BD OPS,Running,Action
+H-1037,NAR 1238,,VAS OPS,Sold,Action
+H-1038,N/A,,INTERCITY,Condemn,Action
+H-1039,NAK 9970,,,Sold,Action
+H-104,UOX 937,,,Sold,Action
+H-1040,NAK 9967,,VAS OPS,Sold,Action
+H-1041,NAK 9969,,VAS OPS,Sold,Action
+H-1042,NAK 9968,,VAS OPS,Sold,Action
+H-1043,NCF 8871,01/21/2026,VAS OPS,Running,Action
+H-1044,NCF 8872,,N/A,Condemn,Action
+H-1045,NCF 8873,03/21/2026,VAS OPS,Running,Action
+H-1046,NCF 8875,05/21/2026,VAS OPS,Running,Action
+H-1047,NCF 8874,04/21/2026,VAS OPS,Running,Action
+H-1048,NCE 1377,,,Sold,Action
+H-1049,NCE 1385,,,Sold,Action
+H-105,UOX 946,,,Sold,Action
+H-1050,NCE 1386,,,Sold,Action
+H-1051,NCE 1378,,,Sold,Action
+H-1052,NCE 1396,,,Sold,Action
+H-1053,NCE 1379,,,Sold,Action
+H-1054,NCE 1380,,,Sold,Action
+H-1055,NCE 1393,,,Sold,Action
+H-1056,NCE 1394,,,Sold,Action
+H-1057,NCE 1395,N/A,Customer,Sold,Action
+H-1058,NCX 7638,08/07/2025,VAS OPS,Running,Action
+H-1059,NCX 7640,10/14/2025,VAS OPS,Running,Action
+H-106,UOX 926,N/A,Customer,Sold,Action
+H-1060,NCX 7642,02/14/2026,VAS OPS,Running,Action
+H-1061,NCX 7639,09/07/2025,VAS OPS,Running,Action
+H-1062,NCI 9947,,VILLADO TRUCKING SERVICES,Rental,Action
+H-1063,NCJ 9944,,,Sold,Action
+H-1064,NCI 9942,N/A,Customer,Sold,Action
+H-1065,NCI 9943,,,Sold,Action
+H-1066,NCI 9946,,,Sold,Action
+H-1067,NCI 9945,,N/A,Sold,Action
+H-1068,NCJ 4697,07/31/2025,VAS OPS,Running,Action
+H-1069,NCJ 4698,08/31/2025,VAS OPS,Running,Action
+H-107,UOX 935,,,Sold,Action
+H-1070,NCJ 4699,09/30/2025,VAS OPS,Running,Action
+H-1071,NCJ 4700,10/31/2025,,Running,Action
+H-1072,NCJ 4696,06/30/2026,VAS OPS,Running,Action
+H-1073,NCY 9726,,,Sold,Action
+H-1074,NCY 9725,,,Sold,Action
+H-1075,NCY 9724,N/A,Customer,Sold,Action
+H-1076,NCY 9733,,,Sold,Action
+H-1077,NCY 9727,,,Sold,Action
+H-1078,NAR 1237,,VILLADO TRUCKING SERVICES,Rental,Action
+H-1079,NAK 9972,,,Sold,Action
+H-108,UOX 927,,,Sold,Action
+H-1080,NAK 9971,,VAS OPS,Sold,Action
+H-1081,NAR 1236,,VAS OPS,Sold,Action
+H-1082,NCK 8263,,BD OPS,Sold,Action
+H-1083,NCK 8262,,N/A,Condemn,Action
+H-1084,NAK 9960,,BD OPS,Sold,Action
+H-1085,NAK 9962,,,Sold,Action
+H-1086,NAK 9965,,VILLADO TRUCKING SERVICES,Rental,Action
+H-1087,NAK 9959,,VILLADO TRUCKING SERVICES,Rental,Action
+H-1088,NAK 9964,,VILLADO TRUCKING SERVICES,Sold,Action
+H-1089,NAK 9966,,VAS OPS,Sold,Action
+H-109,UOX 936,,,Sold,Action
+H-1090,NAK 9961,,N/A,Condemn,Action
+H-1091,NAK 9963,,VAS OPS,Sold,Action
+H-1092,NCI 9950,,,Sold,Action
+H-1093,NCI 9952,,,Sold,Action
+H-1094,NCI 9954,,,Sold,Action
+H-1095,NCI 9957,,,Sold,Action
+H-1096,NCI 9948,,,Sold,Action
+H-1097,NCI 9951,,,Sold,Action
+H-1098,NCI 9949,N/A,Customer,Sold,Action
+H-1099,NCI 9956,,,Sold,Action
+H-110,UQY 431,,,Sold,Action
+H-1100,NCI 9953,N/A,Customer,Sold,Action
+H-1101,NCI 9955,,,Sold,Action
+H-1102,NCX 7641,01/14/2026,VAS OPS,Running,Action
+H-1103,N/A,,,Sold,Action
+H-1104,N/A,,,Sold,Action
+H-1105,NDD 5893,,,Sold,Action
+H-1106,NDD 5892,N/A,Customer,Sold,Action
+H-1107,NDD 5891,,,Sold,Action
+H-1108,NDD 5894,,,Sold,Action
+H-1109,NDD 5895,,,Sold,Action
+H-111,MGB 920,,,Sold,Action
+H-1110,NDD 5898,,,Sold,Action
+H-1111,NDD 5896,,,Sold,Action
+H-1112,NDD 5897,,,Sold,Action
+H-1113,NDD 5900,,,Sold,Action
+H-1114,130110,,,Sold,Action
+H-1115,NDD 5886,,,Sold,Action
+H-1116,NDD 5884,,,Sold,Action
+H-1117,NCK 8260,,,Sold,Action
+H-1118,NCK 8261,,,Sold,Action
+H-1119,NAD 6617,7/28/2022,Intercity,Available,Action
+H-112,UDO 912,,,Sold,Action
+H-1120,NAD 6620,,,Sold,Action
+H-1121,NAD 9962,,VILLADO TRUCKING SERVICES,Sold,Action
+H-1122,NAD 6621,,,Sold,Action
+H-1123,NAD 6782,,VILLADO TRUCKING SERVICES,Sold,Action
+H-1124,NAB 3372,,,Sold,Action
+H-1125,NAB 3769,N/A,Customer,Sold,Action
+H-1126,NAB 3770,,,Sold,Action
+H-1127,NAB 3768,N/A,Customer,Sold,Action
+H-1128,NAB 3771,,,Sold,Action
+H-1129,NAB 3802,,,Sold,Action
+H-113,UDO 942,,,Sold,Action
+H-1130,NAB 3774,N/A,Customer,Sold,Action
+H-1131,NAB 3803,,,Sold,Action
+H-1132,NAB 3775,N/A,Customer,Sold,Action
+H-1133,NAB 3773,,,Sold,Action
+H-1134,NAB 3804,,,Sold,Action
+H-1135,NAB 3766,,,Sold,Action
+H-1136,NAB 3805,,,Sold,Action
+H-1137,NAD 6747,,,Sold,Action
+H-1138,NAB 3767,N/A,Customer,Sold,Action
+H-1139,NAB 3808,,,Sold,Action
+H-114,WOX 939,,,Sold,Action
+H-1140,NAB 3809,,,Sold,Action
+H-1141,NAB 3806,,,Sold,Action
+H-1142,NAB 3807,,,Sold,Action
+H-1143,NAB 3810,,,Sold,Action
+H-1144,W/ OR & CR,,,Sold,Action
+H-1145,CCO 6949,,,Condemn,Action
+H-1146,CCO 5782,,N/A,Condemn,Action
+H-1147,NAK 9974,N/A,Customer,Sold,Action
+H-1148,NAK 9973,,VILLADO TRUCKING SERVICES,Under,Action
+H-1149,130102,,,Sold,Action
+H-115,ZJB 465,,,Condemn,Action
+H-1150,130102,,,Sold,Action
+H-1151,130102,,,Sold,Action
+H-1152,130102,,,Sold,Action
+H-1153,NAD 7368,,PENDING FOR TRANSFER,Sold,Action
+H-1154,NAD 7354,N/A,Customer,Sold,Action
+H-1155,NAD 7356,,PENDING FOR TRANSFER,Sold,Action
+H-1156,130102,,,Sold,Action
+H-1157,NAD 7361,,PENDING FOR TRANSFER,Sold,Action
+H-1158,NAD 7363,,,Sold,Action
+H-1159,NAD 7350,,,Sold,Action
+H-116,UDO 933,,,Sold,Action
+H-1160,NAD 7355,,,Sold,Action
+H-1161,130102,,,Sold,Action
+H-1162,130102,,,Sold,Action
+H-1163,130102,,,Sold,Action
+H-1164,NAD 7366,,,Sold,Action
+H-1165,130102,,,Sold,Action
+H-1166,NAD 7367,N/A,Customer,Sold,Action
+H-1167,130102,,,Sold,Action
+H-1168,130102,,,Sold,Action
+H-1169,NAG 4682,,,Sold,Action
+H-117,UAQ 554,,,Sold,Action
+H-1170,NAG 4683,,,Sold,Action
+H-1171,NAG 4681,,,Sold,Action
+H-1172,NAG 4680,,,Sold,Action
+H-1173,NAK 9418,,,Sold,Action
+H-1174,NAK 9419,,,Sold,Action
+H-1175,NAK 9423,,,Sold,Action
+H-1176,NAK 9422,,,Sold,Action
+H-1177,NAK 9421,,,Sold,Action
+H-1178,NAK 9420,,,Sold,Action
+H-1179,NAK 9424,,,Sold,Action
+H-118,UVO 554,,,Sold,Action
+H-1180,NAK 9425,,,Sold,Action
+H-1181,NAK 9975,,,Sold,Action
+H-1182,NAG 9003,,,Sold,Action
+H-1183,NAG 9002,,,Sold,Action
+H-1184,NAK 9978,,,Sold,Action
+H-1185,NAK 9976,,,Sold,Action
+H-1186,NAK 9979,,,Sold,Action
+H-1187,NAG 9001,,,Sold,Action
+H-1188,NAG 8999,,,Sold,Action
+H-1189,NAK 9977,,,Sold,Action
+H-119,MGB 280,,,Sold,Action
+H-1190,NAG 8998,,,Sold,Action
+H-1191,NAG 4779,,,Sold,Action
+H-1192,NAG 4786,,,Sold,Action
+H-1193,NAG 4785,,,Sold,Action
+H-1194,NAG 4780,,,Sold,Action
+H-1195,NAR 1310,,,Sold,Action
+H-1196,NAG 4783,,,Sold,Action
+H-1197,NAG 4781,,,Sold,Action
+H-1198,NAG 4784,,,Sold,Action
+H-1199,NAG 4782,,,Sold,Action
+H-120,UVO 564,N/A,Customer,Sold,Action
+H-1200,NAG 4787,,,Sold,Action
+H-1201,NAK 9429,,,Sold,Action
+H-1202,NAK 9430,,,Sold,Action
+H-1203,NAK 9427,,PENDING FOR TRANSFER,Sold,Action
+H-1204,NAK 9428,,,Sold,Action
+H-1205,NAK 9426,,,Sold,Action
+H-1206,NAK 9414,,,Sold,Action
+H-1207,NAK 9415,,,Sold,Action
+H-1208,NAK 9408,,,Sold,Action
+H-1209,NAK 9417,,,Sold,Action
+H-121,UDO 923,N/A,Customer,Sold,Action
+H-1210,NAK 9409,,,Sold,Action
+H-1211,NAK 9416,,,Sold,Action
+H-1212,NAK 9410,,,Sold,Action
+H-1213,NAK 9411,,,Sold,Action
+H-1214,NAK 9412,,,Sold,Action
+H-1215,NAK 9413,,,Sold,Action
+H-1216,NCJ 5502,02/28/2026,,Running,Action
+H-1217,NCJ 5503,03/31/2026,,Running,Action
+H-1218,NAT 2976,,,Sold,Action
+H-1219,NAT 2980,,,Sold,Action
+H-122,UAQ 562,,,Sold,Action
+H-1220,NAT 2984,,,Sold,Action
+H-1221,NAT 2974,,,Sold,Action
+H-1222,NAT 2975,,,Sold,Action
+H-1223,NAT 2981,,,Sold,Action
+H-1224,NAT 2986,,,Sold,Action
+H-1225,NAT 2987,,,Sold,Action
+H-1226,NAT 2978,,PENDING FOR TRANSFER,Sold,Action
+H-1227,NAT 2973,,PENDING FOR TRANSFER,Sold,Action
+H-1228,NAT 2985,,,Sold,Action
+H-1229,NAT 2979,,,Sold,Action
+H-123,WIW 325,,,Sold,Action
+H-1230,NAT 2982,,PENDING FOR TRANSFER,Sold,Action
+H-1231,NAT 2977,,,Sold,Action
+H-1232,NAT 2983,,,Sold,Action
+H-1233,NAT 2971,,,Sold,Action
+H-1234,NAT 2966,,,Sold,Action
+H-1235,NAT 2967,,,Sold,Action
+H-1236,NAT 2972,,,Sold,Action
+H-1237,NAT 2970,,,Sold,Action
+H-1238,NAT 2968,,,Sold,Action
+H-1239,NAT 2969,,,Sold,Action
+H-124,UDO 962,,,Sold,Action
+H-1240,NAU 9880,,,Sold,Action
+H-1241,NAU 9888,,,Sold,Action
+H-1242,NAU 9878,,,Sold,Action
+H-1243,NAV 1033,,,Sold,Action
+H-1244,NAU 9887,,,Sold,Action
+H-1245,NAU 9879,,,Sold,Action
+H-1246,NAU 9883,,,Sold,Action
+H-1247,NAU 9886,,PENDING FOR TRANSFER,Sold,Action
+H-1248,NAU 9881,,,Sold,Action
+H-1249,NAU 9885,,PENDING FOR TRANSFER,Sold,Action
+H-125,UDO 973,,,Sold,Action
+H-1250,NAU 9884,,,Sold,Action
+H-1251,NAU 9876,,,Sold,Action
+H-1252,NAU 9875,,,Sold,Action
+H-1253,NAU 9882,,,Sold,Action
+H-1254,NAU 9877,,,Sold,Action
+H-1255,NAV 1019,,,Sold,Action
+H-1256,NAV 1010,,,Sold,Action
+H-1257,NAV 1018,,,Sold,Action
+H-1258,NAV 1013,,,Sold,Action
+H-1259,NAV 1016,,,Sold,Action
+H-126,UDO 922,,,Sold,Action
+H-1260,NAV 1017,,,Sold,Action
+H-1261,NAV 1021,,,Sold,Action
+H-1262,NAV 1008,,,Sold,Action
+H-1263,NAV 1012,,,Sold,Action
+H-1264,NAV 1009,,,Sold,Action
+H-1265,NAV 1015,,,Sold,Action
+H-1266,NAV 1014,,,Sold,Action
+H-1267,NAV 1020,,,Sold,Action
+H-1268,NAV 1011,,,Sold,Action
+H-1269,NAV 1022,,PENDING FOR TRANSFER,Sold,Action
+H-127,UDO 963,,,Sold,Action
+H-1270,NAV 1023,,PENDING FOR TRANSFER,Sold,Action
+H-1271,NAV 1025,,PENDING FOR TRANSFER,Sold,Action
+H-1272,NAV 1024,,PENDING FOR TRANSFER,Sold,Action
+H-1273,NAV 1026,,PENDING FOR TRANSFER,Sold,Action
+H-1274,NAV 1027,,PENDING FOR TRANSFER,Sold,Action
+H-1275,N/A,,,Sold,Action
+H-1276,N/A,,,Sold,Action
+H-1277,N/A,,,Sold,Action
+H-1278,N/A,,,Sold,Action
+H-1279,N/A,,,Sold,Action
+H-128,UDO 932,,,Sold,Action
+H-1280,NAW 4282,,,Sold,Action
+H-1281,NAW 4278,,,Sold,Action
+H-1282,NAW 4279,,,Sold,Action
+H-1283,NAW 4280,,,Sold,Action
+H-1284,NAW 4281,,,Sold,Action
+H-1285,NBA 1705,05/31/2026,VAS OPS,Running,Action
+H-1286,NBA 1704,04/30/2026,VAS OPS,Running,Action
+H-1287,NBA 1688,08/21/2025,VAS OPS,Running,Action
+H-1288,NAW 4276,,,Sold,Action
+H-1289,NAW 4275,,,Sold,Action
+H-129,UDO 943,,,Sold,Action
+H-1290,NAW 4274,,,Sold,Action
+H-1291,NAW 4277,,,Sold,Action
+H-1292,NBA 1693,,VAS OPS,Condemn,Action
+H-1293,NBA 1700,10/31/2025,VAS OPS,Running,Action
+H-1294,NBA 1698,08/31/2025,VAS OPS,Running,Action
+H-1295,NBA 1703,03/31/2026,VAS OPS,Running,Action
+H-1296,NBA 1689,09/21/2025,VAS OPS,Running,Action
+H-1297,NBA 1699,09/30/2025,VAS OPS,Running,Action
+H-1298,NBA 1702,02/28/2026,VAS OPS,Running,Action
+H-1299,NBA 1696,06/30/2026,,Running,Action
+H-130,UDO 982,,,Sold,Action
+H-1300,NBA 1701,01/31/2026,VAS OPS,Running,Action
+H-1301,NBA 1694,04/30/2026,VAS OPS,Running,Action
+H-1302,NBA 1695,05/31/2026,VAS OPS,Running,Action
+H-1303,NBA 1691,01/31/2026,VAS OPS,Running,Action
+H-1304,NBA 1697,07/31/2025,VAS OPS,Running,Action
+H-1305,NBA 1692,02/28/2026,VAS OPS,Running,Action
+H-1306,NBA 1690,10/31/2025,VAS OPS,Running,Action
+H-1307,N/A,,,Sold,Action
+H-1308,N/A,,,Sold,Action
+H-1309,N/A,,,Sold,Action
+H-131,UDO 992,,,Sold,Action
+H-1310,N/A,,,Sold,Action
+H-1311,WSM 694,,,Condemn,Action
+H-1312,N/A,N/A,Customer,Sold,Action
+H-1313,N/A,N/A,Customer,Sold,Action
+H-1314,N/A,N/A,Customer,Sold,Action
+H-1315,N/A,,,Sold,Action
+H-1316,N/A,,,Sold,Action
+H-1317,N/A,,,Sold,Action
+H-1318,N/A,N/A,Customer,Sold,Action
+H-1319,NBC 5184,04/21/2026,BD OPS,Running,Action
+H-132,CNY 583,,,Sold,Action
+H-1320,130110,,,Sold,Action
+H-1321,W/ OR & CR,,,Sold,Action
+H-1322,130110,,PENDING FOR TRANSFER,Sold,Action
+H-1323,NBC 5179,,PENDING FOR TRANSFER,Sold,Action
+H-1324,130110,,PENDING FOR TRANSFER,Sold,Action
+H-1325,NBC 5175,,PENDING FOR TRANSFER,Sold,Action
+H-1326,130110,,PENDING FOR TRANSFER,Sold,Action
+H-1327,130110,10/03/2020,PENDING FOR TRANSFER,Sold,Action
+H-1328,130110,10/26/2020,PENDING FOR TRANSFER,Sold,Action
+H-1329,130110,,PENDING FOR TRANSFER,Sold,Action
+H-133,UQK 186,,,Sold,Action
+H-1330,130110,10/26/2020,PENDING FOR TRANSFER,Sold,Action
+H-1331,130110,,PENDING FOR TRANSFER,Sold,Action
+H-1332,130110,,PENDING FOR TRANSFER,Sold,Action
+H-1333,130110,,PENDING FOR TRANSFER,Sold,Action
+H-1334,130110,,PENDING FOR TRANSFER,Sold,Action
+H-1335,130110,,PENDING FOR TRANSFER,Sold,Action
+H-1336,130110,,PENDING FOR TRANSFER,Sold,Action
+H-1337,NBC 5351,01/14/2026,BD OPS,Running,Action
+H-1338,NBC 5354,,,Sold,Action
+H-1339,NBC 5350,10/14/2025,N/A,Running,Action
+H-134,UDO 953,,,Sold,Action
+H-1340,NBC 5349,,,Sold,Action
+H-1341,130110,,,Sold,Action
+H-1342,NBC 5348,08/14/2025,,Running,Action
+H-1343,NBC 5355,,,Sold,Action
+H-1344,NBC 5347,07/14/2025,,Running,Action
+H-1345,NBC 5346,,,Sold,Action
+H-1346,NBC 1346,02/14/2026,BD OPS,Running,Action
+H-1347,NBC 5356,06/14/2025,BD OPS,Running,Action
+H-1348,NBB 2330,10/07/2025,VAS OPS,Running,Action
+H-1349,NBB 2329,09/07/2025,VAS OPS,Running,Action
+H-135,UDO 952,,,Sold,Action
+H-1350,NBB 2331,01/07/2026,VAS OPS,Running,Action
+H-1351,NBK 4170,10/21/2025,VAS OPS,Running,Action
+H-1352,NBK 4172,,,Sold,Action
+H-1353,NBK 4171,,,Sold,Action
+H-1354,NBK 4167,,,Sold,Action
+H-1355,NBK 4169,,,Sold,Action
+H-1356,NBK 4173,,,Sold,Action
+H-1357,NBK 4168,,,Sold,Action
+H-1358,NBK 4166,,PENDING FOR TRANSFER,Sold,Action
+H-1359,NBK 4162,,PENDING FOR TRANSFER,Sold,Action
+H-136,UDO 972,,,Sold,Action
+H-1360,NBK 4163,,PENDING FOR TRANSFER,Sold,Action
+H-1361,NBK 4164,,PENDING FOR TRANSFER,Sold,Action
+H-1362,130110,,PENDING FOR TRANSFER,Sold,Action
+H-1363,130110,,,Sold,Action
+H-1364,NBB 2326,06/07/2026,,Running,Action
+H-1365,NBB 2328,08/07/2025,VAS OPS,Running,Action
+H-1366,NBB 2325,05/07/2026,VAS OPS,Running,Action
+H-1367,NBB 2327,07/07/2025,VAS OPS,Running,Action
+H-1368,NBB 2334,04/07/2026,VAS OPS,Running,Action
+H-1369,NBB 2333,03/07/2026,VAS OPS,Running,Action
+H-137,UAQ 574,,,Sold,Action
+H-1370,NBB 2332,02/07/2026,VAS OPS,Running,Action
+H-1371,NBM 4580,10/21/2025,BD OPS,Running,Action
+H-1372,NBM 4579,,,Sold,Action
+H-1373,NBM 4578,,,Sold,Action
+H-1374,NAM 1030,,VILLADO TRUCKING SERVICES,Sold,Action
+H-1375,NAO 3995,,,Sold,Action
+H-1376,NAM 1029,,VILLADO TRUCKING SERVICES,Under,Action
+H-1377,NAM 1026,,,Sold,Action
+H-1378,NBM 3963,03/14/2026,VAS OPS,Running,Action
+H-1379,NBM 3962,02/14/2026,VAS OPS,Running,Action
+H-138,UAQ 624,,,Sold,Action
+H-1380,NBM 3960,10/14/2025,VAS OPS,Running,Action
+H-1381,NBM 3957,07/14/2025,VAS OPS,Running,Action
+H-1382,NBM 3961,01/14/2026,VAS OPS,Running,Action
+H-1383,NBM 3958,08/14/2025,VAS OPS,Running,Action
+H-1384,NBM 3956,06/14/2026,,Running,Action
+H-1385,NBM 3964,04/14/2026,VAS OPS,Running,Action
+H-1386,N/A,,,Sold,Action
+H-1387,NBM 4571,,,Sold,Action
+H-1388,NBM 4567,,,Sold,Action
+H-1389,NBM 4566,,,Sold,Action
+H-139,UAQ 791,,,Sold,Action
+H-1390,130101,,,Sold,Action
+H-1391,130101,,,Sold,Action
+H-1392,NBM 4570,,,Sold,Action
+H-1393,130101,,,Sold,Action
+H-1394,130101,,,Sold,Action
+H-1395,130101,,,Sold,Action
+H-1396,NBM 3955,05/14/2026,VAS OPS,Running,Action
+H-1397,NBM 3967,07/14/2025,VAS OPS,Running,Action
+H-1398,NBM 3968,08/14/2025,VAS OPS,Condemn,Action
+H-1399,NBM 3966,06/14/2026,VAS OPS,Running,Action
+H-140,UAQ 841,,,Sold,Action
+H-1400,NBM 3959,09/14/2025,VAS OPS,Running,Action
+H-1401,NBM 3965,05/14/2026,VAS OPS,Running,Action
+H-1402,NAJ 1170,10/21/2025,VAS OPS,Running,Action
+H-1403,NAM 1282,,,Sold,Action
+H-1404,NAJ 1442,,,Sold,Action
+H-1405,NAJ 1445,,,Sold,Action
+H-1406,NAJ 1443,,,Sold,Action
+H-1407,NAJ 1444,,,Sold,Action
+H-1408,130101,,,Sold,Action
+H-1409,130101,,,Sold,Action
+H-141,ZJB 475,,,Sold,Action
+H-1410,130101,,,Sold,Action
+H-1411,130101,,,Sold,Action
+H-1412,NBM 9839,,,Sold,Action
+H-1413,NAJ 1325,,,Sold,Action
+H-1414,NAJ 1323,,,Sold,Action
+H-1415,NAJ 1327,,,Sold,Action
+H-1416,NAJ 1326,,,Sold,Action
+H-1417,NAJ 1324,,,Sold,Action
+H-1418,NCC 2263,,VAS OPS,Sold,Action
+H-1419,NCC 2262,02/14/2026,VAS OPS,Sold,Action
+H-142,UAQ 561,,,Sold,Action
+H-1420,NCC 2261,,VAS OPS,Sold,Action
+H-1421,NCC 2260,10/14/2025,VAS OPS,Sold,Action
+H-1422,N/A,,N/A,Condemn,Action
+H-1423,N/A,,N/A,Condemn,Action
+H-1424,NDZ 4744,,N/A,Rental,Action
+H-1425,NBM 8266,06/14/2026,BD OPS,Running,Action
+H-1426,NBM 8267,,,Condemn,Action
+H-1427,NBM 8265,05/14/2026,BD OPS,Running,Action
+H-1428,NBM8349,09/14/2025,,Running,Action
+H-1429,NBM 8347,07/14/2025,BD OPS,Running,Action
+H-143,UBQ 104,,,Sold,Action
+H-1430,NAJ 1190,10/31/2025,BD OPS,Running,Action
+H-1431,NDZ 4738,08/07/2025,VAS OPS,Running,Action
+H-1432,NBM 8346,06/14/2026,BD OPS,Running,Action
+H-1433,NAB 4365,05/14/2026,BD OPS,Running,Action
+H-1434,NAW 9202,,,Sold,Action
+H-1435,NAW 9201,,,Sold,Action
+H-1436,NAW 9203,,,Sold,Action
+H-1437,NAW 9196,,,Sold,Action
+H-1438,NAW 9195,,,Sold,Action
+H-1439,NAW 9200,,,Sold,Action
+H-144,ZKT 483,,,Sold,Action
+H-1440,NAW 9194,,,Sold,Action
+H-1441,NAW 9197,,,Sold,Action
+H-1442,130107,,,Sold,Action
+H-1443,NAW 9199,,,Sold,Action
+H-1444,NAX 6877,,,Sold,Action
+H-1445,NAX 6872,,,Sold,Action
+H-1446,NAX 6871,,,Sold,Action
+H-1447,NAX 6859,,,Sold,Action
+H-1448,NAX 6862,,,Sold,Action
+H-1449,NAX 6869,,VAS OPS,Sold,Action
+H-145,UAQ 631,,,Sold,Action
+H-1450,NAX 6876,06/21/2025,BD OPS,Sold,Action
+H-1451,NAX 6875,05/21/2026,BD OPS,Running,Action
+H-1452,NAX 6874,,N/A,Condemn,Action
+H-1453,NAX 6870,,BD OPS,Sold,Action
+H-1454,NAX 6866,06/14/2026,BD OPS,Running,Action
+H-1455,NAX 6865,05/14/2026,BD OPS,Running,Action
+H-1456,NAX 6861,01/14/2026,BD OPS,Running,Action
+H-1457,NAX 6858,,,Sold,Action
+H-1458,NAX 6860,10/14/2025,BD OPS,Running,Action
+H-1459,NAX 6868,08/14/2025,,Running,Action
+H-146,UTI 683,,,Sold,Action
+H-1460,NAX 6873,03/21/2026,,Running,Action
+H-1461,NAX 6867,07/14/2025,BD OPS,Sold,Action
+H-1462,NAX 6864,,BD OPS,Sold,Action
+H-1463,NCT 2446,06/14/2025,BD OPS,Running,Action
+H-1464,NAX 6863,03/14/2026,,Running,Action
+H-1465,NCT 3477,07/21/2025,,Running,Action
+H-1466,NCT 3478,08/21/2025,,Running,Action
+H-1467,NCT 3476,06/21/2025,BD OPS,Running,Action
+H-1468,NCT 3481,1/21/2024,,Condemn,Action
+H-1469,NCT 3479,09/21/2025,BD OPS,Condemn,Action
+H-147,UVO 282,,,Sold,Action
+H-1470,NAY 6265,05/14/2026,BD OPS,Running,Action
+H-1471,NAY 6266,06/14/2025,BD OPS,Running,Action
+H-1472,NAY 6259,09/14/2024,BD OPS,Condemn,Action
+H-1473,NAY 6257,07/14/2025,BD OPS,Running,Action
+H-1474,NAY 6264,04/14/2026,BD OPS,Running,Action
+H-1475,NAY 6261,01/14/2026,BD OPS,Running,Action
+H-1476,NAY 6258,08/14/2025,VAS OPS,Running,Action
+H-1477,NAY 6256,06/17/2025,VAS OPS,Running,Action
+H-1478,NAY 6262,02/14/2026,BD OPS,Running,Action
+H-1479,NAY 6267,07/14/2025,BD OPS,Running,Action
+H-148,UAQ 572,,,Sold,Action
+H-1480,NAY 6269,09/14/2025,BD OPS,Running,Action
+H-1481,NAY 6273,03/21/2026,BD OPS,Running,Action
+H-1482,NAY 6263,03/14/2026,BD OPS,Running,Action
+H-1483,NAY 6260,10/14/2025,BD OPS,Running,Action
+H-1484,NBP 2058,08/14/2025,,Running,Action
+H-1485,NAY 6270,10/21/2025,BD OPS,Running,Action
+H-1486,NAY 6271,01/21/2026,VAS OPS,Running,Action
+H-1487,NAY 6274,04/21/2026,BD OPS,Running,Action
+H-1488,NAY 6272,02/21/2026,BD OPS,Running,Action
+H-1489,NAY 6268,08/14/2025,BD OPS,Running,Action
+H-149,UUQ 317,,,Sold,Action
+H-1490,NAW 9564,,,Sold,Action
+H-1491,NBE 7526,,PENDING FOR TRANSFER,Sold,Action
+H-1492,NBE 7525,05/07/2026,BD OPS,Running,Action
+H-1493,NBE 2717,07/07/2025,,Running,Action
+H-1494,NBE 2716,06/07/2026,BD OPS,Running,Action
+H-1495,NBE 5258,08/14/2025,BD OPS,Running,Action
+H-1496,NBE 2719,09/07/2025,,Running,Action
+H-1497,NBE 2718,,,Condemn,Action
+H-1498,NBS 8577,07/21/2025,,Condemn,Action
+H-1499,NBH 8616,06/07/2025,BD OPS,Running,Action
+H-150,UVQ 916,,,Sold,Action
+H-1500,NBH 8617,07/07/2025,,Running,Action
+H-1501,NBH 8618,,,Sold,Action
+H-1502,NBH 8619,,,Sold,Action
+H-1503,NBF 4728,08/07/2025,VAS OPS,Running,Action
+H-1504,NBF 4735,05/07/2026,BD OPS,Running,Action
+H-1505,NBF 4733,03/07/2026,BD OPS,Running,Action
+H-1506,130105,,,Sold,Action
+H-1507,NAW 5098,08/31/2025,,Running,Action
+H-1508,NCA 3279,09/21/2025,,Running,Action
+H-1509,NCA 3276,06/21/2025,BD OPS,Condemn,Action
+H-151,UVQ 897,,,Sold,Action
+H-1510,NAW 5091,01/31/2026,N/A,Condemn,Action
+H-1511,NAW 5096,06/30/2026,,Running,Action
+H-1512,NBK 4315,05/07/2026,VAS OPS,Running,Action
+H-1513,NBK 4304,04/30/2025,,Condemn,Action
+H-1514,NBO 7289,09/21/2025,,Running,Action
+H-1515,NBO 7288,08/21/2025,VAS OPS,Running,Action
+H-1516,NBO 7290,10/31/2025,VAS OPS,Running,Action
+H-1517,NBO 7287,,VAS OPS,Sold,Action
+H-1518,NCS 4247,7/14/2025,VAS OPS,Condemn,Action
+H-1519,NCS 4245,,,Condemn,Action
+H-152,WII 648,,,Sold,Action
+H-1520,NBK 4312,02/07/2026,,Running,Action
+H-1521,NBK 4305,05/31/2026,BD OPS,Running,Action
+H-1522,NAW 5094,04/30/2026,,Running,Action
+H-1523,NAW 5090,10/31/2025,,Running,Action
+H-1524,NBK 4314,04/07/2026,BD OPS,Running,Action
+H-1525,NBQ 4602,02/28/2026,VAS OPS,Running,Action
+H-1526,NBQ 4598,08/31/2025,VAS OPS,Running,Action
+H-1527,NBQ 4601,01/31/2026,VAS OPS,Running,Action
+H-1528,NBQ 4599,09/30/2025,VAS OPS,Running,Action
+H-1529,NBQ 4600,10/31/2025,VAS OPS,Running,Action
+H-153,UVQ 907,,,Sold,Action
+H-1530,NDO 9521,01/07/2026,VAS OPS,Running,Action
+H-1531,NDO 9515,05/07/2026,BD OPS,Running,Action
+H-1532,NBQ 5945,05/14/2026,VAS OPS,Running,Action
+H-1533,NBQ 5941,01/14/2026,VAS OPS,Running,Action
+H-1534,NBQ 5942,02/14/2026,VAS OPS,Running,Action
+H-1535,NBQ 5947,07/14/2025,VAS OPS,Running,Action
+H-1536,NBQ 5943,03/14/2026,VAS OPS,Running,Action
+H-1537,NBQ 5948,08/14/2025,VAS OPS,Running,Action
+H-1538,NBQ 5949,09/14/2025,VAS OPS,Running,Action
+H-1539,NBQ 5950,10/14/2025,VAS OPS,Running,Action
+H-154,UVQ 857,,N/A,Joint ventures,Action
+H-1540,NBQ 5940,10/14/2025,VAS OPS,Running,Action
+H-1541,NBQ 5946,,,Sold,Action
+H-1542,NEC 9061,01/31/2026,BD OPS,Running,Action
+H-1543,NEC 9055,05-14-2025,,Condemn,Action
+H-1544,NEC 9059,09/14/2025,,Running,Action
+H-1545,NBU 3421,01/31/2025,VAS OPS,Condemn,Action
+H-1546,138003,,N/A,Condemn,Action
+H-1547,NEI 4683,03/21/2026,BD OPS,Running,Action
+H-1548,NEA 1028,08/07/2025,BD OPS,Running,Action
+H-1549,NEA 1027,07/07/2025,BD OPS,Running,Action
+H-155,WII 683,,,Sold,Action
+H-1550,NEI 6684,04/21/2026,BD OPS,Running,Action
+H-1551,NEI2659,09/14/2025,BD OPS,Running,Action
+H-1552,130108,,,Sold,Action
+H-1553,130108,,,Sold,Action
+H-1554,130108,,,Sold,Action
+H-1555,NDL 7350,10/14/2025,VAS OPS,Running,Action
+H-1556,NDL 7348,08/14/2025,VAS OPS,Running,Action
+H-1557,NDL 7353,03/14/2026,VAS OPS,Running,Action
+H-1558,NDL 7351,01/14/2026,VAS OPS,Running,Action
+H-1559,NDL 7347,07/14/2025,VAS OPS,Running,Action
+H-156,UVQ 917,,,Sold,Action
+H-1560,NDL 8980,10/21/2025,VAS OPS,Running,Action
+H-1561,NDN 2683,03/21/2026,BD OPS,Running,Action
+H-1562,130109,,,Sold,Action
+H-1563,130109,,,Sold,Action
+H-1564,ACA 3730,,N/A,Condemn,Action
+H-1565,ACA 3729,,,Pending Transfer,Action
+H-1566,ACA 3727,,INTERCITY,Sold,Action
+H-1567,ACA 3726,,INTERCITY,Condemn,Action
+H-1568,ACA 3725,,N/A,Condemn,Action
+H-1569,ACA 3724,,,Pending Transfer,Action
+H-157,WOD 694,,,Sold,Action
+H-1570,,,INTERCITY,Condemn,Action
+H-1571,,,INTERCITY,Condemn,Action
+H-1572,130109,,PENDING FOR TRANSFER,Sold,Action
+H-1573,130109,,,Sold,Action
+H-1574,130109,,,Sold,Action
+H-1575,130109,,PENDING FOR TRANSFER,Sold,Action
+H-1576,130109,,PENDING FOR TRANSFER,Sold,Action
+H-1577,130109,,PENDING FOR TRANSFER,Sold,Action
+H-1578,130109,,PENDING FOR TRANSFER,Sold,Action
+H-1579,CAY 8337,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-158,UVQ 735,,,Sold,Action
+H-1580,CAY 8023,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-1581,CAY 4776,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-1582,CAY 2836,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-1583,CAY 4780,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+h-1584,130109,,,Sold,Action
+H-1585,130109,,,Sold,Action
+H-1586,130109,,,Sold,Action
+H-1587,130109,,,Sold,Action
+H-1588,130109,,,Sold,Action
+H-1589,130102,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-159,UVQ 335,,,Sold,Action
+H-1590,CAZ 1227,,BD OPS,Sold,Action
+H-1591,CAZ 1506,,BD OPS,Sold,Action
+H-1592,CAY 9614,,BD OPS,Sold,Action
+H-1593,CAZ 1446,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-1594,CAY 9605,,BD OPS,Sold,Action
+H-1595,CAZ 1116,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-1596,CAY 9956,,VILLADO TRUCKING SERVICES,Under,Action
+H-1597,CAY 8104,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-1598,CAY 8505,,BD OPS,Sold,Action
+H-1599,CAZ 1538,,BD OPS,Sold,Action
+H-160,UVQ 242,,,Sold,Action
+H-1600,CAZ 1125,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-1601,CAY-8014,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-1602,CAZ 1275,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-1603,CAY 8786,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-1604,CAY 9056,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-1605,CAY 9556,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-1606,CAY 8034,,BD OPS,Condemn,Action
+H-1607,CAZ 1497,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-1608,CAY 9654,,BD OPS,Sold,Action
+H-1609,CAZ 1177,,BD OPS,Sold,Action
+H-161,UVQ 244,,,Sold,Action
+H-1610,130110,,,Sold,Action
+H-1611,130110,,,Sold,Action
+H-1612,130110,,,Sold,Action
+H-1613,NGF 6511,01/07/2026,VAS OPS,Running,Action
+H-1614,130102,,,Sold,Action
+H-1615,NGG 8462,02/14/2026,BD OPS,Running,Action
+H-1616,NGG 8464,04/14/2026,BD OPS,Running,Action
+H-1617,NGG 8465,,BD OPS,Sold,Action
+H-1618,NGG 8461,01/14/2026,BD OPS,Running,Action
+H-1619,NGG 8466,06/14/2026,BD OPS,Running,Action
+H-162,UAQ 632,,,Sold,Action
+H-1620,130102,,,Sold,Action
+H-1621,130102,,,Sold,Action
+H-1622,130102,,,Sold,Action
+H-1623,130102,,,Sold,Action
+H-1624,130102,,,Sold,Action
+H-1625,130102,,,Sold,Action
+H-1626,130102,,,Sold,Action
+H-1627,130102,,,Sold,Action
+H-1628,NFZ 4268,08/14/2025,VAS OPS,Running,Action
+H-1629,NFZ 4261,01/14/2026,VAS OPS,Available,Action
+H-163,UAQ 594,,,Sold,Action
+H-1630,NAN 4781,01/21/2026,VAS OPS,Running,Action
+H-1631,NAN 4782,02/21/2026,VAS OPS,Running,Action
+H-1632,180106,,,Sold,Action
+H-1633,NEG 8470,10/21/2025,VAS OPS,Running,Action
+H-1634,NEG 8469,06/30/2025,VAS OPS,Running,Action
+H-1635,NEG 8471,01/21/2026,VAS OPS,Running,Action
+H-1636,NEG 8472,02/21/2026,VAS OPS,Running,Action
+H-1637,NEG 8467,07/14/2025,VAS OPS,Running,Action
+H-1638,180106,,,Sold,Action
+H-1639,180106,,N/A,Sold,Action
+H-164,UAQ 633,,,Sold,Action
+H-1640,180106,,N/A,Sold,Action
+H-1641,180106,,N/A,Sold,Action
+H-1642,180106,,N/A,Sold,Action
+H-1643,180106,,N/A,Sold,Action
+H-1644,180106,,N/A,Sold,Action
+H-1645,180106,,N/A,Sold,Action
+H-1646,180106,,N/A,Sold,Action
+H-1647,180106,,N/A,Sold,Action
+H-1648,180106,,N/A,Sold,Action
+H-1649,180106,,N/A,Sold,Action
+H-165,UVQ 664,,,Sold,Action
+H-1650,180106,,N/A,Sold,Action
+H-1651,180106,,N/A,Sold,Action
+H-1652,180106,,N/A,Sold,Action
+H-1653,180106,,N/A,Sold,Action
+H-1654,NGL 6713,03/07/2026,VAS OPS,Running,Action
+H-1655,NEG 8466,06/14/2026,VAS OPS,Running,Action
+H-1656,NFY 9039,09/07/2025,VAS OPS,Running,Action
+H-1657,NFY 9035,05/07/2026,VAS OPS,Running,Action
+H-1658,NFY 9040,10/14/2025,VAS OPS,Running,Action
+H-1659,NFY 9036,06/21/2025,VAS OPS,Running,Action
+H-166,UVQ 535,,,Sold,Action
+H-1660,NFY 9034,04/07/2026,VAS OPS,Running,Action
+H-1661,NFY 9037,07/07/2025,VAS OPS,Running,Action
+H-1662,NEO 8771,01/21/2026,VAS OPS,Running,Action
+H-1663,NFY 9038,08/07/2025,VAS OPS,Running,Action
+H-1664,180106,,,Sold,Action
+H-1665,180106,,,Sold,Action
+H-1666,180106,,,Sold,Action
+H-1667,180106,,,Sold,Action
+H-1668,180106,,,Sold,Action
+H-1669,180106,,,Sold,Action
+H-167,UVQ 663,,,Sold,Action
+H-1670,180106,,,Sold,Action
+H-1671,180106,,,Sold,Action
+H-1672,180106,,,Sold,Action
+H-1673,NFY 5921,01/07/2026,VAS OPS,Running,Action
+H-1674,NFY 5918,08/07/2025,VAS OPS,Running,Action
+H-1675,NFY 5922,02/07/2026,VAS OPS,Running,Action
+H-1676,NFY 5923,03/07/2026,VAS OPS,Running,Action
+H-1677,NFY 5920,10/07/2025,VAS OPS,Running,Action
+H-1678,NFY 5919,09/07/2025,VAS OPS,Running,Action
+H-1679,130107,,,Sold,Action
+H-168,UVQ 363,,,Sold,Action
+H-1680,130107,,,Sold,Action
+H-1681,NGL 2660,,,Sold,Action
+H-1682,130107,,,Sold,Action
+H-1683,NGL 2666,,,Sold,Action
+H-1684,130107,,,Sold,Action
+H-1685,130107,,,Sold,Action
+H-1686,180106,,,Sold,Action
+H-1687,180106,,,Sold,Action
+H-1688,180106,,,Sold,Action
+H-1689,180106,,,Sold,Action
+H-169,ZHR 539,,,Sold,Action
+H-1690,180106,,,Sold,Action
+H-1691,130107,,,Sold,Action
+H-1692,130107,,,Sold,Action
+H-1693,130107,,,Sold,Action
+H-1694,130107,,,Sold,Action
+H-1695,NGL 2653,,,Sold,Action
+H-1696,NGL 2654,,,Sold,Action
+H-1697,130107,,,Sold,Action
+h-1699,130107,,,Sold,Action
+H-170,UVQ 234,,,Sold,Action
+H-1700,NFY 5911,01/07/2026,VAS OPS,Running,Action
+H-1701,NFY 5915,05/07/2025,VAS OPS,Condemn,Action
+H-1702,NFY 5909,09/30/2025,VAS OPS,Running,Action
+H-1703,NFY 5908,08/31/2025,VAS OPS,Running,Action
+H-1704,NFY 5916,06/07/2026,VAS OPS,Running,Action
+H-1705,NFY 5917,07/07/2025,VAS OPS,Running,Action
+H-1706,NFY 5914,04/07/2026,VAS OPS,Running,Action
+H-1707,NFY 5912,02/07/2026,VAS OPS,Running,Action
+H-1708,NFY 5913,03/07/2026,VAS OPS,Running,Action
+H-1709,NFY 5910,10/07/2025,VAS OPS,Running,Action
+H-171,WRI 229,,,Sold,Action
+H-1710,NFY 4202,,,Sold,Action
+H-1711,NFY 4195,,,Sold,Action
+H-1712,NFY 4199,,,Sold,Action
+H-1713,NFY 4201,,,Sold,Action
+H-1714,NFY 4197,,,Sold,Action
+H-1715,NFY 4200,,,Sold,Action
+H-1716,NFY 4196,,,Sold,Action
+H-1717,NFY 4194,,,Sold,Action
+H-1718,NFY 4203,,,Sold,Action
+H-1719,NFY 4198,,,Sold,Action
+H-172,WRI 559,N/A,Customer,Sold,Action
+H-1720,NFY 4209,,,Sold,Action
+H-1721,NFY 4212,,,Sold,Action
+H-1722,NFY 4207,,,Sold,Action
+H-1723,NFY 4206,,,Sold,Action
+H-1724,NFY 4210,,,Sold,Action
+H-1725,NFY 4208,,,Sold,Action
+H-1726,NFY 4204,,,Sold,Action
+H-1727,NGT 7561,,,Sold,Action
+H-1728,NFY 4205,,,Sold,Action
+H-1729,NFY 4211,,,Sold,Action
+H-173,UVQ 953,,,Sold,Action
+H-1730,NAN 6217,07/07/2025,BD OPS,Running,Action
+H-1731,NAN 6215,05/07/2026,BD OPS,Running,Action
+H-1732,NAN 6209,09/30/2025,BD OPS,Running,Action
+H-1733,NAN 6221,01/07/2026,BD OPS,Running,Action
+H-1734,NAN 6203,03/31/2026,BD OPS,Sold,Action
+H-1735,NAN 6208,08/31/2025,BD OPS,Running,Action
+H-1736,NAN 6206,06/30/2025,BD OPS,Running,Action
+H-1737,NAN 6219,09/07/2025,BD OPS,Running,Action
+H-1738,NAN 6211,01/07/2026,BD OPS,Running,Action
+H-1739,NAN 6205,05/31/2026,BD OPS,Running,Action
+H-174,UVQ 656,N/A,Customer,Sold,Action
+H-1740,NAN 6210,10/07/2025,BD OPS,Running,Action
+H-1741,NAN 6223,03/07/2026,BD OPS,Running,Action
+H-1742,NAN 6218,08/07/2025,BD OPS,Running,Action
+H-1743,NAN 6204,04/30/2026,BD OPS,Running,Action
+H-1744,NAN 6213,03/07/2026,BD OPS,Running,Action
+H-1745,NAN 6212,02/07/2026,BD OPS,Running,Action
+H-1746,NAN 6214,04/07/2026,BD OPS,Running,Action
+H-1747,NAN 6207,07/31/2025,BD OPS,Running,Action
+H-1748,NAN 6222,02/07/2026,BD OPS,Running,Action
+H-1749,NAN 6216,06/07/2026,BD OPS,Running,Action
+H-175,UVQ 414,,,Sold,Action
+H-1750,NGA 7119,,,Sold,Action
+H-1751,NGA 7120,10/07/2025,VAS OPS,Available,Action
+H-1752,NGP 1760,10/14/2025,VAS OPS,Running,Action
+H-1753,NGP 1761,01/14/2026,VAS OPS,Running,Action
+H-1754,NGA 4355,,,Sold,Action
+H-1755,NGA 4357,07/14/2025,VAS OPS,Running,Action
+H-1756,NGA 4354,,,Sold,Action
+H-1757,NGA 4356,,,Sold,Action
+H-1758,NGB 4293,,,Sold,Action
+H-1759,NGB 4292,,,Sold,Action
+H-176,UVQ 292,,,Condemn,Action
+H-1760,NGB 4290,,,Sold,Action
+H-1761,NGB 4291,,,Sold,Action
+H-1762,NAW 7798,,,Sold,Action
+H-1763,NAW 7799,,INTERCITY,Sold,Action
+H-1764,NAW 7809,09/30/2025,BD OPS,Sold,Action
+H-1765,NAW 7806,06/30/2026,BD OPS,Running,Action
+H-1766,NAW 7808,08/31/2025,BD OPS,Sold,Action
+H-1767,NAW 7807,07/31/2025,BD OPS,Running,Action
+H-1768,NBC 4388,08/21/2025,BD OPS,Sold,Action
+H-1769,NAW 3036,06/07/2026,BD OPS,Running,Action
+H-177,UTI 701,,,Sold,Action
+H-1770,NBJ 2043,03/14/2026,BD OPS,Running,Action
+H-1771,NAW 3032,02/01/2026,BD OPS,Running,Action
+H-1772,NBC 4389,09/21/2025,BD OPS,Sold,Action
+H-1773,NBJ 1994,04/30/2026,BD OPS,Running,Action
+H-1774,NAW 3020,10/07/2025,BD OPS,Running,Action
+H-1775,NBB 6785,05/21/2026,BD OPS,Running,Action
+H-1776,NBI 6073,03/21/2026,BD OPS,Running,Action
+H-1777,NBI 6071,01/21/2026,BD OPS,Running,Action
+H-1778,NBB 6804,04/30/2026,BD OPS,Running,Action
+H-1779,NBB 7143,03/14/2026,BD OPS,Running,Action
+H-178,UVQ 847,,,Sold,Action
+H-1780,NGS 1939,,,Sold,Action
+H-1781,NGS 1938,,,Sold,Action
+H-1782,NGS 1937,,,Sold,Action
+H-1783,NGU 2838,08/07/2025,BD OPS,Running,Action
+H-1784,NGU 2841,01/14/2026,VAS OPS,Running,Action
+H-1785,NGU 2836,06/07/2026,VAS OPS,Running,Action
+H-1786,NGU 2837,07/07/2025,VAS OPS,Running,Action
+H-1787,NGU 2845,05/14/2026,VAS OPS,Running,Action
+H-1788,NGU 2844,04/14/2026,VAS OPS,Running,Action
+H-1789,NGU 2843,03/14/2026,VAS OPS,Running,Action
+H-179,UVQ 886,,,Sold,Action
+H-1790,NGU 2842,02/14/2026,BD OPS,Running,Action
+H-1791,NGU 2839,09/07/2025,VAS OPS,Running,Action
+H-1792,NGU 2840,10/14/2025,VAS OPS,Running,Action
+H-1793,NEP 8946,,,Sold,Action
+H-1794,NEP 8945,,,Sold,Action
+H-1795,NEP 8944,,,Sold,Action
+H-1796,NEP 8947,,,Sold,Action
+H-1797,NGL 9598,08/31/2025,BD OPS,Running,Action
+H-1798,NGL 9599,09/30/2025,BD OPS,Running,Action
+H-1799,NEX 9458,,,Sold,Action
+H-18,WQH 831,,,Old Unit In Ic,Action
+H-180,UVQ 662,,,Sold,Action
+H-1800,NEX 9457,,,Sold,Action
+H-1801,NEP 5899,09/30/2025,BD OPS,Running,Action
+H-1802,NEP 5897,07/31/2025,BD OPS,Running,Action
+H-1803,NEP 5902,02/28/2026,BD OPS,Running,Action
+H-1804,NEP 5901,01/31/2026,BD OPS,Running,Action
+H-1805,NEP 5903,03/31/2026,BD OPS,Running,Action
+H-1806,NEP 6505,05/31/2026,BD OPS,Running,Action
+H-1807,NEP 5896,06/30/2026,BD OPS,Running,Action
+H-1808,NEP 5898,08/31/2025,BD OPS,Running,Action
+H-1809,NEP 6504,04/30/2026,BD OPS,Running,Action
+H-181,WII 925,,,Sold,Action
+H-1810,NET 2062,02/14/2026,BD OPS,Running,Action
+H-1811,NEP 6506,06/30/2026,BD OPS,Running,Action
+H-1812,NEV 3426,06/07/2026,BD OPS,Running,Action
+H-1813,NEP 5900,10/31/2025,BD OPS,Sold,Action
+H-1814,NEP 5904,04/30/2026,BD OPS,Running,Action
+H-1815,NEP 5906,06/30/2026,BD OPS,Running,Action
+H-1816,NET 2063,03/14/2026,BD OPS,Running,Action
+H-1817,NEP 5905,,BD OPS,Sold,Action
+H-1818,NET 2064,04/14/2026,BD OPS,Running,Action
+H-1819,NEP 6856,06/14/2026,VAS OPS,Running,Action
+H-182,UVQ 926,,,Sold,Action
+H-1820,NEP 6857,07/14/2025,VAS OPS,Running,Action
+H-1821,NEP 6861,01/14/2026,VAS OPS,Running,Action
+H-1822,NEP 6860,10/14/2025,VAS OPS,Running,Action
+H-1823,NEP 6858,08/14/2025,VAS OPS,Running,Action
+H-1824,NEP 6855,05/14/2026,VAS OPS,Running,Action
+H-1825,NEP 6859,09/14/2025,VAS OPS,Running,Action
+H-1826,NEW 1200,10/31/2025,BD OPS,Running,Action
+H-1827,NEW 1196,06/30/2026,BD OPS,Running,Action
+H-1828,NEW 1203,03/31/2026,BD OPS,Running,Action
+H-1829,NEW 1207,07/31/2025,BD OPS,Running,Action
+H-183,UVQ 906,,,Sold,Action
+H-1830,NEW 1208,08/31/2025,BD OPS,Running,Action
+H-1831,NEW 1198,08/31/2025,BD OPS,Running,Action
+H-1832,NEW 1201,01/31/2026,BD OPS,Running,Action
+H-1833,NEW 1211,01/07/2026,BD OPS,Running,Action
+H-1834,NEW 1202,02/28/2026,BD OPS,Running,Action
+H-1835,NEW 1210,10/07/2025,BD OPS,Running,Action
+H-1836,NEW 1214,04/07/2026,BD OPS,Running,Action
+H-1837,NEW 1212,02/07/2026,BD OPS,Running,Action
+H-1838,NEW 1197,07/31/2025,BD OPS,Running,Action
+H-1839,NEW 1205,05/31/2026,BD OPS,Running,Action
+H-184,UVQ 896,,,Sold,Action
+H-1840,NEW 1199,09/30/2025,BD OPS,Running,Action
+H-1841,NEW 1206,06/30/2025,BD OPS,Running,Action
+H-1842,NEW 1204,04/30/2026,BD OPS,Running,Action
+H-1843,NEW 1209,09/30/2025,BD OPS,Running,Action
+H-1844,NEW 1213,03/07/2026,BD OPS,Running,Action
+H-1845,NEW 1215,05/07/2026,BD OPS,Running,Action
+H-1846,NEO 2863,,,Sold,Action
+H-1847,NEO 2864,,,Sold,Action
+H-1848,,,,Sold,Action
+H-1849,TQQ 490,10/31/2024,VAS OPS,Condemn,Action
+H-185,UVQ 936,,,Sold,Action
+H-1850,NA,,INTERCITY,Sold,Action
+H-1851,NID 9935,,,Sold,Action
+H-1852,NA,,INTERCITY,Sold,Action
+H-1853,NID 9936,,,Sold,Action
+H-1854,NBB 6793,03/31/2026,VAS OPS,Running,Action
+H-1855,DAF 9117,07/07/2025,BD OPS,Running,Action
+H-1856,DAF 5434,04/07/2026,VAS OPS,Running,Action
+H-1857,DAF 7135,05/07/2026,VAS OPS,Running,Action
+H-1858,,,INTERCITY,Condemn,Action
+H-1859,PNQ 346,06/14/2023,INTERCITY,Condemn,Action
+H-186,WIE 516,,,Sold,Action
+H-1860,PNQ 596,,INTERCITY,Condemn,Action
+H-1861,NBJ 2152,02/14/2026,VAS OPS,Running,Action
+H-1862,NEX 8064,04/14/2026,VAS OPS,Running,Action
+H-1863,NEX 8067,07/17/2025,VAS OPS,Running,Action
+H-1864,NEX 8066,07/18/2025,VAS OPS,Running,Action
+H-1865,NEX 8065,05/14/2026,VAS OPS,Running,Action
+H-1866,NAU 3287,07/21/2025,,Running,Action
+H-1867,NES 3043,03/14/2026,VAS OPS,Running,Action
+H-1868,NES 3044,04/14/2026,VAS OPS,Running,Action
+H-1869,NES 3045,05/14/2026,VAS OPS,Running,Action
+H-187,WIE 514,,,Sold,Action
+H-1870,NES 3042,,,Sold,Action
+H-1871,NDC 4641,01/14/2026,BD OPS,Available,Action
+H-1872,NFG 4489,09/17/2025,INTERCITY,Available,Action
+H-1873,NFG 4496,06/30/2026,BD OPS,Available,Action
+H-1874,NFG 4497,07/17/2025,INTERCITY,Available,Action
+H-1875,NFG 4493,03/31/2026,INTERCITY,Available,Action
+H-1876,NFG 4492,02/28/2026,INTERCITY,Available,Action
+H-1877,NFG 4490,10/17/2025,INTERCITY,Available,Action
+H-1878,NFG 4495,05/31/2026,INTERCITY,Available,Action
+H-1879,NFG 4494,04/30/2026,INTERCITY,Available,Action
+H-188,WRI 549,,,Sold,Action
+H-1880,NFG 4499,09/30/2025,INTERCITY,Available,Action
+H-1881,NFG 4502,02/28/2026,INTERCITY,Available,Action
+H-1882,NFG 4501,01/17/2026,INTERCITY,Available,Action
+H-1883,NFG 4491,01/31/2026,INTERCITY,Available,Action
+H-1884,NFG 4498,08/31/2025,INTERCITY,Available,Action
+H-1885,NFG 4500,10/31/2025,INTERCITY,Available,Action
+H-1886,AOA 8787,07/21/2025,BD OPS,Available,Action
+H-1887,NFX 7779,09/21/2025,VAS OPS,Running,Action
+H-1888,NES 2539,09/07/2025,BD OPS,Running,Action
+H-1889,NES 2538,08/07/2025,BD OPS,Running,Action
+H-189,WRI 230,,,Sold,Action
+H-1890,NES 2537,07/07/2025,BD OPS,Available,Action
+H-1891,NES 2541,01/14/2026,N/A,Running,Action
+H-1892,NES 2540,10/14/2025,N/A,Running,Action
+H-1893,NES 2542,02/14/2026,BD OPS,Available,Action
+H-1894,NES 6458,08/14/2025,BD OPS,Available,Action
+H-1895,NES 6459,09/14/2025,BD OPS,Available,Action
+H-1896,,,INTERCITY,Condemn,Action
+H-1897,,,INTERCITY,Condemn,Action
+H-1898,NFJ 6031,01/07/2026,VAS OPS,Running,Action
+H-1899,NFJ 6030,10/04/2025,BD OPS,Running,Action
+H-190,WRI 569,,,Sold,Action
+H-1900,NFJ409,09/04/2025,BD OPS,Running,Action
+H-1901,NFJ4008,08/04/2025,BD OPS,Running,Action
+H-1902,NFJ 4010,10/04/2025,BD OPS,Running,Action
+H-1903,NFJ4007,07/04/2025,N/A,Running,Action
+H-1904,NFJ 8299,,BD OPS,Sold,Action
+H-1905,NFJ 8284,,BD OPS,Sold,Action
+H-1906,NFJ 8276,06/20/2026,BD OPS,Running,Action
+H-1907,NFJ 8293,,BD OPS,Sold,Action
+H-1908,NFJ 8304,,BD OPS,Condemn,Action
+H-1909,NFJ 8306,06/30/2026,BD OPS,Running,Action
+H-191,WRI 280,,,Sold,Action
+H-1910,NFJ 8315,05/07/2026,BD OPS,Running,Action
+H-1911,NFJ 8307,07/04/2025,BD OPS,Running,Action
+H-1912,NIF 9491,,N/A,Sold,Action
+H-1913,NFJ 8297,07/04/2025,BD OPS,Running,Action
+H-1914,NFJ 8296,06/30/2026,BD OPS,Running,Action
+H-1915,NFJ 8303,,BD OPS,Sold,Action
+H-1916,NFJ 8302,02/28/2026,BD OPS,Running,Action
+H-1917,NFJ 8305,05/31/2026,BD OPS,Running,Action
+H-1918,NFJ 8310,10/04/2025,BD OPS,Running,Action
+H-1919,NFJ 8316,,BD OPS,Sold,Action
+H-192,WOD 767,,,Sold,Action
+H-1920,NFJ 8313,03/07/2026,BD OPS,Running,Action
+H-1921,NFJ 8312,02/07/2026,BD OPS,Running,Action
+H-1922,NFJ 8311,01/07/2026,BD OPS,Running,Action
+H-1923,NFJ 8309,09/04/2025,BD OPS,Running,Action
+H-1924,NFJ 8314,04/07/2026,BD OPS,Sold,Action
+H-1925,NFJ 8295,05/31/2026,BD OPS,Running,Action
+H-1926,NFJ 8301,,BD OPS,Sold,Action
+H-1927,NFJ 8275,,BD OPS,Sold,Action
+H-1928,NFJ 8285,05/21/2026,BD OPS,Running,Action
+H-1929,NFJ 8300,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-193,WRI 314,,,Sold,Action
+H-1930,NFJ 8286,06/21/2026,BD OPS,Running,Action
+h-1931,NFJ 8294,04/30/2026,BD OPS,Running,Action
+H-1932,NFJ 8283,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-1933,NFJ 8772,02/21/2026,BD OPS,Running,Action
+H-1934,NFL 3390,10/31/2025,VAS OPS,Running,Action
+H-1935,NFL 3379,09/02/2025,VAS OPS,Running,Action
+H-1936,NFL 3383,02/18/2026,VAS OPS,Running,Action
+H-1937,NFL 3385,05/21/2026,BD OPS,Running,Action
+H-1938,NFL 3389,09/02/2025,VAS OPS,Running,Action
+H-1939,NFL 3378,08/02/2025,VAS OPS,Running,Action
+H-194,WRI 574,,,Sold,Action
+H-1940,NFL 3382,,VAS OPS,Sold,Action
+H-1941,NFL 3384,04/21/2026,BD OPS,Sold,Action
+H-1942,NFL 3387,07/21/2026,VAS OPS,Running,Action
+H-1943,NFL 3377,07/21/2026,VAS OPS,Running,Action
+H-1944,NFL 3381,,VAS OPS,Sold,Action
+H-1945,NFL 4237,07/07/2026,VAS OPS,Running,Action
+H-1946,NFL 3386,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-1947,NFL 3376,06/21/2026,VAS OPS,Running,Action
+H-1948,NFL 3380,10/02/2025,VAS OPS,Running,Action
+H-1949,NFJ 8265,,BD OPS,Sold,Action
+H-195,WOX 940,,,Sold,Action
+H-1950,NFJ 8261,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-1951,NFJ 8267,07/04/2025,BD OPS,Running,Action
+H-1952,NFJ 8254,04/20/2026,BD OPS,Running,Action
+H-1953,NFJ 8272,02/21/2026,BD OPS,Running,Action
+H-1954,NFJ 8270,,BD OPS,Sold,Action
+H-1955,NFJ 8260,10/04/2025,BD OPS,Running,Action
+H-1956,NFJ 8271,01/21/2026,BD OPS,Running,Action
+H-1957,NFJ 8266,,VILLADO TRUCKING SERVICES,Joint ventures,Action
+H-1958,NFJ 8269,09/04/2025,BD OPS,Running,Action
+H-1959,NFJ 8262,02/14/2026,BD OPS,Running,Action
+H-196,WUI 745,,,Sold,Action
+H-1960,NFJ 8264,,BD OPS,Sold,Action
+H-1961,NFJ 8255,05/14/2026,BD OPS,Running,Action
+H-1962,NFJ 8256,06/14/2026,BD OPS,Running,Action
+H-1963,NFJ 8263,03/14/2026,BD OPS,Running,Action
+H-1964,NFJ 8224,04/07/2026,BD OPS,Running,Action
+H-1965,DAF 5430,10/07/2025,N/A,Available,Action
+H-1966,NFD 2987,07/06/2025,VAS OPS,Running,Action
+H-1967,NFD 2986,,N/A,Sold with terms,Action
+H-1968,NFD 2988,08/06/2025,VAS OPS,Running,Action
+H-1969,NFD 2989,09/06/2025,VAS OPS,Running,Action
+H-197,WUI 738,,,Sold,Action
+H-1970,NFD 2990,10/06/2025,VAS OPS,Running,Action
+H-1971,NFD3750,10/06/2025,VAS OPS,Running,Action
+H-1972,NFD3763,03/14/2026,VAS OPS,Running,Action
+H-1973,NFD3751,01/14/2026,VAS OPS,Running,Action
+H-1974,NFD3762,02/14/2026,VAS OPS,Running,Action
+H-1975,NFD3752,02/14/2026,VAS OPS,Running,Action
+H-1976,NFD3764,04/14/2026,VAS OPS,Running,Action
+H-1977,NFD3657,07/06/2025,VAS OPS,Running,Action
+H-1978,NFD3761,01/14/2026,VAS OPS,Running,Action
+H-1979,NFL 4226,06/07/2026,VAS OPS,Running,Action
+H-198,WUI 718,,,Sold,Action
+H-1980,NFL 4236,,N/A,Sold with terms,Action
+H-1981,NFL 4222,02/07/2026,VAS OPS,Running,Action
+H-1982,NFL 4225,05/07/2026,VAS OPS,Running,Action
+H-1983,NFL 4228,08/31/2025,VAS OPS,Running,Action
+H-1984,NFL 4232,02/07/2026,VAS OPS,Running,Action
+H-1985,NFL 4209,09/02/2025,VAS OPS,Running,Action
+H-1986,NFL 4224,04/07/2026,VAS OPS,Running,Action
+H-1987,NFL 4220,10/02/2025,VAS OPS,Running,Action
+H-1988,NFL 4233,03/07/2026,BD OPS,Running,Action
+H-1989,NFL 4223,03/07/2026,VAS OPS,Running,Action
+H-199,WUI 728,,,Sold,Action
+H-1990,NFL 4210,10/31/2025,VAS OPS,Running,Action
+H-1991,NFL 4213,03/07/2026,VAS OPS,Running,Action
+H-1992,NFL 4227,07/07/2026,VAS OPS,Running,Action
+H-1993,NFL 4229,09/30/2025,VAS OPS,Running,Action
+H-1994,NFL 4212,02/07/2026,BD OPS,Running,Action
+H-1995,NFL 4219,09/02/2025,VAS OPS,Running,Action
+H-1996,NFL 4211,01/07/2026,VAS OPS,Running,Action
+H-1997,NFL 4214,04/07/2026,VAS OPS,Running,Action
+H-1998,NFL 4215,05/07/2026,VAS OPS,Running,Action
+H-1999,NFL 4218,08/31/2025,VAS OPS,Running,Action
+H-200,WUI 748,,,Sold,Action
+H-2000,NFL 4231,01/07/2026,VAS OPS,Running,Action
+H-2001,NFL 4221,01/07/2026,VAS OPS,Running,Action
+H-2002,NFL 4217,07/07/2026,VAS OPS,Running,Action
+H-2003,NFL 4216,06/07/2026,VAS OPS,Running,Action
+H-2004,NFL 4230,10/31/2025,VAS OPS,Running,Action
+H-2005,NFL 4234,04/07/2026,VAS OPS,Running,Action
+H-2006,NFL 4235,,N/A,Sold with terms,Action
+H-2007,NCC 2265,,,Sold,Action
+H-2008,NIB 4211,,,Sold,Action
+H-2009,NIB 4210,,,Sold,Action
+H-201,WUI 708,,,Sold,Action
+H-2010,NFL 3946,06/14/2026,BD OPS,Running,Action
+H-2011,NFL 3940,10/31/2025,BD OPS,Running,Action
+H-2012,NFL 3941,01/14/2026,BD OPS,Running,Action
+H-2013,NFD 3163,03/14/2026,BD OPS,Available,Action
+H-2014,NIC 1299,09/14/2025,N/A,Available,Action
+H-2015,NIC 1302,02/28/2026,N/A,Available,Action
+H-2016,NIC 1297,07/14/2025,N/A,Available,Action
+H-2017,NIC 1298,08/14/2025,N/A,Available,Action
+H-2018,NIC 1301,01/31/2026,N/A,Available,Action
+H-2019,NIC 1300,10/14/2025,N/A,Available,Action
+H-202,WUI 746,,,Sold,Action
+H-2020,NEP 5406,,,Sold,Action
+H-2021,NID 4997,07/25/2025,N/A,Available,Action
+H-2022,NID 6695,05/31/2026,BD OPS,Available,Action
+H-2023,NID 4998,08/26/2025,N/A,Available,Action
+H-2024,NID 4996,06/26/2025,BD OPS,Available,Action
+H-2025,NID 5002,02/28/2026,N/A,Available,Action
+H-2026,NID 4999,08/25/2025,N/A,Available,Action
+H-2027,PTO 414,,INTERCITY,Condemn,Action
+H-2028,PNQ 586,,INTERCITY,Condemn,Action
+H-2029,PNQ 692,,INTERCITY,Condemn,Action
+H-203,WRI 564,,,Sold,Action
+H-2030,PNQ 423,,INTERCITY,Condemn,Action
+H-2031,NFO1835,05/08/2026,BD OPS,Available,Action
+H-2032,NFO1840,10/04/2025,BD OPS,Available,Action
+H-2033,NFO1841,01/14/2026,BD OPS,Available,Action
+H-2034,NFO1838,08/04/2025,BD OPS,Available,Action
+H-2035,NFO1842,02/14/2026,BD OPS,Available,Action
+H-2036,NFO1843,03/14/2026,BD OPS,Available,Action
+H-2037,NFO1845,05/08/2026,BD OPS,Available,Action
+H-2038,NFO1837,07/04/2025,BD OPS,Available,Action
+H-2039,NFO1836,10/04/2025,BD OPS,Available,Action
+H-204,WUI 747,,,Sold,Action
+H-2040,NFO1844,10/04/2025,BD OPS,Available,Action
+H-2041,NFO1839,09/04/2025,BD OPS,Available,Action
+H-2042,NER 5508,,,Sold,Action
+H-2043,NER 5507,,,Sold,Action
+H-2044,NIF6423,,N/A,Sold,Action
+H-2045,NIF6424,,N/A,Sold,Action
+H-2046,NIF6425,,N/A,Sold,Action
+H-2047,NIL 8531,04/17/2026,INTERCITY,Available,Action
+H-2048,NIL 8532,04/17/2026,INTERCITY,Available,Action
+H-2049,NIL 8534,04/17/2026,INTERCITY,Available,Action
+H-205,WUI 656,,,Sold,Action
+H-2050,NIL 8535,04/17/2026,INTERCITY,Available,Action
+H-2051,NIL 8536,04/17/2026,INTERCITY,Available,Action
+H-2052,NIL 8537,04/17/2026,INTERCITY,Available,Action
+H-2053,NIL 8538,04/17/2026,INTERCITY,Available,Action
+H-2054,NIN5540,,INTERCITY,Sold,Action
+H-2055,NIN5539,,INTERCITY,Sold,Action
+H-2056,NIN5538,,INTERCITY,Sold,Action
+H-2057,NIN5537,,INTERCITY,Sold,Action
+H-2058,NIN5536,,INTERCITY,Sold,Action
+H-2059,NIN5535,,INTERCITY,Sold,Action
+H-206,WOX 701,,,Sold,Action
+H-2060,NIN5526,,INTERCITY,Sold,Action
+H-2061,NIN5525,,INTERCITY,Sold,Action
+H-2062,NIN5525,05/15/2026,INTERCITY,Available,Action
+H-2063,NIN5541,05/15/2026,INTERCITY,Condemn,Action
+H-2064,NIN5544,05/15/2026,INTERCITY,Available,Action
+H-2065,NIN5534,,INTERCITY,Sold,Action
+H-2066,NIN5533,,INTERCITY,Sold,Action
+H-2067,NIN5532,05/15/2026,VAS OPS,Running,Action
+H-2068,NIN5531,,INTERCITY,Sold,Action
+H-2069,NIN5530,,INTERCITY,Sold,Action
+H-207,WIW 350,,,Sold,Action
+H-2070,NIN5529,,INTERCITY,Sold,Action
+H-2071,NIN5528,,INTERCITY,Sold,Action
+H-2072,NIN5527,,INTERCITY,Sold,Action
+H-2073,NIN5543,05/15/2026,INTERCITY,Available,Action
+H-2074,PNQ 422,,INTERCITY,Condemn,Action
+H-2075,PTO 434,,INTERCITY,Condemn,Action
+H-2076,PNQ 406,,INTERCITY,Condemn,Action
+H-2077,PNQ 476,,INTERCITY,Condemn,Action
+H-2078,PTO 456,,INTERCITY,Condemn,Action
+H-2079,NIK 4845,06/29/2026,INTERCITY,Available,Action
+H-208,WIW 351,,,Sold,Action
+H-2080,NIK 4840,06/29/2026,INTERCITY,Available,Action
+H-2081,NIK 4842,06/29/2026,VAS OPS,Running,Action
+H-2082,NIK 4838,06/29/2026,VAS OPS,Running,Action
+H-2083,NIK 4841,06/29/2026,VAS OPS,Running,Action
+H-2084,NIK 4849,,N/A,Sold,Action
+H-2085,NIK 4837,,N/A,Sold,Action
+H-2086,NIK 4839,06/29/2026,N/A,Available,Action
+H-2087,NIK 4848,,N/A,Sold,Action
+H-2088,NIK 4847,06/29/2026,N/A,Available,Action
+H-2089,NIK 4843,06/29/2026,N/A,Available,Action
+H-209,WIW 346,,,Sold,Action
+H-2090,NIK 4844,06/29/2026,N/A,Available,Action
+H-2091,NIK 4846,,N/A,Sold,Action
+H-2092,NIK 4836,06/29/2026,N/A,Available,Action
+H-2093,GAU 3765,,,Sold,Action
+H-2094,GAU 3775,,,Sold,Action
+H-2095,GAJ 1993,,,Sold,Action
+H-2096,NHA 2799,,N/A,Sold,Action
+H-2097,NIK 4852,06/29/2026,N/A,Available,Action
+H-2098,NIK 4854,06/29/2026,N/A,Available,Action
+H-2099,NIK 4853,,N/A,Sold,Action
+H-210,WIW 348,,,Sold,Action
+H-2100,NIK 4850,06/29/2026,N/A,Available,Action
+H-2101,NIK 4851,06/29/2026,N/A,Available,Action
+H-2102,NCK 9134,,N/A,Sold,Action
+H-2103,NFF 6831,,,Sold,Action
+H-2104,NFF 6841,,,Sold,Action
+H-2105,NFF 6851,,,Sold,Action
+H-2106,NFF 6861,,,Sold,Action
+H-2107,NFF 6871,,,Sold,Action
+H-2108,NFF 6901,,,Sold,Action
+H-2109,NFS 3732,,,Sold,Action
+H-211,WIW 349,,,Sold,Action
+H-2110,NFS 3741,,,Sold,Action
+H-2111,NFS 3742,,,Sold,Action
+H-2112,NFF 6911,,,Sold,Action
+H-2113,NFF 6821,,,Sold,Action
+H-2114,NFS 3722,,,Sold,Action
+H-2115,NFS 3731,,,Sold,Action
+H-2116,NFF 6881,,,Sold,Action
+H-2117,NFF 6891,,,Sold,Action
+H-2118,NHD 9502,02/28/2027,N/A,Available,Action
+H-2119,NHD 9501,01/31/2027,N/A,Available,Action
+H-212,WIW 347,,,Sold,Action
+H-2120,NHD 9492,02/28/2027,N/A,Available,Action
+H-2121,NHD 9491,01/31/2027,N/A,Available,Action
+H-2122,NFS 6361,,CUSTOMER,Sold,Action
+H-2123,NFS 6352,02/28/2027,N/A,Available,Action
+H-2124,NFS 6362,02/28/2027,N/A,Available,Action
+H-2125,NFS 6371,,CUSTOMER,Sold,Action
+H-2126,NFS 6372,02/28/2027,N/A,Available,Action
+H-2127,NFS 6381,01/31/2027,N/A,Available,Action
+H-2128,NKC 2364,04/14/2027,,Available,Action
+H-2129,NFS 6382,02/28/2027,N/A,Available,Action
+H-213,WTO 620,,,Sold,Action
+H-2130,NFS 6411,,CUSTOMER,Sold,Action
+H-2131,NFS 6391,01/31/2027,N/A,Available,Action
+H-2132,NFS 6401,,CUSTOMER,Sold,Action
+H-2133,NFS 6392,02/28/2027,N/A,Available,Action
+H-2134,NFS 6402,02/28/2027,N/A,Available,Action
+H-2135,NFS 6412,,N/A,Sold,Action
+H-2136,NFS 6421,01/31/2027,N/A,Available,Action
+H-2137,NFS 6422,02/28/2027,N/A,Available,Action
+H-2138,NHD 2550,10/31/2026,,Running,Action
+H-2139,NHD 2299,09/30/2026,,Running,Action
+H-214,WTO 629,,,Sold,Action
+H-2140,NHD 2549,09/30/2026,,Running,Action
+H-2141,NIU 9823,03/07/2027,N/A,Available,Action
+H-2142,NIU 9831,01/07/2027,N/A,Available,Action
+H-2143,NIU 9832,02/07/2027,N/A,Available,Action
+H-2144,NIU 9833,03/07/2027,N/A,Available,Action
+H-2145,NKC 3204,04/30/2027,N/A,Available,Action
+H-2146,NKC 3203,03/31/2027,N/A,Available,Action
+H-2147,NKC 3214,04/07/2027,,Available,Action
+H-2148,NKC 3205,05/31/2027,,Available,Action
+H-2149,NKC 3216,06/07/2027,,Available,Action
+H-215,WTO 630,,,Sold,Action
+H-2150,NKC 3215,05/07/2027,,Available,Action
+H-2151,NKC 3206,06/30/2027,,Available,Action
+H-2152,NKC 3164,04/14/2027,,Available,Action
+H-2153,NKC 3165,05/14/2027,,Available,Action
+H-2154,NKC 3166,06/14/2027,,Available,Action
+H-2155,NKC 3173,03/21/2027,,Available,Action
+H-2156,NKC 3174,04/21/2027,,Available,Action
+H-2157,NKC 3175,05/21/2027,,Available,Action
+H-2158,NKC 3176,06/21/2027,,Available,Action
+H-2159,NKC 3183,03/21/2027,,Available,Action
+H-216,WIE 562,,,Sold,Action
+H-2160,NKC 3184,04/21/2027,,Available,Action
+H-2161,NKC 3185,05/21/2027,,Available,Action
+H-2162,NKC 3186,06/21/2027,,Available,Action
+H-2163,NKC 3193,03/31/2027,,Available,Action
+H-2164,NKC 3194,04/30/2027,,Available,Action
+H-2165,NKC 3195,05/31/2027,,Available,Action
+H-2166,NKC 3196,06/30/2027,,Available,Action
+H-2167,NKC 3224,04/07/2027,,Available,Action
+H-2168,NKC 3225,05/07/2027,,Available,Action
+H-2169,NKC 3226,06/07/2027,,Available,Action
+H-217,FJH 240,,,Sold,Action
+H-2170,NKC 3233,03/07/2027,,Available,Action
+H-2171,NKC 3234,04/07/2027,,Available,Action
+H-2172,NLC 3235,05/07/2027,,Available,Action
+H-2173,NKC 3243,03/14/2027,,Available,Action
+H-2174,NKC 3236,06/07/2027,,Available,Action
+H-2175,NKE 4774,04/21/2027,,Available,Action
+H-2176,NKE 4745,,,Sold,Action
+H-2177,NKE 4767,,,Sold,Action
+H-2178,NKE 4765,,,Sold,Action
+H-2179,NKE 4747,,,Sold,Action
+H-218,WIE 519,,,Sold,Action
+H-2180,NKE 4764,,,Sold,Action
+H-2181,NKE 4756,,,Sold,Action
+H-2182,NKE 4744,04/14/2027,,Available,Action
+H-2183,NKE 4754,,,Sold,Action
+H-2184,NKE 4757,07/14/2027,,Available,Action
+H-2185,NKE 4755,,,Sold,Action
+H-2186,NKE 4766,,,Sold,Action
+H-2187,NKE 4777,07/21/2027,,Available,Action
+H-2188,NKE 4737,07/07/2027,,Available,Action
+H-2189,NKE 4736,06/07/2027,,Available,Action
+H-219,WTO 619,,,Condemn,Action
+H-2190,NKE 4776,06/21/2027,,Available,Action
+H-2191,NKE 4775,,,Sold,Action
+H-2192,NKE 4784,04/21/2027,,Available,Action
+H-2193,NKE 4746,,,Sold,Action
+H-2194,NKJ 6279,09/21/2027,,Available,Action
+H-2195,NKJ 6826,06/07/2027,,Available,Action
+H-2196,NKJ 6829,,,Sold,Action
+H-2197,NKJ 6828,08/07/2027,,Available,Action
+H-2198,NKJ 6827,07/07/2027,,Available,Action
+H-2199,NKF 6407,,,Sold,Action
+H-220,AHF 242,,,Sold,Action
+H-2200,NKF 6398,,,Sold,Action
+H-2201,NKF 6400,,,Sold,Action
+H-2202,NKF 6399,,,Sold,Action
+H-2203,NKK 8668,08/14/2027,N/A,Available,Action
+H-2204,NKK 8660,10/14/2027,N/A,Available,Action
+H-2205,NKK 8658,08/14/2027,N/A,Available,Action
+H-2206,NKK 8659,09/14/2027,N/A,Available,Action
+H-2207,NKF 6499,,,Sold,Action
+H-2208,NKF 6488,,,Sold,Action
+H-2209,NKF 6519,09/07/2027,,Sold,Action
+H-221,MGD 620,,,Sold,Action
+H-2210,NKF 6507,07/31/2027,,Sold,Action
+H-2211,NKF 6520,10/07/2027,,Sold,Action
+H-2212,NKF 6500,10/31/2027,,Sold,Action
+H-2213,NKF 6517,07/07/2027,,Sold,Action
+H-2214,NKF 6510,10/07/2027,,Sold,Action
+H-2215,NKG 6778,08/21/2027,N/A,Available,Action
+H-2216,NKG 6768,08/14/2027,N/A,Sold,Action
+H-2217,NKG 6758,08/14/2027,N/A,Sold,Action
+H-2218,NKG 6828,08/07/2027,N/A,Sold,Action
+H-2219,NKG 6818,08/07/2027,N/A,Sold,Action
+H-222,MGD 630,,,Sold,Action
+H-2220,NKG 6838,08/07/2027,N/A,Sold,Action
+H-2221,NKG 6888,08/21/2027,N/A,Sold,Action
+H-2222,NKG 6858,08/14/2027,N/A,Sold,Action
+H-2223,NKG 6868,08/14/2027,N/A,Sold,Action
+H-2224,NKG 6848,08/14/2027,N/A,Available,Action
+H-2225,NKG 6788,08/21/2027,N/A,Sold,Action
+H-2226,NKG 6878,08/21/2027,N/A,Sold,Action
+H-2227,NKG 6798,08/31/2027,N/A,Sold,Action
+H-2228,NKG 6808,08/31/2027,N/A,Sold,Action
+H-2229,NKH 5549,09/14/2027,N/A,Available,Action
+H-223,WIE 714,,,Sold,Action
+H-2230,NKH 5539,09/07/2027,N/A,Available,Action
+H-2231,NKH 5540,10/14/2027,VAS OPS,Running,Action
+H-2232,NKH 5530,10/07/2027,N/A,Running,Action
+H-2233,NKH 5529,09/07/2027,VAS OPS,Running,Action
+H-2234,NKH 5520,10/07/2027,N/A,Available,Action
+H-2235,NKK 6238,08/07/2027,,Available,Action
+H-2236,NKK 6230,10/07/2027,,Available,Action
+H-2237,NKK 6240,10/14/2027,,Available,Action
+H-2238,NKK 6239,09/07/2027,,Available,Action
+H-2239,NKK 6249,09/14/2027,,Available,Action
+H-224,WIE 520,,,Sold,Action
+H-2240,NKK 6248,08/14/2027,,Available,Action
+H-2241,NKR 1473,03/21/2028,N/A,Available,Action
+H-2242,NKR 1471,01/21/2028,N/A,Available,Action
+H-2243,NKR 1444,04/14/2028,N/A,Available,Action
+H-2244,NKR 1472,02/21/2028,N/A,Available,Action
+H-2245,NKR 1454,04/14/2028,N/A,Available,Action
+H-2246,NKR 1453,03/14/2028,N/A,Available,Action
+H-2247,NKR 1344,04/14/2028,N/A,Available,Action
+H-2248,NKR 1474,04/21/2028,N/A,Available,Action
+H-2249,NKR 1451,01/14/2028,N/A,Available,Action
+H-225,WIE 521,,,Sold,Action
+H-2250,NKR 1452,02/14/2028,N/A,Available,Action
+H-2251,NKO 3983,03/21/2028,N/A,Available,Action
+H-2252,NKO 3992,02/29/2028,N/A,Available,Action
+H-2253,NKO 3972,02/21/2028,N/A,Available,Action
+H-2255,NKO 3982,02/21/2028,N/A,Available,Action
+H-2257,NKO 3981,01/21/2028,N/A,Available,Action
+H-2259,NKO 3993,03/31/2028,N/A,Available,Action
+H-226,WIE 518,,,Sold,Action
+H-2263,NKO 3961,01/24/2028,N/A,Available,Action
+H-2264,NKO 3953,03/14/2028,N/A,Available,Action
+H-2265,NKO 3952,02/14/2028,N/A,Available,Action
+H-2266,NKO 3951,01/14/2028,N/A,Available,Action
+H-2267,NKO 3971,01/21/2028,N/A,Available,Action
+H-2268,NKO 3991,01/31/2028,N/A,Available,Action
+H-2269,NKO 3963,03/14/2028,N/A,Available,Action
+H-227,WIE 522,,,Sold,Action
+H-2270,NKO 3962,02/14/2028,N/A,Available,Action
+H-228,WIE 506,,,Sold,Action
+H-229,WIW 456,,,Sold,Action
+H-230,WIW 461,,,Sold,Action
+H-231,WIW 459,,,Sold,Action
+H-232,WIW 458,,,Sold,Action
+H-233,WIW 455,,,Sold,Action
+H-234,WIW 460,,,Sold,Action
+H-235,APA 3114,,,Sold,Action
+H-236,ZJB 454,,,Condemn,Action
+H-237,130103,,,Sold,Action
+H-238,MGD 821,,,Sold,Action
+H-239,MGD 823,,,Sold,Action
+H-240,WIW 462,,,Sold,Action
+H-241,WIW 457,,,Sold,Action
+H-242,WIW 324,,,Sold,Action
+H-243,WIW 321,,,Sold,Action
+H-244,WIW 320,,,Sold,Action
+H-245,WIW 322,,,Sold,Action
+H-246,WIW 771,,,Sold,Action
+H-247,WOY 824,,,Sold,Action
+H-248,MGD 781,,,Sold,Action
+H-249,MGD 782,,,Sold,Action
+H-250,MGD 791,,,Sold,Action
+H-251,WIW 366,,,Sold,Action
+H-252,WOD 764,,,Sold,Action
+H-253,WIW 342,,,Sold,Action
+H-254,WOD 723,,,Sold,Action
+H-255,WIW 344,,,Sold,Action
+H-256,WIW 345,,,Sold,Action
+H-257,WIW 341,,,Sold,Action
+H-258,WIW 343,,,Sold,Action
+H-259,WIW 367,,,Sold,Action
+H-260,WOD 762,,,Sold,Action
+H-261,WOD 765,,,Sold,Action
+H-262,WOD 761,,,Sold,Action
+H-263,APA3117,,,Sold,Action
+H-264,APA 3089,,,Sold,Action
+H-265,WOD 720,,,Sold,Action
+H-266,WOD 760,,,Sold,Action
+H-267,APA 3118,,,Sold,Action
+H-268,WIW 323,,,Sold,Action
+H-269,130103,,,Sold,Action
+H-270,APA 3095,,,Sold,Action
+H-271,APA 3094,,,Sold,Action
+H-272,AQA 8545,,,Sold,Action
+H-273,APA 3092,,,Sold,Action
+H-274,WOD 769,,,Sold,Action
+H-275,MGD 792,,,Condemn,Action
+H-276,MGD 772,,,Sold,Action
+H-277,APA 3115,,,Sold,Action
+H-278,WOD 721,,,Sold,Action
+H-279,WOD 766,,,Sold,Action
+H-280,AAJ 1537,,,Sold,Action
+H-281,AAJ 1538,,,Sold,Action
+H-282,AAJ 1534,,,Sold,Action
+H-283,AAJ 1535,,,Sold,Action
+H-284,AAJ 1539,,,Sold,Action
+H-285,APA 3090,,,Condemn,Action
+H-286,AAJ 1542,,,Sold,Action
+H-287,AAJ 1544,,,Sold,Action
+H-288,AHF 237,,,Sold,Action
+H-289,AHF 249,,,Sold,Action
+H-290,WOD 652,,,Sold,Action
+H-291,WOD 722,,,Sold,Action
+H-292,CNE 395,,,Condemn,Action
+H-293,APA 3116,,,Sold,Action
+H-294,WOD 768,,,Sold,Action
+H-295,APA 3091,,,Sold,Action
+H-296,APA 3088,,,Condemn,Action
+H-297,AAJ 1705,,,Sold,Action
+H-298,AAJ 1704,,,Sold,Action
+H-299,,,N/A,Joint ventures,Action
+H-300,,,N/A,Joint ventures,Action
+H-301,AAJ 1707,,,Sold,Action
+H-302,AAJ 1706,,,Sold,Action
+H-303,AAJ 1517,,,Sold,Action
+H-304,AAJ 1503,,,Sold,Action
+H-305,APA 3093,,,Sold,Action
+H-306,AAJ 1536,,,Sold,Action
+H-307,AAJ 1546,,,Sold,Action
+H-308,APA 3873,,,Sold,Action
+H-309,AAJ 1532,,,Sold,Action
+H-310,AAJ 1502,,,Sold,Action
+H-311,AAJ 1702,,,Joint ventures,Action
+H-312,AAJ 1531,,,Sold,Action
+H-313,AAJ 1545,,,Sold,Action
+H-314,AAJ 1698,,,Sold,Action
+H-315,AAJ 1697,,,Sold,Action
+H-316,AAJ 1533,,,Sold,Action
+H-317,MGD 771,,,Old Unit In Ic,Action
+H-318,AHF 236,,,Sold,Action
+H-319,AHF 239,,,Sold,Action
+H-320,AAJ 1541,,,Sold,Action
+H-321,AAJ 1549,,,Sold,Action
+H-322,AAJ 1708,,,Sold,Action
+H-323,AAJ 1701,,,Sold,Action
+H-324,AAJ 1703,,,Sold,Action
+H-325,N/A,,,Sold,Action
+H-326,AAU 1576,,PENDING FOR TRANSFER,Sold,Action
+H-327,AAU 1578,,,Sold,Action
+H-328,WQH 830,,,Sold,Action
+H-329,WQH 881,,,Sold,Action
+H-330,AAJ 1712,,,Sold,Action
+H-331,AAJ 1999,,,Sold,Action
+H-332,N/A,,CUSTOMER,Sold,Action
+H-333,N/A,,CUSTOMER,Sold,Action
+H-334,APA 3098,,,Sold,Action
+H-335,ABA 8680,,,Joint ventures,Action
+H-336,APA 3097,,,Sold,Action
+H-337,APA 3099,,,Sold,Action
+H-338,W/OR&CR,,,Joint ventures,Action
+H-339,APA 3860,,,Sold,Action
+H-340,WQH 930,,,Sold,Action
+H-341,WQH 871,,,Sold,Action
+H-342,WQH 861,,,Sold,Action
+H-343,APA 3076,,,Sold,Action
+H-344,APA 3084,,,Sold,Action
+H-345,130104,,,Sold,Action
+H-346,APA 3077,,,Sold,Action
+H-347,N/A,,CUSTOMER,Sold,Action
+H-348,WQH 890,,,Old Unit In Ic,Action
+H-349,APA 3331,,,Sold,Action
+H-350,APA 3334,,,Sold,Action
+H-351,APA 3086,,,Sold,Action
+H-352,APA 3329,,,Sold,Action
+H-353,APA 3335,,,Sold,Action
+H-354,APA 3066,,,Sold,Action
+H-355,TCI 833,,,Condemn,Action
+H-356,PQA 453,,,Condemn,Action
+H-357,TCI 804,,,Sold,Action
+H-358,TCI 823,,,Condemn,Action
+H-359,PNQ 379,,,Condemn,Action
+H-360,TQZ 271,,,Condemn,Action
+H-361,PQA 471,,,Condemn,Action
+H-362,LMU 163,,,Condemn,Action
+H-363,POD 425,,,Condemn,Action
+H-364,POD 355,,,Condemn,Action
+H-365,THQ 756,,,Condemn,Action
+H-366,PIK 337,,,Sold,Action
+H-367,PIK 347,,,Sold,Action
+H-368,PIK 406,,,Sold,Action
+H-369,PIK 416,,,Sold,Action
+H-37,UCP 286,,,Condemn,Action
+H-370,138007,,,Sold,Action
+H-371,APA 3075,,,Sold,Action
+H-372,APA 3078,,,Sold,Action
+H-373,APA 3079,,,Sold,Action
+H-374,APA 3073,,,Sold,Action
+H-375,APA 3072,,,Sold,Action
+H-376,APA 3082,,,Sold,Action
+H-377,APA 3074,,PENDING FOR TRANSFER,Sold,Action
+H-378,APA 3081,,,Sold,Action
+H-379,ABA 8677,,,Sold,Action
+H-380,ABA 8678,,,Sold,Action
+H-381,ABA 8675,,,Sold,Action
+H-382,ABA 8671,,,Sold,Action
+H-383,ABA 8670,,,Sold,Action
+H-384,ABA 8669,,,Sold,Action
+H-385,ABA 8674,,,Sold,Action
+H-386,ABA 8676,,,Sold,Action
+H-387,WQH 791,,,Joint ventures,Action
+H-388,ABA 8679,,,Sold,Action
+H-389,WQH 860,,,Old Unit In Ic,Action
+H-390,APA 3085,,,Sold,Action
+H-391,ABA 8672,,,Sold,Action
+H-392,ABA 8673,,,Sold,Action
+H-393,WQH 840,,,Sold,Action
+H-394,APA 3050,,,Sold,Action
+H-395,WQH 850,,JASON NG,Sold,Action
+H-396,APA 3052,,,Sold,Action
+H-397,WQH 851,,,Sold,Action
+H-398,APA 3048,,,Sold,Action
+H-399,WQH 810,,,Sold,Action
+H-400,APA 3053,,,Sold,Action
+H-401,WQH 790,,,Joint ventures,Action
+H-402,APA 3051,,,Sold,Action
+H-403,WQH 821,,,Sold,Action
+H-404,APA 3049,,,Sold,Action
+H-405,APA 3080,,,Sold,Action
+H-406,WQH 820,,JASON NG,Sold,Action
+H-407,ABA 9041,,,Sold,Action
+H-408,APA 3083,,,Sold,Action
+H-409,APA 3087,,,Sold,Action
+H-410,AGA 6957,,PENDING FOR TRANSFER,Sold,Action
+H-411,AGA 6961,,,Sold,Action
+H-412,AGA 6956,,PENDING FOR TRANSFER,Sold,Action
+H-413,AGA 6960,,,Sold,Action
+H-414,WQH 910,,,Sold,Action
+H-415,APA 3130,,,Sold,Action
+H-416,AGA 6965,,,Sold,Action
+H-417,AGA 7173,,,Sold,Action
+H-418,AGA 6958,,,Sold,Action
+H-419,AGA 6959,,,Sold,Action
+H-420,ABA 9042,,PENDING FOR TRANSFER,Sold,Action
+H-421,ABA 9044,,,Sold,Action
+H-422,APA 3096,,,Sold,Action
+H-423,APA 3100,,,Sold,Action
+H-424,ABA 9045,,PENDING FOR TRANSFER,Sold,Action
+H-425,ABA 9043,,,Sold,Action
+H-426,AVA 4099,,,Joint ventures,Action
+H-427,CONDEMN,N/A,INTERCITY,Condemn,Action
+H-428,APA 3137,,,Joint ventures,Action
+H-429,APA3132,,,Joint ventures,Action
+H-430,APA 3131,,,Sold,Action
+H-431,APA 3136,,PENDING FOR TRANSFER,Sold,Action
+H-432,APA 3135,,PENDING FOR TRANSFER,Sold,Action
+H-433,AGA 7171,,,Sold,Action
+H-434,APA 3133,,,Sold,Action
+H-435,AGA 7172,,CUSTOMER,Sold,Action
+H-436,APA 3134,,PENDING FOR TRANSFER,Sold,Action
+H-437,APA 3138,,,Sold,Action
+H-438,130101,,PENDING FOR TRANSFER,Sold,Action
+H-439,WQH 841,,,Condemn,Action
+H-440,WQH 801,,,Sold,Action
+H-441,APA 3124,,,Sold,Action
+H-442,APA 3128,,,Sold,Action
+H-443,APA 3125,,,Sold,Action
+H-444,APA 3127,,,Sold,Action
+H-445,APA 3126,,,Sold,Action
+H-446,APA 3129,,,Sold,Action
+H-447,ABF 8671,,,Sold,Action
+H-448,ABF 8669,,,Sold,Action
+H-449,ABF 8667,,,Sold,Action
+H-450,ABF 8675,,,Sold,Action
+H-451,ABF 8673,,,Joint ventures,Action
+H-452,ABF 8672,,,Sold,Action
+H-453,ABF 8670,,,Sold,Action
+H-454,ABF 8674,,,Sold,Action
+H-455,ABF 8668,,,Sold,Action
+H-456,AGA 7300,,,Sold,Action
+H-457,AGA 7244,,PENDING FOR TRANSFER,Sold,Action
+H-458,AGA 7241,,PENDING FOR TRANSFER,Sold,Action
+H-459,AGA 7243,,,Sold,Action
+H-46,UHX 898,N/A,Customer,Sold,Action
+H-460,0,,INTERCITY,Sold,Action
+H-461,AGA 7242,,PENDING FOR TRANSFER,Sold,Action
+H-462,ABA 9036,N/A,Customer,Sold,Action
+H-463,ABA 9037,N/A,Customer,Sold,Action
+H-464,ABA 9891,,,Sold,Action
+H-465,ABA 9033,,,Sold,Action
+H-466,ABA 9032,,,Sold,Action
+H-467,APA 3863,,,Sold,Action
+H-468,ABA 9030,,,Sold,Action
+H-469,ABA 9029,,,Sold,Action
+H-470,ABA 9892,,,Sold,Action
+H-471,ABA 9028,,,Sold,Action
+H-472,ABA 9038,,,Condemn,Action
+H-473,ABA 9046,,,Sold,Action
+H-474,ABA 9039,,,Sold,Action
+H-475,ABA 9040,,,Sold,Action
+H-476,ABA 9035,,,Sold,Action
+H-477,ABA 9034,,,Sold,Action
+H-478,ACA 1196,,,Sold,Action
+H-479,ABA 9031,,,Sold,Action
+H-480,N/A,,CUSTOMER,Sold,Action
+H-481,N/A,,CUSTOMER,Sold,Action
+H-482,N/A,,CUSTOMER,Sold,Action
+H-483,N/A,,CUSTOMER,Sold,Action
+H-484,N/A,,CUSTOMER,Sold,Action
+H-485,N/A,,CUSTOMER,Sold,Action
+H-486,AVA 4098,,,Sold,Action
+H-487,12/0/103,,PENDING FOR TRANSFER,Sold,Action
+H-488,12/01/03,,PENDING FOR TRANSFER,Sold,Action
+H-489,AVA 3569,,,Sold,Action
+H-490,AVA 3573,03/10/2023,,Condemn,Action
+H-491,AVA 4097,,,Sold,Action
+H-492,AVA 3576,,,Sold,Action
+H-493,AVA 3570,,,Sold,Action
+H-494,AVA 3571,,,Sold,Action
+H-495,AVA 3574,,,Sold,Action
+H-496,AVA 3572,,,Sold,Action
+H-497,AVA 3575,,,Condemn,Action
+H-498,AVA 3568,,,Sold,Action
+H-499,N/A,,N/A,Sold,Action
+H-500,APA 3861,,,Sold,Action
+H-501,N/A,,,Sold,Action
+H-502,APA 3862,,,Sold,Action
+H-503,ABG 3049,,,Sold,Action
+H-504,ABD 1268,,,Condemn,Action
+H-505,AGA7170,,,Sold,Action
+H-506,N/A,,CUSTOMER,Sold,Action
+H-507,AVA 4095,,PENDING FOR TRANSFER,Sold,Action
+H-508,0,,INTERCITY,Sold,Action
+H-509,APA 3875,,,Sold,Action
+H-510,APA 3874,,,Sold,Action
+H-511,APA 3876,,,Sold,Action
+H-512,APA 3877,,N/A,Condemn,Action
+H-513,WQH 920,,PENDING FOR TRANSFER,Sold,Action
+H-514,WQH 901,N/A,Intercity,Sold,Action
+H-515,WQH 931,,,Sold,Action
+H-516,WQH 921,,,Sold,Action
+H-517,AVA 4096,,,Sold,Action
+H-518,AGA 3120,,PENDING FOR TRANSFER,Sold,Action
+H-519,0,0,INTERCITY,Available,Action
+H-520,N/A,N/A,CUSTOMER,Sold,Action
+H-521,AAW 9855,,VAS OPS,Under Repair,Action
+H-522,AAO 1099,09/30/2025,VAS OPS,Running,Action
+H-523,AAO 1097,07/31/2025,VAS OPS,Running,Action
+H-524,AAO 1098,08/31/2025,VAS OPS,Running,Action
+H-525,AAO 1100,10/31/2025,VAS OPS,Running,Action
+H-526,AAO 1101,01-31-2026,BD OPS,Running,Action
+H-527,AAO 1102,02/28/2026,VAS OPS,Running,Action
+H-528,AAO 1103,03/31/2026,VAS OPS,Running,Action
+H-529,AAO 1104,04/30/2026,VAS OPS,Running,Action
+H-53,ULH 380,,,Condemn,Action
+H-530,AEA 4674,04/21/2026,VAS OPS,Running,Action
+H-531,AAO 1106,06/30/2026,VAS OPS,Running,Action
+H-532,AVA 4322,,,Sold,Action
+H-533,AVA 3578,,,Sold,Action
+H-534,AVA 3577,,N/A,N/A,Action
+H-535,138001,,,Sold,Action
+H-536,AVA 4834,,,Sold,Action
+H-537,AVA 4839,,,Sold,Action
+H-538,130110,,,Joint ventures,Action
+H-539,AVA 4844,,,Sold,Action
+H-540,AVA 4843,,,Sold,Action
+H-541,AVA 4840,,,Sold,Action
+H-542,138001,,,Sold,Action
+H-543,AVA 4835,,,Sold,Action
+H-544,WQH 811,,,Sold,Action
+H-545,AVA 4841,,,Sold,Action
+H-546,AVA 4837,,,Joint ventures,Action
+H-547,AVA 4838,,,Joint ventures,Action
+H-548,AVA 4842,,,Joint ventures,Action
+H-549,AVA 4836,,,Joint ventures,Action
+H-550,N/A,,CUSTOMER,Sold,Action
+H-551,N/A,,CUSTOMER,Sold,Action
+H-552,AVA 4320,,,Sold,Action
+H-553,AVA 4787,,,Joint ventures,Action
+H-554,138001,,,Joint ventures,Action
+H-555,AVA 4788,,,Joint ventures,Action
+H-556,AVA 4789,,,Joint ventures,Action
+H-557,138001,,,Joint ventures,Action
+H-558,AVA 4790,,,Joint ventures,Action
+H-559,AGA 3127,,,Sold,Action
+H-560,AVA 4801,,,Sold,Action
+H-561,138001,,,Sold,Action
+H-562,AVA 4786,,,Joint ventures,Action
+H-563,AVA 4816,,,Sold,Action
+H-564,AGA 3117,,,Sold,Action
+H-565,ABD 1076,,,Sold,Action
+H-566,APA 3090,,,Sold,Action
+H-567,WQH 911,,,Sold,Action
+H-568,WQH 891,,,Sold,Action
+H-569,WQH 880,,,Sold,Action
+H-570,ABD 1075,6/3/2022,Intercity,Available,Action
+H-571,AVA 4817,,,Sold,Action
+H-572,AVA 4815,,,Sold,Action
+H-573,AVA 4814,,,Sold,Action
+H-574,AWA 5743,,,Sold,Action
+H-575,AWA 5745,,N/A,Condemn,Action
+H-576,AWA 5742,02/14/2026,VAS OPS,Available,Action
+H-577,AWA 5744,,PENDING FOR TRANSFER,Sold,Action
+H-578,AGA 3122,,N/A,Sold,Action
+H-579,ABD 1079,,PENDING FOR TRANSFER,Sold,Action
+H-580,ARA 7551,01/14/2026,VAS OPS,Running,Action
+H-581,ARA 7547,07/14/2025,VAS OPS,Running,Action
+H-582,ARA 7553,03/14/2026,VAS OPS,Running,Action
+H-583,ARA 7552,02/14/2026,VAS OPS,Running,Action
+H-584,ARA 7550,10/14/2025,VAS OPS,Running,Action
+H-585,ABD 2331,,,Sold,Action
+H-586,ABD 1081,,,Sold,Action
+H-587,ABD 2325,,,Sold,Action
+H-588,ABD 2328,,,Sold,Action
+H-589,130106,,,Sold,Action
+H-590,130101,,,Sold,Action
+H-591,AGA 3121,,,Sold,Action
+H-592,ABD 2330,,,Condemn,Action
+H-593,ABD 2327,,VILLADO TRUCKING SERVICES,Rental,Action
+H-594,ABD 2326,,,Sold,Action
+H-595,ABD 2332,03/04/2023,,Condemn,Action
+H-596,ABD 2333,03/07/2026,,Running,Action
+H-597,ABD1077,N/A,Customer,Sold,Action
+H-598,ABD1080,,,Sold,Action
+H-599,ABD 2329,,,Sold,Action
+H-600,AGA 3118,,PENDING FOR TRANSFER,Sold,Action
+H-601,ABD 1078,,PENDING FOR TRANSFER,Sold,Action
+H-602,ARA 7548,08/14/2025,VAS OPS,Running,Action
+H-603,ARA 7549,09/14/2025,VAS OPS,Running,Action
+H-604,ARA 7554,04/14/2026,VAS OPS,Running,Action
+H-605,ANA 7776,,,Sold,Action
+H-606,ABD 1085,,,Sold,Action
+H-607,AGA 3119,,PENDING FOR TRANSFER,Sold,Action
+H-608,ABD 1083,,PENDING FOR TRANSFER,Sold,Action
+H-609,ABD 1195,,,Sold,Action
+H-610,ABD 1084,,,Sold,Action
+H-611,APA 3088,,,Sold,Action
+H-612,ABD 1069,,,Sold,Action
+H-613,ABD 1068,,,Sold,Action
+H-614,ABD 1072,,,Sold,Action
+H-615,138001,,,Joint ventures,Action
+H-616,ABH 1172,,,Sold,Action
+H-617,N/A,,CUSTOMER,Sold,Action
+H-618,ABD 1070,,,Joint ventures,Action
+H-619,ABD 1071,,,Sold,Action
+H-620,ABD 1115,,SOUTHSEA,Joint ventures,Action
+H-621,ABD 1089,,,Joint ventures,Action
+H-622,ABD 1090,,,Sold,Action
+H-623,ABD 1088,,,Sold,Action
+H-624,NDH 9784,,,Old Unit In Ic,Action
+H-625,N/A,,CUSTOMER,Sold,Action
+H-626,ABT 1119,,,Sold,Action
+H-627,N/A,,CUSTOMER,Sold,Action
+H-628,ABD 1118,,PENDING FOR TRANSFER,Sold,Action
+H-629,130107,,,Sold,Action
+H-630,130107,,,Sold,Action
+H-631,ABD 1154,,,Sold,Action
+H-632,N/A,,CUSTOMER,Sold,Action
+H-633,N/A,,CUSTOMER,Sold,Action
+H-634,ABD 1095,,,Sold,Action
+H-635,ABD 1094,,,Sold,Action
+H-636,ABD 1107,,,Joint ventures,Action
+H-637,ABD 1108,,,Sold,Action
+H-638,ABD 1092,,PENDING FOR TRANSFER,Sold,Action
+H-639,ABD 1093,,,Sold,Action
+H-640,ABD 1120,,SOUTHSEA,Sold,Action
+H-641,ABD 1128,,,Sold,Action
+H-642,ABD 1129,,,Sold,Action
+H-643,ABD 1109,,,Sold,Action
+H-644,ABD 1132,,,Sold,Action
+H-645,ABD 1110,,,Sold,Action
+H-646,ABD 1112,,,Sold,Action
+H-647,ABD 1106,,,Sold,Action
+H-648,ABD 1105,,,Sold,Action
+H-649,URS 634,,,Joint ventures,Action
+H-650,URS 624,,,Sold,Action
+H-651,CMW 820,,,Condemn,Action
+H-652,130109,,VILLADO TRUCKING SERVICES,Sold,Action
+H-653,130109,,,Joint ventures,Action
+H-654,ABD 1122,,,Sold,Action
+H-655,ABD 1123,,PENDING FOR TRANSFER,Sold,Action
+H-656,ABD 1258,,,Sold,Action
+H-657,ABD 1257,,VILLADO TRUCKING SERVICES,Rental,Action
+H-658,ABD 1124,,,Sold,Action
+H-659,ABD 1121,,,Joint ventures,Action
+H-660,ABD 1238,,,Sold,Action
+H-661,ABD 1255,,,Sold,Action
+H-662,130110,,,Sold,Action
+H-663,130110,,,Joint ventures,Action
+H-664,ABD 1254,,,Sold,Action
+H-665,138002,,,Joint ventures,Action
+H-666,ABD 1127,,,Sold,Action
+H-667,130109,,,Sold,Action
+H-668,130110,,PENDING FOR TRANSFER,Sold,Action
+H-669,138002,,,Sold,Action
+H-670,ABD 1125,,,Sold,Action
+H-671,ABD 1126,,,Sold,Action
+H-672,130109,,PENDING FOR TRANSFER,Sold,Action
+H-673,ABD 1114,,VILLADO TRUCKING SERVICES,Sold,Action
+H-674,ABD 1117,,,Sold,Action
+H-675,ABD 1116,,,Sold,Action
+H-676,130101,,,Sold,Action
+H-677,120103,,VILLADO TRUCKING SERVICES,Sold,Action
+H-678,ABD 1130,,,Sold,Action
+H-679,ABD 1113,,,Sold,Action
+H-680,130109,,,Joint ventures,Action
+H-681,130109,,,Joint ventures,Action
+H-682,130109,,,Joint ventures,Action
+H-683,130109,,,Joint ventures,Action
+H-684,130109,,,Joint ventures,Action
+H-685,ABD 1096,,,Joint ventures,Action
+H-686,130109,,,Joint ventures,Action
+H-687,130109,,,Joint ventures,Action
+H-688,ABD 1099,,DN FLEET,Sold,Action
+H-689,130110,,,Sold,Action
+H-69,UPE 156,N/A,Customer,Sold,Action
+H-690,ABD 1265,,,Sold,Action
+H-691,ABD 1263,,PENDING FOR TRANSFER,Sold,Action
+H-692,ABD 1264,,,Sold,Action
+H-693,138002,,,Joint ventures,Action
+H-694,ABD 1237,,,Sold,Action
+H-695,138002,,VILLADO TRUCKING SERVICES,Sold,Action
+H-696,130110,N/A,Customer,Sold,Action
+H-697,130110,,,Condemn,Action
+H-698,130102,5/4/2022,,Condemn,Action
+H-699,ANA 7794,,,Sold,Action
+H-700,138002,,,Condemn,Action
+H-701,ABG 6441,01/14/2026,VAS OPS,Running,Action
+H-702,ABG 6443,03/14/2026,VAS OPS,Running,Action
+H-703,ABG 6436,06/07/2026,VAS OPS,Running,Action
+H-704,130110,,,Sold,Action
+H-705,APA 6250,,VILLADO TRUCKING SERVICES,Sold,Action
+H-706,ABD 1253,N/A,Customer,Sold,Action
+H-707,138002,,,Sold,Action
+H-708,ABG 6435,05/07/2026,VAS OPS,Running,Action
+H-709,ABG 6442,02/14/2026,VAS OPS,Running,Action
+H-710,ABG 6433,03/07/2026,VAS OPS,Running,Action
+H-711,ABG 6430,10/07/2025,VAS OPS,Running,Action
+H-712,ABG 6434,04/07/2026,VAS OPS,Running,Action
+H-713,ABG 6440,,N/A,Condemn,Action
+H-714,ABG 6445,,,Sold,Action
+H-715,138002,,,Sold,Action
+H-716,130110,,,Sold,Action
+H-717,APA 6247,,,Sold,Action
+H-718,APA 6249,,,Sold,Action
+H-719,APA 6246,,,Sold,Action
+H-720,138002,,,Sold,Action
+H-721,130110,,,Sold,Action
+H-722,130110,,,Sold,Action
+H-723,138002,,,Joint ventures,Action
+H-724,138002,,,Joint ventures,Action
+H-725,130101,N/A,Customer,Sold,Action
+H-726,ABH 1436,,,Sold,Action
+H-727,130110,,,Sold,Action
+H-728,ABT 1736,,,Sold,Action
+H-729,ABH 1444,,,Sold,Action
+H-730,130110,,,Sold,Action
+H-731,ABH 1447,,,Sold,Action
+H-732,ABH 1445,,,Sold,Action
+H-733,ABH 1443,,,Sold,Action
+H-734,ABH 1454,,,Sold,Action
+H-735,ABH 1442,,,Sold,Action
+H-736,ABH 1441,,,Sold,Action
+H-737,ABH 1450,,,Sold,Action
+H-738,ABH 1440,,,Sold,Action
+H-739,ABH 1449,,,Sold,Action
+H-740,130110,,,Sold,Action
+H-741,ABT 1735,,,Sold,Action
+H-742,ABH 1438,,,Sold,Action
+H-743,ABT 1739,,,Sold,Action
+H-744,ABH 1448,,,Sold,Action
+H-745,130110,,,Sold,Action
+H-746,130110,,,Sold,Action
+H-747,ABH 1446,,,Sold,Action
+H-748,ABT 1738,,,Sold,Action
+H-749,ABT 1737,,,Sold,Action
+H-750,130110,,,Sold,Action
+H-751,WBC 194,,,Condemn,Action
+H-752,UPZ 626,,,Sold,Action
+H-753,APA 6233,,,Sold,Action
+H-754,N/A,,CUSTOMER,Sold,Action
+H-755,N/A,,CUSTOMER,Sold,Action
+H-756,ABG 6437,07/07/2025,VAS OPS,Running,Action
+H-757,ABG 6428,08/07/2025,VAS OPS,Running,Action
+H-758,ABG 6427,07/07/2025,VAS OPS,Running,Action
+H-759,130111,,,Sold,Action
+H-760,APA 6230,,,Sold,Action
+H-761,APA 6232,,,Sold,Action
+H-762,N/A,N/A,CUSTOMER,Sold,Action
+H-763,APA 6234,,VILLADO TRUCKING SERVICES,Sold,Action
+H-764,N/A,,CUSTOMER,Joint ventures,Action
+H-765,APA 6226,,,Old Unit In Ic,Action
+H-766,APA 6236,,,Sold,Action
+H-767,N/A,,CUSTOMER,Joint ventures,Action
+H-768,APA 6235,,JASON NG,Under,Action
+H-769,N/A,,N/A,Joint ventures,Action
+H-770,138002,,,Sold,Action
+H-771,APA 6237,,,Sold,Action
+H-772,ABG 6431,01/07/2026,VAS OPS,Running,Action
+H-773,ABG 6424,04/07/2026,VAS OPS,Running,Action
+H-774,NDU 5420,,,Sold,Action
+H-775,ABG 6432,02/07/2026,VAS OPS,Running,Action
+H-776,130107,,,Sold,Action
+H-777,ABR 6211,,,Sold,Action
+H-778,N/A,,,Sold,Action
+H-779,N/A,,,Sold,Action
+H-780,N/A,,,Sold,Action
+H-781,N/A,,,Sold,Action
+H-782,N/A,,,Sold,Action
+H-783,N/A,N/A,Customer,Sold,Action
+H-784,N/A,N/A,Customer,Sold,Action
+H-785,N/A,,,Sold,Action
+H-786,N/A,N/A,Customer,Sold,Action
+H-787,ABG 6438,08/07/2025,VAS OPS,Running,Action
+H-788,ABG 6429,09/07/2025,VAS OPS,Running,Action
+H-789,ABG 6426,06/07/2026,VAS OPS,Running,Action
+H-790,N/A,,CUSTOMER,Sold,Action
+H-791,ABR 6219,,,Sold,Action
+H-792,ABR 6212,,,Sold,Action
+H-793,130102,,,Joint ventures,Action
+H-794,NCZ 7937,,,Sold,Action
+H-795,138005,,,Joint ventures,Action
+H-796,130102,,,Sold,Action
+H-797,NCZ 7943,,,Sold,Action
+H-798,130102,,,Sold,Action
+H-799,130103,,,Sold,Action
+H-800,130105,,,Sold,Action
+H-801,130102,,,Sold,Action
+H-802,ABG 6425,05/07/2026,VAS OPS,Running,Action
+H-803,APA 6215,,VILLADO TRUCKING SERVICES,Sold,Action
+H-804,APA 6214,,SOUTHSEA,Sold,Action
+H-805,130110,,,Sold,Action
+H-806,130110,,,Sold,Action
+H-807,AAV 5859,,,Sold,Action
+H-808,AAR 2398,,,Sold,Action
+H-809,ABG 6439,09/07/2025,VAS OPS,Running,Action
+H-810,ABR 6246,,,Sold,Action
+H-811,ABR 6245,,,Sold,Action
+H-812,ABR 6244,,,Sold,Action
+H-813,ABR 6243,,,Sold,Action
+H-814,ABR 6242,,,Sold,Action
+H-815,ABR 6241,,,Sold,Action
+H-816,ABR 6240,,,Sold,Action
+H-817,ABR 6239,,,Sold,Action
+H-818,ABR 6238,,,Sold,Action
+H-819,ABR 6237,,,Sold,Action
+H-820,N/A,,,Sold,Action
+H-821,ADH 2895,,,Sold,Action
+H-822,ADH 2892,,,Sold,Action
+H-823,130102,,,Sold,Action
+H-824,130102,,INTERCITY,Sold,Action
+H-825,130102,,,Sold,Action
+H-826,NCZ 7932,,,Sold,Action
+H-827,130102,,,Joint ventures,Action
+H-828,130102,,,Sold,Action
+H-829,130102,,PENDING FOR TRANSFER,Sold,Action
+H-830,130102,,,Sold,Action
+H-831,130102,,PENDING FOR TRANSFER,Sold,Action
+H-832,130103,,N/A,Condemn,Action
+H-833,130103,,,Sold,Action
+H-834,NCZ 7962,,,Sold,Action
+H-835,130102,,,Sold,Action
+H-836,130102,,,Sold,Action
+H-837,N/A,,CUSTOMER,Sold,Action
+H-838,NCZ 7964,,,Sold,Action
+H-839,130102,,,Sold,Action
+H-840,130102,,,Sold,Action
+H-841,130102,,PENDING FOR TRANSFER,Sold,Action
+H-842,130102,,,Joint ventures,Action
+H-843,130102,,,Sold,Action
+H-844,130103,,VAS OPS,Sold,Action
+H-845,130102,,,Sold,Action
+H-846,130102,,PENDING FOR TRANSFER,Sold,Action
+H-847,130102,,PENDING FOR TRANSFER,Sold,Action
+H-848,NDH 2894,,,Sold,Action
+H-849,NDH 2893,,,Sold,Action
+H-850,N/A,,CUSTOMER,Sold,Action
+H-851,NCZ 7966,,,Sold,Action
+H-852,NO OR CR,,,Condemn,Action
+H-853,NCK 4481,,,Sold,Action
+H-8535,NIL8535,04/17/2026,INTERCITY,Available,Action
+H-854,NDH 3044,,VILLADO TRUCKING SERVICES,Sold,Action
+H-855,130102,,,Sold,Action
+H-856,120104,05/04/2022,,Condemn,Action
+H-857,W/ OR & CR,,PENDING FOR TRANSFER,Sold,Action
+H-858,W/ OR & CR,,PENDING FOR TRANSFER,Sold,Action
+H-859,W/ OR & CR,,PENDING FOR TRANSFER,Sold,Action
+H-860,130103,06/19/2021,,Condemn,Action
+H-861,130103,,,Sold,Action
+H-862,130103,,,Sold,Action
+H-863,ADH 2007,,,Sold,Action
+H-864,NCZ 7971,,VILLADO TRUCKING SERVICES,Sold,Action
+H-865,130103,,,Sold,Action
+H-866,NDQ 6495,,PENDING FOR TRANSFER,Sold,Action
+H-867,NDQ 6496,,PENDING FOR TRANSFER,Sold,Action
+H-868,NDQ 6492,,,Sold,Action
+H-869,NDQ 6491,,,Sold,Action
+H-870,NDQ 6494,,,Sold,Action
+H-871,NDQ 6497,,PENDING FOR TRANSFER,Sold,Action
+H-872,NDQ 6493,,,Sold,Action
+H-873,NDQ 6498,,,Sold,Action
+H-874,NDQ 6499,,,Sold,Action
+H-875,NDQ 6500,,,Sold,Action
+H-876,130103,,,Sold,Action
+H-877,130103,,,Sold,Action
+H-878,138006,,,Sold,Action
+H-879,138006,,,Sold,Action
+H-880,W/ OR & CR,,,Sold,Action
+H-881,NCK 1301,,VILLADO TRUCKING SERVICES,Sold,Action
+H-882,CMW 813,,,Sold,Action
+H-883,TOP 969,,,Joint ventures,Action
+H-884,UIM 691,,,Old Unit In Ic,Action
+H-885,130105,,,Sold,Action
+H-886,130105,N/A,Customer,Sold,Action
+H-887,130105,N/A,Customer,Sold,Action
+H-888,130105,N/A,Customer,Sold,Action
+H-889,130105,N/A,Customer,Sold,Action
+H-890,N/A,,,Sold,Action
+H-891,N/A,,,Sold,Action
+H-892,N/A,,,Sold,Action
+H-893,N/A,,,Sold,Action
+H-894,N/A,,,Sold,Action
+H-895,N/A,N/A,Customer,Sold,Action
+H-896,N/A,,,Sold,Action
+H-897,N/A,N/A,Customer,Sold,Action
+H-898,N/A,N/A,Customer,Sold,Action
+H-899,N/A,,,Sold,Action
+H-900,N/A,,,Sold,Action
+H-9001,TH-41 NDV 8030,10/07/2025,VAS OPS,Running,Action
+H-9002,TH-42 NDV 8029,09/07/2025,VAS OPS,Running,Action
+H-9003 / TH-45,TH-45,,SSDC,Rental,Action
+H-9004 / TH-43,TH-43,,SSDC,Rental,Action
+H-9005,TH-44 NDV 8031,01/07/2026,VAS OPS,Running,Action
+H-9006,TH-09 NDV 8034,04/07/2026,VAS OPS,Running,Action
+H-9007,TH-12 NDV 8033,03/07/2026,VAS OPS,Running,Action
+H-901,N/A,,,Sold,Action
+H-902,N/A,,,Sold,Action
+H-903,N/A,,,Sold,Action
+H-904,N/A,,,Sold,Action
+H-905,N/A,,,Sold,Action
+H-906,130106,,,Sold,Action
+H-907,130106,,,Sold,Action
+H-908,130106,,,Sold,Action
+H-909,130106,N/A,Customer,Sold,Action
+H-910,N/A,N/A,Customer,Sold,Action
+H-911,130106,,,Sold,Action
+H-912,130106,,,Sold,Action
+H-913,130106,,,Sold,Action
+H-914,130106,,,Sold,Action
+H-915,130106,,,Sold,Action
+H-916,NCZ 8040,,,Sold,Action
+H-917,ADU 418,,PENDING FOR TRANSFER,Sold,Action
+H-918,NDU 4808,08/31/2025,VAS OPS,Running,Action
+H-919,130106,,,Sold,Action
+H-92,CMV 177,,,Sold,Action
+H-920,ADU 4809,,PENDING FOR TRANSFER,Sold,Action
+H-921,ADU 4812,,PENDING FOR TRANSFER,Sold,Action
+H-922,NCK 1103,,VAS OPS,Sold,Action
+H-923,NCK 1102,,VILLADO TRUCKING SERVICES,Rental,Action
+H-924,NCK 1109,,VAS OPS,Sold,Action
+H-925,NCK 1095,,,Condemn,Action
+H-926,NCK 1097,,VILLADO TRUCKING SERVICES,Rental,Action
+H-927,NCK 1096,,,Sold,Action
+H-928,NCK 1107,,VAS OPS,Condemn,Action
+H-929,NCK 1108,,N/A,Sold,Action
+H-930,NCK 1106,,INTERCITY,Condemn,Action
+H-931,,,,Sold,Action
+H-932,NCK 1101,,VILLADO TRUCKING SERVICES,Rental,Action
+H-933,NCK 1100,,VILLADO TRUCKING SERVICES,Rental,Action
+H-934,NCK 1098,,,Sold,Action
+H-935,NCK 1099,,N/A,Condemn,Action
+H-936,NCK 1104,5/4/2022,INTERCITY,Condemn,Action
+H-937,NCK 1105,,VAS OPS,Sold,Action
+H-938,NCK 1091,,N/A,Condemn,Action
+H-939,NCK 1090,,VAS OPS,Sold,Action
+H-940,NCK 1093,,VAS OPS,Sold,Action
+H-941,NCK 1094,,VILLADO TRUCKING SERVICES,Rental,Action
+H-942,NCK 1092,,N/A,Condemn,Action
+H-943,NCK 1089,,N/A,Condemn,Action
+H-944,NCK 1889,,VAS OPS,Sold,Action
+H-945,NCK 1890,,VILLADO TRUCKING SERVICES,Rental,Action
+H-946,NCK 1891,,VAS OPS,Sold,Action
+H-947,NCK 1892,,VILLADO TRUCKING SERVICES,Rental,Action
+H-948,NO OR CR,,,Condemn,Action
+H-949,,,,Sold,Action
+H-950,NCK 1893,,VAS OPS,Sold,Action
+H-951,NDH 3398,,N/A,Condemn,Action
+H-952,NDH 3401,,INTERCITY,Sold,Action
+H-953,NDH 3400,,BD OPS,Sold,Action
+H-954,NAD 6783,,,Sold,Action
+H-955,NAD 6784,,VILLADO TRUCKING SERVICES,Sold,Action
+H-956,ACO 5775,,N/A,Condemn,Action
+H-957,0,,N/A,Sold,Action
+H-958,CCO 7570,,VAS OPS,Sold,Action
+H-959,CCO 5774,,VAS OPS,Sold,Action
+H-960,NCK 7420,,,Sold,Action
+H-961,NCK 7421,,,Sold,Action
+H-962,ACO 7395,,,Sold,Action
+H-963,NCK 7426,,VAS OPS,Sold,Action
+H-964,NCK 7964,,,Sold,Action
+H-965,NCK 7963,,N/A,Condemn,Action
+H-966,NCK 7428,,VILLADO TRUCKING SERVICES,Sold,Action
+H-967,NCK 7427,,PENDING FOR TRANSFER,Sold,Action
+H-968,NAD 6619,,,Sold,Action
+H-969,NAD 6618,,BD OPS,Sold,Action
+H-970,NCK 7430,,,Joint ventures,Action
+H-971,CCO 7374,,,Condemn,Action
+H-972,ACO 7387,,N/A,Condemn,Action
+H-973,NCK 7429,,VILLADO TRUCKING SERVICES,Rental,Action
+H-974,NCD 4476,,,Sold,Action
+H-975,NCD 4475,,,Sold,Action
+H-976,NCD 4474,,,Sold,Action
+H-977,NCD 4473,,,Sold,Action
+H-978,NCE 1374,,,Sold,Action
+H-979,CCO 5711,,VAS OPS,Sold,Action
+H-980,CCO 5712,,VILLADO TRUCKING SERVICES,Rental,Action
+H-981,130110,,,Sold,Action
+H-982,NCK 7965,,VILLADO TRUCKING SERVICES,Sold,Action
+H-983,CCO 7398,,N/A,Condemn,Action
+H-984,ACO 7576,,N/A,Condemn,Action
+H-985,CCO5776,,VAS OPS,Sold,Action
+H-986,CCO 5714,,VILLADO TRUCKING SERVICES,Rental,Action
+H-987,NCK 7422,,VAS OPS,Sold,Action
+H-988,ACO 7397,,VILLADO TRUCKING SERVICES,Condemn,Action
+H-989,CCO 7581,,VAS OPS,Sold,Action
+H-990,130110,,N/A,Condemn,Action
+H-991,CCO 7377,,VAS OPS,Condemn,Action
+H-992,CCO 5713,,,Sold,Action
+H-993,CCO 5715,,VILLADO TRUCKING SERVICES,Rental,Action
+H-994,NCK 7423,,N/A,Condemn,Action
+H-995,NAG 4806,,VAS OPS,Sold,Action
+H-996,NAD 6788,,VILLADO TRUCKING SERVICES,Rental,Action
+H-997,NCG 4605,05/31/2026,VAS OPS,Running,Action
+H-998,NCG 4608,08/31/2025,VAS OPS,Running,Action
+H-999,NCG 4617,07/07/2025,VAS OPS,Running,Action
+N/A,NAW 5095,08/09/2020,Customer,Sold,Action
+N/A,NBK 4309,,,Sold,Action
+N/A,NBK 4311,,,Sold,Action
+N/A,NBK 4313,=,,Sold,Action
+N/A,NBK 4307,,,Sold,Action
+N/A,NBK 4308,,,Sold,Action
+N/A,NBK 4306,,,Sold,Action
+N/A,NAW 5092,,,Sold,Action
+N/A-963336,NAW 5093,,,Sold,Action
+NA,NA,NA,JASON NG,Available,Action
+NAW 5097,NAW 5097,,,Sold,Action
+NCX 9104,NCX 9104,N/A,Customer,Sold,Action
+NCX 9105,NCX 9105,N/A,Customer,Sold,Action
+NCX 9106,NCX 9106,N/A,Customer,Sold,Action
+NCX 9107,NCX 9107,N/A,Customer,Sold,Action
+NCX 9108,NCX 9108,N/A,Customer,Sold,Action
+NCY 1327,NCY 1327,N/A,Customer,Sold,Action
+NCY 1328,NCY 1328,N/A,Customer,Sold,Action
+NCY 1329,NCY 1329,N/A,Customer,Sold,Action
+NCY 1330,NCY 1330,N/A,Customer,Sold,Action
+UOR 343,UOR 343,N/A,Customer,Sold,Action
+UOR 373,UOR 373,N/A,Customer,Sold,Action
+UOS 739,UOS 739,N/A,Customer,Sold,Action
+UOS 750,UOS 750,N/A,Customer,Sold,Action

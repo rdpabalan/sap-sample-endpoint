@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMPLE DATA RECEIVED</title>
+</head>
+<body>
+    <h1>QR Code Scanned</h1>
+    <p id="status">Sending data to the server...</p>
+
+    <script>
+        fetch("http://172.31.47.242:5000/api/upload", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ message: "QR Scanned!" })
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log("Server Response:", data);
+            document.getElementById("status").innerHTML = 
+                `Server Response: ${data.message} <br> Time: ${data.timestamp}`;
+        })
+        .catch(error => console.error("Error:", error));
+    </script>
+</body>
+</html>
