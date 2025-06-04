@@ -333,7 +333,7 @@ def delete_token(key: str):
 
 SPEC_ERROR = "__WATCHDOG_ERROR__:"
 
-def set_gspread(spreadsheet_name,worksheet_name,cred_path="./env/cred_gspread_GSDCSUPP_ewul.json"):
+def set_gspread(spreadsheet_name,worksheet_name,cred_path="env/cred_gspread_GSDCSUPP_ewul.json"):
     global worksheet, spreadsheet, logs_worksheet
 
     # Authenticate with Google Sheets
