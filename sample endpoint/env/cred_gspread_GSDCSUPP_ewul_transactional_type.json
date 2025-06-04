@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "master-channel-445113-u4",
+  "private_key_id": "9117ac659ea3a96503942390df196d15cb9574bd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDwCGPHEFCzG9Q0\nlalC5b/JZmSW1q4N0/SPnG6FAqAPMFK153YEmMqJh1UCGgm+tabclG9o/Zs0KHHt\nAp4M18hBLYWy/DiBHblrXVHEvKU2/MsGqbAFv8O/ddtJc0vnF9QsnZ54syGlsneR\nxd4oZYSFSMsB07gbbQU2UdjIxis7j016VbrNNOo7FZ+wmUZn7q6uOrwLtMdfTxHg\nF8mLcwlxsxkWcsF3YlI9faQNqa+lTrVTtQhwgnUygU9r8kQgp01nCKglebiRrt3u\nNic2rjUpxz8dkwTErpffiyeXAa59EhJRc1x2dXLNMcBLUEB3ZXc+Mw3SICKdDkef\n7ii5Ie3tAgMBAAECggEAItko+UXgXXyRFLhUvFpkO35y5KZS2z2WQEJXFlcA+2uJ\n2pB55SV0pD5iZF145Df1u4kOWrkVDx+/GIicfyNV1saf5lIxdudkm9aO0EgOGXte\nk39Px6nlZrba6SFE2A5w1rBkiUQCgs60BtUqEYXZlUsx8/gzvsGXc+EynsWMkccO\nlmnrcVDoJuHka1Qt1aEn8OLGkHEMfzAu/OgVWOTxSolXnRRsOcO1+OMdl8/gMCse\ntfq/oVOvsDIJkFo62MXX1OKCcvnp0kfSItnjRFi6JSQI2qqkcrjZapYlCmE+aLPq\n4NXVgOtS6oOKFImoC/56HIETpaR9G4t4FQv32pcx6QKBgQD/t0gLK2aNYtdZJWih\nilygz9KUIh1ZcwFA+jyLVP+bTDboOmFPGBF5Xhwg5RuoDD2Z7MyLsjp2VxSH/c/3\nkLdEvzK31y8mRsuyrtwbfihk5YRDdqgnY5EDoyRohnsWr8QYbKEjz5WrkRheSkWe\nsu9N7brnUrZw0BNYU5OQtUTkGQKBgQDwTKYCXEQTVLGjfWeszRPg5Rt0xOjQUTHx\nnNblzTA8OvqmW8SRu4QpyCOK5U4b1GmK0LxVDjWQlnW2IEt/55/kh1n5w3ZOIqxS\n+cXyjskayr6S8YiRneoH6xPagDkw9qgME0EoSwzLtlGqs27Fsh/wh9RKjwqXCRQZ\n/YMtRbTy9QKBgQDQTfMH9kDB58RYwBptjRJLhT+an/eciAx7a9yp+4GEdh88KWJf\nVdHWNg1f1oIi8GW136n4GiV5hRIafW1N07sW61FbZJTp7z27vqlaU/h/yF9nvV7Z\nR0g32EuuQe4+2ss4wjS5wT3A1p8tH/96eXRq3L8l9MDdQQKhLuPEO4V08QKBgFlM\nAnzqEJomZQTeO0KpyvNN8FAKRIH1SlwA7pLjF0Oqny5m97s4NbrZFuwsnkQVQUtG\nmlX5O8qJPyD5C1Vym6Zu7e60xifvFp6XFwo2KWF9aihs/VUvm6Jppy0RbS9W2cfy\n98mjahPhoqOOnmF0+g2GTEuQsFzEEOY/oRmXx9BpAoGAbRTEEbnVLXNw1vF5Jmj/\nDEaZ07GZWLDpHQaClBAlOJa0uD91K4YyUyCsrKD/tBPvrpxKoKu1I7228tkwUzP7\nuMlcXn8HJUGa2OaGFoVzD75cCVmr///tKPM28ywKQS4bdLke/NhDXaufvFaJiFBi\neTtt/sQFu9ZLCo/Tgo8v+ok=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gpsstaff7-transaction-service@master-channel-445113-u4.iam.gserviceaccount.com",
+  "client_id": "114908015628570925457",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gpsstaff7-transaction-service%40master-channel-445113-u4.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
