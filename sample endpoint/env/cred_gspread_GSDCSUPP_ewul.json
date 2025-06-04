@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "master-channel-445113-u4",
+  "private_key_id": "bb9acc4a60486f1c8a46e1050832f7aa0f8372c4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC+5Do9Wq3iIhn0\n9Jar/ZdgmUhbiuHRq1fb6ePgmbbvc7nEbUc0WoyLKB7kGoBXUl2/A054+7pL1lj/\nA3YqqrE7MAMe5CFRsStvYxQtH4nO3icy99bPLdDt0qC979bb9swwmi9jeERFDm3b\n4e5eU8OXQc48traVjnaYdimXVPr5Rzx4B9w4hqvmKywiiTUY+B8R/Bux2dnAQs9b\nFV9JH6miL2wzyBmNqyQdAv/QWOKhoGqjCrFPPuAMpENJz/8fc2aDU4VxumIDpvSd\nD3YPwBdmJ+b3dxUsOnwfUq0WSSCZycLsMuKK66383paaN1UI32hVz9h88qI3gMVF\ncvL2TX1rAgMBAAECggEAB/yDVXw+vCILHDCYz2WElUEJ0Ef8cDRyojvAg7T1UgnG\nqf8ONJSj6VGjZMaZSf+/oPyMigsH3YSczwaDt3F8+r9IQ+tfP0UpFX7tWtZhu0de\n+1widHhQWt2DZh0kkxuSxkqrVKnuAimets1Ws1/QOZ5eoxb4hwraekDoNv/ZS1Ey\nGsCl8v6styU3kF6rsNSYpNLjXlO3yao6ddrqaCuMTC1la6GZNDnMYf6UuzBv0acX\n02xO2tw/1RyOTJrdSSGTCa7dOTf7vZIlo54cR3ZocTREQXZJljQeRMo4wIzmG/Jd\nNdZcx+lLCgY7lsZ3b+66pWRZcxlLmXmEnTybMMNUuQKBgQDvBWB5Ll1nzV0gIwHB\nc7+3vVsX7Ij2whr7waXmb3xsfFfIWhytSLqXWVLwzxJeP+xFuEFH6hvDnSnEj9sW\nP1Yxx5xUQckIQZFmfx5KW7u4NwItGnCSW7IqfZnOBKSwQOqRhlvyWTUiEpv8ICpG\ns3SwHJWyuPbkhyNZkiLLPqCSnwKBgQDMc5xQg40/MkeIfnbw5WtOZMiVhs3qCDot\nSRL+hZy4x7IKZSA/+mw5YGQQNYYuid6qB6/LAmXS9CBJG9dVSNUPP6QU3moo+By+\n2FMXKTXqrbI9qOBXIrOeE4AQfchgCxBckOveAPK9xi9dVNrbYXISmec2J/tSs8cC\nepE7qdRNtQKBgDZ6Gj/kYmObOeNuNyM5V3PwU4fDYIAlQ3Mn8sDvngM33+YJK8oO\n7oA6Wp4KBBy5IwfM9AwI/qT5+CAVzZBnhSS5YxcNG12nXBVpWaUG/WUCHJvdD9U7\n0wK+N8Tt5/9H/G6ImgJFdMe8SBMR3bDZi/nrue7PG26Aonzywr1iG8TvAoGAGFLk\n1PthsZQUyJtrISvaQWBiMM/x7Zb+/OZFuTxCMgWoG+5+EL6FY6ohHYCQrza94/K4\nKmnlnVxn/uquCrp4hrDmn4j6jlc+bEImWIoRnRL/MrDFx/gb8IGXad7dGPgYATtI\npIfuWT+b4Pm4dAM65BWlWV8WWneDBLt6TePdm0UCgYBr6SD092d9ln0GE3HqD08f\nd06CVs7jP//PCzD9pBMJ5uwH8OtaLLwYpPHL0X2n8dwK9O3gUtK8TBXcrU39pmCc\nz2t6RvE2/CJ+VuGUs8K+3c/1xF9Vd6oEO9XigmK2GukTEkeoFATp29bpzLyDmk4l\n5UjFg8qWwdfK9vI5gqe+Ig==\n-----END PRIVATE KEY-----\n",
+  "client_email": "gps-staff-7-gussman-web-scrape@master-channel-445113-u4.iam.gserviceaccount.com",
+  "client_id": "100084640800912449694",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gps-staff-7-gussman-web-scrape%40master-channel-445113-u4.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
