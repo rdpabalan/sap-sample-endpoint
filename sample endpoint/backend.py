@@ -341,34 +341,16 @@ def delete_token(key: str):
 
 
 SPEC_ERROR = "__WATCHDOG_ERROR__:"
+CREDENTIALS_PATH = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS")
 
-def set_gspread(spreadsheet_name,worksheet_name,cred_path="./env/cred_gspread_GSDCSUPP_ewul.json"):
+def set_gspread(spreadsheet_name,worksheet_name,cred_path=CREDENTIALS_PATH):
     global worksheet, spreadsheet, logs_worksheet
 
     # Authenticate with Google Sheets
-    service_account_info  = {
-        "type": "service_account",
-        "project_id": "master-channel-445113-u4",
-        "private_key_id": "5e5ae18be1f842f4dbbbaec49b04bb3f6d8b0951",
-        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9J6HJ0N97RtBo\nS2s8BPwYlFRVsBSWUAYHBy77M4ZgbtWy3ZXWOn01eLc+F/RwMha82ZAJbrjwm/6G\n/Bi4PQDC/lSDBwz0y97BMzc44uYrS2N92t8sZb63wObh7aWrR5qNBeUbPsLL1on7\nIPq+D2MP04EoimHAEreVVJ32WC2d72FJ4FIp3OSMxG8tKTjGwLhPD35LuxC8UkLT\nWGClz9cNetdyKdJM1MAPENLOPuAKGaBzKQmlojkUB+DIHcgcTMbJLnpgR6nGt7wz\npw/NR2vWAgFrpHnDp5ZzTlG05KeawOmW5VTPUscU9iIV3o92xPnAfzkvNVjHILVD\nXqr+7HFVAgMBAAECggEAV3kTbYPlRVoLGJ//+CKJ/kfh9DpYWuao0uk0hcBfHQtE\nUdH877PeoTKw8ssbJCNVtoGaBXKpncNV4lCEkfbL+mCo7mr9R9tbqNapa+op7M2R\nNetYl2x51PolC0fd/CZBx4N5Xq8YYDFXX8XxjqEI+5GgwgG0kKFXOnyGDBzdA5Ka\nigxw9mebZxle0MvkKkVhAbxbh6mS4PeE25Jfyvt4swBLBQhKDjzQEv0xZTd2Dcc3\nWsnDB0x9Yj4vPLMaZMtFdEjuySQunCuVFOY27Jg4w2s6YnTAsoMiVkFFwNWpiqv8\nnRJ4bT1sN1iA7vhjzKPj0ngO6H4xc+9GpaZhoukfBQKBgQDwJzbt+fyAbKOp5DUn\n909BWX1QX7X9xXQSBuAqP+kIurcqWPcFyhVHPhKA8gGGLVxzmFpjWYWsZ9M9cfGz\nAIKqgrU4S58Arrmv99pcjFdXiI/1Rf06ZAkkrmbLh7mdfk9TldaF4AIuQ08oycSc\nIPlJ1GtIOR+Pfph2vFfIxfrPXwKBgQDJou2Mm1DylbgY8zYhD48aPJs3HtXgcFsy\nmwcn/BF3J+NTlX3qle6T35qzykY59vsux9N5bUlawPjDLIaxBa2owmLmCu/NZ2iP\nnM0dl90SHijsomeBiSmD7TuwW/xZr7x08UdBNPPJfe3S8cJVNYOl71bjXZWDH1J1\nPRUhlIKfywKBgQCY0dt6hGHRt1BOhBHvZMjiZPgBdWZyHnxGHGn5eMHp9Ccqo4JO\nBNKVi0JrG5UstSDnzkN2hTkzBL6/kwqjRefgaVy4fiaoYId5GtexnPzXjudMxUTn\nK1FGLlTrn2rWddI09lyUxH+ewOZWpk6eq7z25l1+kBstTPnoVOHnuVRpMQKBgDbv\n7UkiCCwQHtita1IWqya63I9oF13PPwnKs2hxhVCxzX44fNYtg5NGmR/jPL8OS+Gz\nECtFW3cenKiQuSICKg6Q5+FFmZCdXB/E2R33AoStMvlGRm1EscsAGAM1DMxi1TYH\nhyJ9Cu8bIHEY7ZnJutS7ITFRjirrncvTmK5NiEmBAoGBALh7ohRHBL0zMD8UsgY0\n9ggGfMLFo9q5AioL6YYjqknvdn28O1UYBbbjLZ3J/WNFVE39Z4TMuCjKEcpr8TDx\n8LNeCoSELLxsHs2wectRnjBA6XbDKq6CfUJ953vwgRWgOtrtzLaZiPrXhi3VQcYJ\n6jSZSXYxgoZ4xEJoC8onRU5I\n-----END PRIVATE KEY-----\n",
-        "client_email": "gpsstaff7-transaction-service@master-channel-445113-u4.iam.gserviceaccount.com",
-        "client_id": "114908015628570925457",
-        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-        "token_uri": "https://oauth2.googleapis.com/token",
-        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gpsstaff7-transaction-service%40master-channel-445113-u4.iam.gserviceaccount.com",
-        "universe_domain": "googleapis.com"
-    }
-
-
-    # Authenticate with Google Sheets
-    credentials = Credentials.from_service_account_info(
-        service_account_info,
-        scopes=[
-            'https://www.googleapis.com/auth/spreadsheets',
-            'https://www.googleapis.com/auth/drive'
-        ]
-    )
+    credentials = Credentials.from_service_account_file(
+        cred_path,
+        scopes=['https://www.googleapis.com/auth/spreadsheets',
+                'https://www.googleapis.com/auth/drive'])
     gc = gspread.Client(auth=credentials)
 
     # Open the Google Sheet
