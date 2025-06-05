@@ -740,13 +740,17 @@ def handle_post():
     # for timestamping
     for_upload = [headers, data]
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S") 
+    fdata = [row + [timestamp] for row in for_upload [1:] ]
 
+
+    
     print(f"Received Upload: {oe}, Time: {timestamp}")
     
     print(for_upload)
 
-    worksheet.append_rows(for_upload[1:])
-
+    worksheet.append_rows(fdata)
+    
+    
     return jsonify({
         "message": "File Uploaded!",
         "received": timestamp #time received
