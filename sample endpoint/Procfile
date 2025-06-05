@@ -1,1 +1,1 @@
-web: gunicorn sample_endpoint.backend:app --bind 0.0.0.0:$PORT
+web: gunicorn backend:app --bind 0.0.0.0:$PORT
