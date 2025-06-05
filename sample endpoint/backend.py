@@ -738,8 +738,10 @@ def handle_post():
     ]
 
     # for timestamping
+    gmt_plus_8 = timezone(timedelta(hours=8))
+    
     for_upload = [headers, data]
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S") 
+    timestamp = datetime.now(gmt_plus_8).strftime("%Y-%m-%d %H:%M:%S")
     fdata = [row + [timestamp] for row in for_upload [1:] ]
 
 
