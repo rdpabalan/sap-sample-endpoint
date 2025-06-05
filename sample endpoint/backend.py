@@ -6,6 +6,8 @@ import gspread
 import os
 import json
 
+import base64
+
 
 import requests
 import os
@@ -341,9 +343,23 @@ def delete_token(key: str):
 
 
 SPEC_ERROR = "__WATCHDOG_ERROR__:"
-CREDENTIALS_PATH = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS")
 
-def set_gspread(spreadsheet_name,worksheet_name,cred_path=CREDENTIALS_PATH):
+# Where to save the decoded key
+key_path = "/tmp/gcp-key.json"
+
+# Decode and write key if not already written
+if "GCP_KEY_BASE64" in os.environ:
+    key_data = base64.b64decode(os.environ["GCP_KEY_BASE64"])
+    with open(key_path, "wb") as f:
+        f.write(key_data)
+
+    # Set this env var for Google SDKs to auto-detect
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = key_path
+else:
+    raise RuntimeError("Missing GCP_KEY_BASE64 environment variable.")
+
+
+def set_gspread(spreadsheet_name,worksheet_name,cred_path=key_path):
     global worksheet, spreadsheet, logs_worksheet
 
     # Authenticate with Google Sheets
