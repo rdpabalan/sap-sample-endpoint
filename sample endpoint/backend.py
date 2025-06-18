@@ -55,8 +55,6 @@ msft_secret_path = "/temp/msft-secret.json"
 if "fabric_key64" in os.environ:
     msft_key_data = base64.b64decode(os.environ["fabric_key64"])
 
-    # Ensure the folder exists
-    os.makedirs(os.path.dirname(msft_secret_path), exist_ok=True)
 
     with open(msft_secret_path, "wb") as f:
         f.write(msft_key_data)
@@ -418,9 +416,6 @@ key_path = "/temp/gcp-key.json"
 
 if "gspread_key64" in os.environ: #decode
     key_data = base64.b64decode(os.environ["gspread_key64"])
-
-    # Ensure the folder exists
-    os.makedirs(os.path.dirname(key_path), exist_ok=True)
 
     with open(key_path, "wb") as f:
         f.write(key_data)
