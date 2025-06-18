@@ -5,9 +5,13 @@ from datetime import datetime
 import gspread
 import os
 import json
+import uuid
 
 import base64
+from typing import Literal
 
+import smtplib
+from email.message import EmailMessage
 
 import requests
 import os
@@ -38,18 +42,39 @@ import webbrowser
 import sys
 import traceback
 
+# load_dotenv("./env/key64.env")
+
 ################################################################################################################################################################################################
 
-TOKEN_FILE = "token.json"
+TOKEN_FILE = "./env/token.json"
 
-def set_credentials(path="./env/secret_fabrictest.json"):
+# Where to save the decoded Microsoft credentials
+msft_secret_path = "./temp/msft-secret.json"
+
+# Decode and write key if not already written
+if "fabric_key64" in os.environ:
+    msft_key_data = base64.b64decode(os.environ["fabric_key64"])
+
+    # Ensure the folder exists
+    os.makedirs(os.path.dirname(msft_secret_path), exist_ok=True)
+
+    with open(msft_secret_path, "wb") as f:
+        f.write(msft_key_data)
+else:
+    raise RuntimeError("Missing fabric_key64 environment variable.")
+
+
+def set_credentials(path=msft_secret_path):
     """Set SharePoint API credentials as global variables."""
-    with open(path, "r") as file: secret_json = json.load(file)
+    with open(path, "r") as file:
+        secret_json = json.load(file)
+
     global client_id, client_secret, tenant_id, tenant_name
     client_id = secret_json["client_id"]
     client_secret = secret_json["client_secret"]
     tenant_id = secret_json["tenant_id"]
     tenant_name = secret_json["tenant_name"]
+
     print("Microsoft credentials set successfully.")
 
 def extract_auth_code(url):
@@ -58,7 +83,7 @@ def extract_auth_code(url):
     query_params = parse_qs(parsed_url.query)
     return query_params.get("code", [None])[0]
 
-def get_delegated_access_token(key_name,scope='https://graph.microsoft.com/.default',redirect_uri="https://login.microsoftonline.com/common/oauth2/nativeclient"):
+def get_delegated_access_token(key_name, scope='https://graph.microsoft.com/.default',redirect_uri="https://login.microsoftonline.com/common/oauth2/nativeclient", to_gmail=None):
     """
     Fetch an OAuth token using the device code flow, which is suitable for environments where redirects are not available (e.g., Fabric).
     
@@ -117,8 +142,7 @@ def get_delegated_access_token(key_name,scope='https://graph.microsoft.com/.defa
     else:
         print(f"Error fetching token: {token_data}")
 
-
-def get_devicecode_access_token(key_name,scope='https://orgc8458fa6.api.crm5.dynamics.com/user_impersonation offline_access'):
+def get_devicecode_access_token(key_name, scope, to_gmail=None):
     """
     Fetch an OAuth token using the device code flow, which is suitable for environments where redirects are not available (e.g., Fabric).
     
@@ -139,7 +163,7 @@ def get_devicecode_access_token(key_name,scope='https://orgc8458fa6.api.crm5.dyn
     payload = {
         'client_id': client_id,
         'client_secret': client_secret,
-        'scope': scope + " offline_access"
+        'scope': scope.replace("api/data/v9.2", "user_impersonation") + " offline_access"
     }
 
     response = requests.post(device_code_url, data=payload)
@@ -155,9 +179,14 @@ def get_devicecode_access_token(key_name,scope='https://orgc8458fa6.api.crm5.dyn
     interval = response_data['interval']
 
 
-    # Step 2: Open the authorization URL in the default browser
-    print(f"Redirecting to: {verification_url}, enter the code: {user_code}")
-    webbrowser.open(verification_url)
+    # Step 2: Open the authorization URL in the default browser or thru GMAIL
+    if to_gmail:
+        print(f"Sending verification code/url to {to_gmail}.")
+        send_to_gmail(to_gmail,verification_url,user_code)
+        pass
+    else:
+        print(f"Redirecting to: {verification_url}, enter the code: {user_code}")
+        webbrowser.open(verification_url)
 
     # Step 2: Poll for the token
     token_url = f"https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token"
@@ -184,6 +213,35 @@ def get_devicecode_access_token(key_name,scope='https://orgc8458fa6.api.crm5.dyn
         else:
             print(f"Error fetching token: {token_data}")
             break
+
+
+APP_PASSWORD = "ehek tlyp arfr bwtc"
+SENDER_EMAIL = "gs.gpsprojectAPI1@gmail.com"
+
+def send_to_gmail(receiver_email,redirect=None,code=None):
+
+    subject = "Device Code Authentication"
+    body = f"Click here to authenticate. {redirect}\n\nAuthentication Code:{code}"
+
+    # Create the email
+    msg = EmailMessage()
+    msg.set_content(body)
+    msg["Subject"] = subject
+    msg["From"] = SENDER_EMAIL
+    msg["To"] = receiver_email
+
+    # Gmail SMTP settings
+    smtp_server = "smtp.gmail.com"
+    smtp_port = 587
+    app_password = APP_PASSWORD  # Use App Password, not Gmail password
+
+    # Send the email
+    with smtplib.SMTP(smtp_server, smtp_port) as server:
+        server.starttls()
+        server.login(SENDER_EMAIL, app_password)
+        server.send_message(msg)
+
+
 
 def refresh_token(key_name,oauth_token,refresh_token):
     global client_id, client_secret, tenant_id
@@ -230,20 +288,27 @@ def get_application_access_token(key_name,scope="https://graph.microsoft.com/.de
 
     return access_token
 
-
 def store_token(key: str, token: str, refresh_token: str = "", expire_at: float = None):
     """
-    Stores a token in the 'tokens' table. Creates the table if it doesn't exist.
+    Stores a token in the 'tokens' file. Creates the file if it doesn't exist.
     If the key exists, it updates the existing record.
     """
+    import os
+    import json
+    from datetime import datetime
+
     expire_at = expire_at or (datetime.now().timestamp() + 3600)  # Default 1-hour expiry
 
-    # Load existing tokens
+    # Load existing tokens safely
+    tokens = {}
     if os.path.exists(TOKEN_FILE):
-        with open(TOKEN_FILE, "r") as file:
-            tokens = json.load(file)
-    else:
-        tokens = {}
+        try:
+            with open(TOKEN_FILE, "r") as file:
+                content = file.read().strip()
+                if content:  # Avoid error if file is empty
+                    tokens = json.loads(content)
+        except json.JSONDecodeError:
+            print(f"Warning: {TOKEN_FILE} is invalid or corrupted. Reinitializing.")
 
     # Update or insert new token    
     tokens[key] = {
@@ -295,22 +360,25 @@ def set_access_token(token):
     global oauth_token
     oauth_token = token
 
-def check_token(token_name,grant_type="application",scope="https://graph.microsoft.com/.default"):
-    token = get_token(token_name)
+def check_token(token_name,grant_type: Literal["application", "devicecode", "delegated"] = "application", scope="https://graph.microsoft.com/.default", to_gmail=None):
+    try:
+        token = get_token(token_name)
+        access_token = token["access_token"]
+    except:
+        access_token = None
 
-    if not token:
+
+    if not access_token:
         print("Getting new access token...")
         if grant_type == "application":
             access_token = get_application_access_token(token_name,scope)
         elif grant_type == "devicecode":
-            access_token = get_devicecode_access_token(token_name,scope)
+            access_token = get_devicecode_access_token(token_name,scope,to_gmail)
         elif grant_type == "delegated":
             access_token = get_delegated_access_token(token_name,scope)
         else:
             print(f"Invalid grant type: {grant_type}. \n\nChoose only [ application | delegated ]")
             return None
-    else:
-        access_token = token["access_token"]
         
     print(f"Access Token: {access_token[:20]}...{access_token[len(access_token)-20:]} (Truncated).")
 
@@ -344,19 +412,23 @@ def delete_token(key: str):
 
 SPEC_ERROR = "__WATCHDOG_ERROR__:"
 
-# Where to save the decoded key
-key_path = "/tmp/gcp-key.json"
 
-# Decode and write key if not already written
-if "GCP_KEY_BASE64" in os.environ:
-    key_data = base64.b64decode(os.environ["GCP_KEY_BASE64"])
+key_path = "./temp/gcp-key.json"
+
+
+if "gspread_key64" in os.environ: #decode
+    key_data = base64.b64decode(os.environ["gspread_key64"])
+
+    # Ensure the folder exists
+    os.makedirs(os.path.dirname(key_path), exist_ok=True)
+
     with open(key_path, "wb") as f:
         f.write(key_data)
 
     # Set this env var for Google SDKs to auto-detect
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = key_path
 else:
-    raise RuntimeError("Missing GCP_KEY_BASE64 environment variable.")
+    raise RuntimeError("Missing gspread_key64 environment variable.")
 
 
 def set_gspread(spreadsheet_name,worksheet_name,cred_path=key_path):
@@ -436,20 +508,21 @@ def set_lakehouse_name(name="Sandbox_test2"):
     global lakehouse_name
     lakehouse_name = name
 
-# def initialize_spark():
-#     global spark
+def initialize_spark():
+    # global spark
 
-#     # Set up Spark session
-#     spark = SparkSession.builder \
-#     .appName("FabricUpload") \
-#     .config("spark.hadoop.fs.azure.account.auth.type", "OAuth") \
-#     .config("spark.hadoop.fs.azure.account.oauth.provider.type", "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider") \
-#     .config("spark.hadoop.fs.azure.account.oauth2.client.id", client_id) \
-#     .config("spark.hadoop.fs.azure.account.oauth2.client.secret", client_secret) \
-#     .config("spark.hadoop.fs.azure.account.oauth2.client.endpoint", f"https://login.microsoftonline.com/{tenant_id}/oauth2/token") \
-#     .getOrCreate()
+    # # Set up Spark session
+    # spark = SparkSession.builder \
+    # .appName("FabricUpload") \
+    # .config("spark.hadoop.fs.azure.account.auth.type", "OAuth") \
+    # .config("spark.hadoop.fs.azure.account.oauth.provider.type", "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider") \
+    # .config("spark.hadoop.fs.azure.account.oauth2.client.id", client_id) \
+    # .config("spark.hadoop.fs.azure.account.oauth2.client.secret", client_secret) \
+    # .config("spark.hadoop.fs.azure.account.oauth2.client.endpoint", f"https://login.microsoftonline.com/{tenant_id}/oauth2/token") \
+    # .getOrCreate()
 
-#     return spark
+    # return spark
+    pass
 
 def set_fabric_ids(url):
     """Extracts and sets Workspace ID and Lakehouse ID as global variables from a Fabric URL."""
@@ -559,6 +632,10 @@ def upload_to_onelake(file_path, workspace_name, lakehouse_name, file_name=None)
 ###### FOR LIST & CSV ########################################################################################################################################################################################################################################################################################################################################
 ########################################################################################################################################################################################################################################################################################################################################################
 
+
+CACHE_FILE = "cache.json"
+EXPIRY = 1 # 1 day from now
+
 def list_to_csv(data, filename="output.csv"):
     """Convert a 2D list to a CSV file and save it locally."""
     if not data or not isinstance(data, list) or not all(isinstance(row, list) for row in data):
@@ -569,7 +646,6 @@ def list_to_csv(data, filename="output.csv"):
         writer.writerows(data)
     
     print(f"CSV file saved: {filename}")
-
 
 def read_csv(file_path):
     data = []
@@ -605,11 +681,414 @@ def get_desried_columns(data, desired_columns):
 
     return filtered_data
 
+def to_dict(data_2d):
+    headers = data_2d[0]
+    rows = data_2d[1:]
+    return [dict(zip(headers, row)) for row in rows]
+
+def save_cache(key: str, content, file_path: str = CACHE_FILE, expiry=None):
+    """
+    Save a dictionary to cache under the specified key.
+    """
+    if os.path.exists(file_path):
+        with open(file_path, "r") as f:
+            try:
+                cache = json.load(f)
+            except json.JSONDecodeError:
+                cache = {}
+    else:
+        cache = {}
+
+    expiry_time = get_expiry_timestamp(expiry) # Set expiration timestamp
+
+    cache[key] = {
+        "data": content,
+        "timestamp": expiry_time
+    }
+
+    with open(file_path, "w") as f:
+        json.dump(cache, f, indent=4)
+
+def get_cache(key: str, file_path: str = CACHE_FILE):
+    """
+    Retrieve a cached dictionary by key. Deletes it if expired. Returns None if not found or expired.
+    """
+    if not os.path.exists(file_path):
+        return None
+
+    with open(file_path, "r") as f:
+        try:
+            cache = json.load(f)
+        except json.JSONDecodeError:
+            return None
+
+    entry = cache.get(key)
+    if not entry:
+        return None
+
+    expiry_str = entry.get("timestamp")
+    if expiry_str:
+        try:
+            expiry = datetime.fromisoformat(expiry_str)
+            if datetime.now() >= expiry:
+                del cache[key] # Expired: delete entry
+                with open(file_path, "w") as f:
+                    json.dump(cache, f, indent=4)
+                return None
+        except ValueError:
+            del cache[key] # If timestamp is invalid, treat as expired
+            with open(file_path, "w") as f:
+                json.dump(cache, f, indent=4)
+            return None
+
+    return entry.get("data")
+
+
+def get_expiry_timestamp(expiry=None):
+    """
+    Returns ISO 8601 expiry timestamp.
+    
+    - If `expiry` is None: returns now + default EXPIRY_DAYS.
+    - If `expiry` is a string: parses to datetime and converts to ISO.
+    - If `expiry` is a datetime object: converts to ISO.
+    """
+    if not expiry:
+        return (datetime.now() + timedelta(days=EXPIRY)).isoformat()
+    
+    if isinstance(expiry, str):
+        try:
+            # Try full datetime first
+            return datetime.fromisoformat(expiry).isoformat()
+        except ValueError:
+            try:
+                # Try date-only string (YYYY-MM-DD)
+                date_part = datetime.strptime(expiry, "%Y-%m-%d")
+                end_of_day = date_part.replace(hour=23, minute=59, second=59)
+                return end_of_day.isoformat()
+            except ValueError:
+                raise ValueError(f"Invalid expiry format: {expiry}")
+
+    elif isinstance(expiry, datetime):
+        return expiry.isoformat()
+
+    raise TypeError("Expiry must be a datetime or ISO 8601 string")
+
+def get_or_cache(key, fetch_fn, *args, expiry=None, file_path=CACHE_FILE, **kwargs):
+    """
+    Retrieve a cached value by key, or compute and cache it if missing or expired.
+
+    Args:
+        key (str): Cache key.
+        fetch_fn (callable): Function to fetch the data if not cached.
+        *args: Positional arguments for fetch_fn.
+        **kwargs: Keyword arguments for fetch_fn.
+        expiry (str|datetime, optional): Expiry time for the cache.
+        file_path (str): Path to cache file.
+
+    Returns:
+        The cached or freshly fetched value.
+    """
+    value = get_cache(key, file_path)
+    if value is not None:
+        return value
+
+    value = fetch_fn(*args, **kwargs)
+    save_cache(key, value, file_path=file_path, expiry=expiry)
+    return value
 
 
 
 
+########################################################################################################################################################################################################################################################################################################################################################
+###########  DATAVERSE  #########################################################################################################################################################################################################################################################################################################################
+########################################################################################################################################################################################################################################################################################################################################################
 
+
+def upload_data_to_dataverse(oauth_token, dataverse_url, table_name, data):
+    """Upload data from Google Sheets to a Dataverse"""
+
+    if not oauth_token:
+        print("Error: No OAuth token available. Retrieve a token first.")
+        return
+    
+    headers = {
+        "Authorization": f"Bearer {oauth_token}",
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+        "OData-Version": "4.0"
+    }
+    
+    endpoint = f"{dataverse_url}/{table_name}s"
+    
+    response = requests.post(endpoint, json=data, headers=headers)
+    
+    if response.status_code == 204 or response.status_code == 201:
+        print("Data uploaded successfully.")
+    else:
+        print(f"Error uploading data: {response.status_code} - {response.text}")
+
+def check_table_exists(oauth_token,dataverse_url, table_name):
+
+    headers = {
+        "Authorization": f"Bearer {oauth_token}",
+        "Accept": "application/json",
+        "OData-Version": "4.0"
+    }
+
+    # Construct the endpoint to retrieve records from the table
+    endpoint = f"{dataverse_url}/{table_name}"
+
+    # Send the GET request
+    response = requests.get(endpoint, headers=headers)
+
+    # Check if the request was successful
+    if response.status_code == 200:
+        print(f"Table '{table_name}' exists and data retrieved successfully!")
+        print(response.json())  # Optionally print the response JSON to see the data
+    else:
+        print(f"Error accessing the table: {response.status_code} - {response.text}")
+
+def list_tables(oauth_token, dataverse_url):
+    headers = {
+        "Authorization": f"Bearer {oauth_token}",
+        "Accept": "application/json",
+        "OData-Version": "4.0"
+    }
+
+    endpoint = f"{dataverse_url}/EntityDefinitions?$select=LogicalName,SchemaName,DisplayName"
+
+    response = requests.get(endpoint, headers=headers)
+
+    if response.status_code == 200:
+        entities = response.json().get("value", [])
+        result = {}
+
+        for entity in entities:
+            logical_name = entity.get("LogicalName", "")
+            display = entity.get("DisplayName", {})
+            label = display.get("UserLocalizedLabel") or {}
+            display_name = label.get("Label", "")
+
+            if display_name:  # Skip if there's no label
+                result[display_name] = logical_name
+
+        return result
+
+    else:
+        print(f"Error fetching tables: {response.status_code} - {response.text}")
+        return {}
+
+def get_col_logical_names(oauth_token, url, table):
+    """
+    Fetch display name → logical name mapping for user-defined columns in a Dataverse table.
+
+    Returns:
+        dict: {Display Name: LogicalName}
+    """
+    endpoint = f"{url}/EntityDefinitions(LogicalName='{table}')/Attributes"
+    
+    headers = {
+        "Authorization": f"Bearer {oauth_token}",
+        "Accept": "application/json"
+    }
+    
+    response = requests.get(endpoint, headers=headers)
+
+    if response.status_code == 200:
+        data = response.json()
+        result = {}
+
+        for attribute in data.get('value', []):
+            if not attribute.get("IsCustomAttribute", False):
+                continue  # Only include user-defined (custom) columns
+
+            logical_name = attribute.get("LogicalName")
+            labels = attribute.get("DisplayName", {}).get("LocalizedLabels", [])
+
+            if labels and labels[0].get("Label"):
+                display_name = labels[0]["Label"]
+                result[display_name] = logical_name
+
+        return result
+    
+    else:
+        print(f"Error fetching metadata: {response.status_code} - {response.text}")
+        return {}
+    
+def to_logical_names(display_list, mapping):
+    """
+    Given a list of display names and a mapping dictionary of {Display Name: LogicalName},
+    returns a new list with each display name replaced by its logical name.
+    If a display name isn't found in the mapping, it is kept as-is.
+    """
+    return [mapping.get(col, col) for col in display_list]
+
+
+def map_data_to_payload(logical_names, data, limit=0):
+    """Map the 2D array data to a batch payload format using logical names, and format dates/numbers properly."""
+    payloads = []
+    headers = data[0]  # The first row contains column headers
+
+    # Determine the limit of rows to process (if limit is 0, process all)
+    rows_to_process = data[1:limit] if limit else data[1:]
+
+    for row in rows_to_process:  # Iterate over each row
+        row_payload = {}
+
+        for i, header in enumerate(headers):
+            logical_name = logical_names.get(header)  # Get the logical name for the header
+            if logical_name:
+                value = row[i].strip() if isinstance(row[i], str) else row[i]
+
+                # Handle empty/invalid values
+                if value in ["", "--", "N/A"]:
+                    value = None  # Convert invalid values to None (null in JSON)
+
+                # Format date fields properly
+                if "date" in logical_name.lower() and value:
+                    value = format_date(value)  # Apply date formatting
+
+                # Convert numeric fields properly
+                elif isinstance(value, str) and value.replace(".", "", 1).isdigit():
+                    value = float(value) if "." in value else int(value)
+
+                row_payload[logical_name] = value  # Map the data to the logical name
+
+        payloads.append(row_payload)  # Add the mapped row to the batch payload
+
+    return payloads
+
+def upload_batch_data_to_dataverse(oauth_token, dataverse_url, table_name, data_list):
+    """Upload multiple records to Dataverse using a batch request"""
+
+    if not oauth_token:
+        print("Error: No OAuth token available. Retrieve a token first.")
+        return
+    
+    # Generate unique batch and change set IDs
+    batch_guid = f"batch_{uuid.uuid4()}"
+    changeset_guid = f"changeset_{uuid.uuid4()}"
+
+    # Headers for the batch request
+    headers = {
+        "Authorization": f"Bearer {oauth_token}",
+        "Content-Type": f"multipart/mixed;boundary={batch_guid}",
+        "Accept": "application/json",
+        "OData-Version": "4.0"
+    }
+
+    # Construct batch request body
+    batch_body = []
+    
+    # Opening boundary for batch
+    batch_body.append(f"--{batch_guid}")
+    batch_body.append(f"Content-Type: multipart/mixed; boundary={changeset_guid}")
+    batch_body.append("")  # Blank line required
+
+    # Add each record as part of the change set
+    i=0
+    for record in data_list:
+        batch_body.append(f"--{changeset_guid}")
+        batch_body.append("Content-Type: application/http")
+        batch_body.append("Content-Transfer-Encoding: binary")
+        batch_body.append(f"Content-ID: {i}")
+        batch_body.append("")
+        batch_body.append(f"POST {dataverse_url}/{table_name}s HTTP/1.1")
+        batch_body.append("Content-Type: application/json")
+        batch_body.append("")
+        batch_body.append(json.dumps(record))  # Convert dictionary to JSON
+
+        i+=1
+
+    # Close changeset
+    batch_body.append(f"--{changeset_guid}--")
+
+    # Close batch
+    batch_body.append(f"--{batch_guid}--")
+
+    # Send batch request
+    response = requests.post(f"{dataverse_url}/$batch",
+                             headers=headers,
+                             data="\r\n".join(batch_body))  # Important: Use "\r\n" for proper formatting
+
+    # Handle response
+    if response.status_code in [200, 204]:
+        print("Batch data uploaded successfully.")
+    else:
+        print(f"Error uploading batch data: {response.status_code} - {response.text}")
+
+def get_data_from_dataverse(oauth_token, dataverse_url, table_name, column_indexes=None):
+    """
+    Fetch all data from a Dataverse table with pagination, returning user-defined columns as a 2D list.
+
+    Args:
+        oauth_token (str): a Delegated access token.
+        dataverse_url (str): Base URL of the Dataverse instance.
+        table_name (str): Table name (singular, "s" is added automatically).
+        column_indexes (list, optional): List of column indexes (zero-based) to retrieve.
+                                         If None, all user-defined columns are returned.
+
+    Returns:
+        list: 2D list where the first row contains column names and subsequent rows contain data.
+    """
+
+    if not oauth_token:
+        print("Error: No OAuth token available. Retrieve a token first.")
+        return None
+
+    endpoint = f"{dataverse_url}/{table_name}s"
+    headers = {
+        "Authorization": f"Bearer {oauth_token}",
+        "Accept": "application/json",
+        "OData-Version": "4.0"
+    }
+
+    all_data = []
+    next_link = endpoint  # Start with the first page
+
+    while next_link:
+        response = requests.get(next_link, headers=headers)
+        
+        if response.status_code != 200:
+            print(f"Error fetching data: {response.status_code}")
+            print("Response:", response.text)
+            return None
+
+        response_json = response.json()
+        data = response_json.get("value", [])
+        
+        if not data:
+            break  # No more data to fetch
+
+        # Extract column names from the first record and filter out system columns
+        if not all_data:  # Only process headers once
+            first_record = data[0]
+            user_defined_columns = [col for col in first_record.keys() if not col.startswith("@odata")]
+
+            # If column indexes are provided, filter only those columns
+            if column_indexes is not None:
+                user_defined_columns = [user_defined_columns[i] for i in column_indexes if i < len(user_defined_columns)]
+            
+            # Add headers as the first row
+            all_data.append(user_defined_columns)
+
+        # Append records
+        all_data.extend([[record.get(col, None) for col in user_defined_columns] for record in data])
+
+        # Get the next page URL (if available)
+        next_link = response_json.get("@odata.nextLink")
+
+    return all_data
+
+def format_date(date_string):
+    """Convert date string to the required format 'yyyy-MM-ddTHH:mm:ssZ'."""
+    try:
+        # Parse the date string and convert to the required format
+        date_obj = datetime.strptime(date_string, "%Y-%m-%d")
+        return date_obj.strftime("%Y-%m-%dT%H:%M:%SZ")  # ISO 8601 format
+    except ValueError:
+        # If parsing fails, return the original string (assuming it's already in correct format)
+        return date_string
 
 
 
@@ -642,17 +1121,31 @@ def get_desried_columns(data, desired_columns):
 
 #######################################################################################################################################################################################################
 
+#DV
+TOKEN_NAME = "dv1"
+TABLE_NAME = "F_TEMP_SAP"
+DATAVERSE_URL = "https://orge27ae0c3.api.crm5.dynamics.com/api/data/v9.2"
 
-#CONFIG
-CONFIG_TXT = "./config/CONFIG_WRU.txt"
+set_credentials()
+token = check_token(TOKEN_NAME,grant_type="devicecode",scope=DATAVERSE_URL,to_gmail="gs.gpsprojectAPI1@gmail.com")
+
+
+def dv_prep():
+    table_id = get_or_cache(TABLE_NAME, list_tables, token, DATAVERSE_URL)[TABLE_NAME] # Get column names from cache or fetch from Dataverse
+    dataverse_col_names = get_or_cache("dv_cols", get_col_logical_names, token, DATAVERSE_URL, table_id) # prep
+
+    return table_id, dataverse_col_names
+
+dv_prep()
+
 
 #for lakehouse
 OUTPUT_FILE = "./output_csv/output_sap.csv"
 
 #for logging
 GSPREAD_SS = "GPS VEHICLE LIVE DATA - ALL PLATFORMS"
-GPSREAD_WS = "TEMP SAP"
-ROW_LOGS = 7
+GPSREAD_WS = "testtest"
+ROW_LOGS = 10
 
 worksheet = set_gspread(GSPREAD_SS,GPSREAD_WS)
 set_rowlogs(ROW_LOGS,name=GPSREAD_WS)
@@ -662,11 +1155,11 @@ CORS(app, resources={r"/api/upload": {"origins": "*"}})  # end point
 
 @app.route("/api/upload", methods=["POST", "OPTIONS"])  # Allow both POST and OPTIONS
 def handle_post():
+
     if request.method == "OPTIONS":
         return '', 204  # Respond to OPTIONS request with no content
 
     payload = request.json  # Receive JSON data
-    oe = payload.get("sourceOrderId", "")
     headers = [
         "id",
         "type",
@@ -700,6 +1193,8 @@ def handle_post():
         payload.get("sourceOrderId", ""),
         payload.get("teamId", ""),
     ]
+
+    oe = payload.get("id", "") # get oe
 
     # dissect data
     line_item = payload.get("lineItems", [{}])[0]
@@ -737,26 +1232,57 @@ def handle_post():
         payload.get("orderDate", ""),
     ]
 
-    # for timestamping
-    gmt_plus_8 = timezone(timedelta(hours=8))
-    
-    for_upload = [headers, data]
-    timestamp = datetime.now(gmt_plus_8).strftime("%Y-%m-%d %H:%M:%S")
-    fdata = [row + [timestamp] for row in for_upload [1:] ]
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S") 
+
+    print(f"[{timestamp}] Received: {oe}")
+
+    response_dict = {
+        "Uploaded OE": oe,
+        "Date received": timestamp
+    }
+
+    # CHECK OE IF DUPLICATE ##############################################################################################################################################################
+
+    check_oe = get_cache(oe)
+
+    if check_oe:
+        response_dict["DUPLICATE"] = "Duplicated OE received. Upload denied."
+        print("Duplicated OE received. Upload denied.")
+        return jsonify(response_dict), 409  # OE duplicate detected
+    else:
+        save_cache(oe,oe)
+
+    # UPLAOD TO GSPREAD ################################################################################################################################################################
+    try:
+        for_upload = [headers, data]
+        worksheet.append_rows(for_upload[1:])
+        response_dict["gspread"] = "success"
+    except Exception as e:
+        print(f"[GSPREAD Upload failed] {e}")
+        response_dict["gspread"] = "failed"
 
 
-    
-    print(f"Received Upload: {oe}, Time: {timestamp}")
-    
-    print(for_upload)
+    # UPLOAD TO DATAVERSE ###############################################################################################################################################################
+    try:
+        table_id, dataverse_col_names = dv_prep()
 
-    worksheet.append_rows(fdata)
-    
-    
-    return jsonify({
-        "message": "File Uploaded!",
-        "received": timestamp #time received
-    }), 200  # Respond with JSON data
+        header = headers
+        data = data
+
+        header = to_logical_names(header,dataverse_col_names)
+
+        f_data = to_dict([header, data])
+
+        upload_data_to_dataverse(token,DATAVERSE_URL,table_id,f_data)
+
+        response_dict["dataverse"] = "success"
+
+    except Exception as e:
+        print(f"[DATAVERSE Upload failed] {e}")
+        response_dict["dataverse"] = "failed"
+
+
+    return jsonify(response_dict), 200  # Respond with JSON data
 
 
 
