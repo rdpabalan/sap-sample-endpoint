@@ -1290,6 +1290,7 @@ def handle_post():
 
 if __name__ == "__main__":
     print("Endpoint Initialized")
-    app.run(host="0.0.0.0", port=5000, threaded=True) # run on local host
+    port = int(os.environ.get("PORT", 5000))  # default to 5000 if PORT isn't set
+    app.run(host="0.0.0.0", port=port, threaded=True)
 
 
