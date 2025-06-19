@@ -49,7 +49,7 @@ import traceback
 TOKEN_FILE = "./env/token.json"
 
 # Where to save the decoded Microsoft credentials
-msft_secret_path = "/temp/msft-secret.json"
+msft_secret_path = "/tmp/msft-secret.json"
 
 # Decode and write key if not already written
 if "fabric_key64" in os.environ:
@@ -411,7 +411,7 @@ def delete_token(key: str):
 SPEC_ERROR = "__WATCHDOG_ERROR__:"
 
 
-key_path = "/temp/gcp-key.json"
+key_path = "/tmp/gcp-key.json"
 
 
 if "gspread_key64" in os.environ: #decode
