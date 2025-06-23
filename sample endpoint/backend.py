@@ -381,15 +381,15 @@ def check_token(token_name,grant_type: Literal["application", "devicecode", "del
         if grant_type == "application":
             access_token = get_application_access_token(token_name,scope)
         elif grant_type == "devicecode":
-            # access_token = get_devicecode_access_token(token_name,scope,to_gmail)
-            pass
+            access_token = get_devicecode_access_token(token_name,scope,to_gmail)
         elif grant_type == "delegated":
             access_token = get_delegated_access_token(token_name,scope)
         else:
             print(f"Invalid grant type: {grant_type}. \n\nChoose only [ application | delegated ]")
             return None
-        
-    print(f"Access Token: {access_token[:20]}...{access_token[len(access_token)-20:]} (Truncated).")
+            
+    if access_token:
+        print(f"Access Token: {access_token[:20]}...{access_token[len(access_token)-20:]} (Truncated).")
 
     return access_token
 
