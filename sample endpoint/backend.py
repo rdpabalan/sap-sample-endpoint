@@ -46,7 +46,7 @@ import traceback
 
 ################################################################################################################################################################################################
 
-TOKEN_FILE = "./env/token.json"
+TOKEN_FILE = "token.json"
 
 # Where to save the decoded Microsoft credentials
 msft_secret_path = "/tmp/msft-secret.json"
@@ -54,7 +54,6 @@ msft_secret_path = "/tmp/msft-secret.json"
 # Decode and write key if not already written
 if "fabric_key64" in os.environ:
     msft_key_data = base64.b64decode(os.environ["fabric_key64"])
-
 
     with open(msft_secret_path, "wb") as f:
         f.write(msft_key_data)
@@ -202,7 +201,7 @@ def get_devicecode_access_token(key_name, scope, to_gmail=None):
             oauth_token = token_data["access_token"]
             refresh_token = token_data["refresh_token"]
             expiration_date = time.time() + token_data["expires_in"]
-            store_token(key_name, oauth_token, refresh_token=refresh_token, expire_at=str(expiration_date))
+            store_token(key_name, oauth_token, refresh_token=refresh_token, expire_at=str(expiration_date), is_public=True)
             print(f"Delegated Access Token retrieved successfully.")
             return oauth_token
             break
@@ -241,27 +240,35 @@ def send_to_gmail(receiver_email,redirect=None,code=None):
 
 
 
-def refresh_token(key_name,oauth_token,refresh_token):
+def refresh_token(key_name,oauth_token,refresh_token,is_public=False):
     global client_id, client_secret, tenant_id
 
     token_url = f"https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token"
 
     payload = {
         "client_id": client_id,
-        "client_secret": client_secret,
         "grant_type": "refresh_token",
         "refresh_token": refresh_token
     }
+
+    # Include client_secret only if not public
+    if not is_public:
+        payload["client_secret"] = client_secret
 
     response = requests.post(token_url, data=payload)
     token_data = response.json()
 
     oauth_token = token_data.get("access_token")  # Valid for another 1 hour
-    refresh_token = token_data.get("refresh_token")  # Use this next time!
-    expiration_date = token_data.get("expires_in")
-    store_token(key_name, oauth_token, refresh_token=refresh_token, expire_at=str(expiration_date))
+    refresh_token = token_data.get("refresh_token", refresh_token)  # Use this next time!
+    expiration_date = time.time() + token_data.get("expires_in", 3600)
+    store_token(key_name, oauth_token, refresh_token=refresh_token, expire_at=str(expiration_date), is_public=is_public)
     print(f"Delegated Access Token refreshed successfully.")
-    return token_data
+    return {
+        "access_token":  oauth_token,
+        "refresh_token": refresh_token,
+        "expire_at": str(expiration_date),
+        }
+
 
 def get_application_access_token(key_name,scope="https://graph.microsoft.com/.default"):
     global client_id, client_secret, tenant_id, oauth_token
@@ -286,7 +293,7 @@ def get_application_access_token(key_name,scope="https://graph.microsoft.com/.de
 
     return access_token
 
-def store_token(key: str, token: str, refresh_token: str = "", expire_at: float = None):
+def store_token(key: str, token: str, refresh_token: str = "", expire_at: float = None, is_public: bool = False):
     """
     Stores a token in the 'tokens' file. Creates the file if it doesn't exist.
     If the key exists, it updates the existing record.
@@ -312,7 +319,8 @@ def store_token(key: str, token: str, refresh_token: str = "", expire_at: float 
     tokens[key] = {
         "access_token": token,
         "refresh_token": refresh_token,
-        "expire_at": expire_at
+        "expire_at": expire_at,
+        "is_public": is_public
     }
 
     # Save back to file
@@ -341,10 +349,13 @@ def get_token(key: str):
     token_data = tokens[key]
     expire_at = float(token_data["expire_at"])
 
+    print("Expire at:", expire_at)
+    print("Has refresh_token:", bool(token_data["refresh_token"]))
+
     if token_data["refresh_token"] and datetime.now().timestamp() >= expire_at:
         print(f"Refreshing token: {key}")
 
-        return refresh_token(key,token_data["access_token"],token_data["refresh_token"])
+        return refresh_token(key,token_data["access_token"],token_data["refresh_token"],is_public=token_data["is_public"])
 
     # Check if token is expired
     if datetime.now().timestamp() >= expire_at:
@@ -365,13 +376,13 @@ def check_token(token_name,grant_type: Literal["application", "devicecode", "del
     except:
         access_token = None
 
-
     if not access_token:
         print("Getting new access token...")
         if grant_type == "application":
             access_token = get_application_access_token(token_name,scope)
         elif grant_type == "devicecode":
-            access_token = get_devicecode_access_token(token_name,scope,to_gmail)
+            # access_token = get_devicecode_access_token(token_name,scope,to_gmail)
+            pass
         elif grant_type == "delegated":
             access_token = get_delegated_access_token(token_name,scope)
         else:
@@ -417,6 +428,7 @@ key_path = "/tmp/gcp-key.json"
 if "gspread_key64" in os.environ: #decode
     key_data = base64.b64decode(os.environ["gspread_key64"])
 
+
     with open(key_path, "wb") as f:
         f.write(key_data)
 
@@ -442,6 +454,31 @@ def set_gspread(spreadsheet_name,worksheet_name,cred_path=key_path):
     worksheet = spreadsheet.worksheet(worksheet_name)
 
     return worksheet
+
+def get_sheet_data(worksheet_name, range=None):
+    """
+    Retrieve data from a specified worksheet in a Google Sheet.
+
+    Args:
+        worksheet_name (str): The name of the worksheet to fetch data from.
+        range (str, optional): The range of cells to retrieve in A1 notation. 
+                               If None, retrieves all data from the worksheet.
+
+    Returns:
+        list: A 2D list containing the data from the specified worksheet and range.
+    """
+    global spreadsheet
+
+    # Open the Google Sheet
+    worksheet = spreadsheet.worksheet(worksheet_name)
+
+    # Read all data from the sheet into a 2D list
+    if range is None:  # If range is None or not provided, fetch all data
+        data = worksheet.get_all_values()
+    else:
+        data = worksheet.get(range)  # This will get all rows from the specified range
+
+    return data
 
 def set_rowlogs(row,name="TEST"):
     global rowlogs, script_name
@@ -1145,6 +1182,10 @@ ROW_LOGS = 10
 worksheet = set_gspread(GSPREAD_SS,GPSREAD_WS)
 set_rowlogs(ROW_LOGS,name=GPSREAD_WS)
 
+
+SAP_MASTERDATA = dict(get_sheet_data("SAP - SRC & DST")[1:]) 
+
+
 app = Flask(__name__)
 CORS(app, resources={r"/api/upload": {"origins": "*"}})  # end point
 
@@ -1221,13 +1262,17 @@ def handle_post():
     ]
 
     data += [
-        payload.get("homebaseId", ""),
-        payload.get("locationId", ""),
+        SAP_MASTERDATA.get(payload.get("homebaseId", ""), ""),
+        SAP_MASTERDATA.get(payload.get("locationId", ""), ""),
         payload.get("date", ""),
         payload.get("orderDate", ""),
     ]
 
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S") 
+
+    data += [
+        timestamp
+    ]
 
     print(f"[{timestamp}] Received: {oe}")
 
