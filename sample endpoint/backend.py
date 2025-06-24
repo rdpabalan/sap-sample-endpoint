@@ -24,7 +24,7 @@ from datetime import datetime, timedelta, timezone
 
 import gspread
 from google.oauth2.service_account import Credentials
-#test
+
 # from pyspark.sql import SparkSession
 # from azure.identity import ClientSecretCredential, DefaultAzureCredential
 from urllib.parse import urlparse, parse_qs
@@ -37,6 +37,8 @@ from urllib.parse import urlparse, parse_qs
 import pandas as pd
 import csv
 import webbrowser
+
+import threading
 
 
 import sys
@@ -381,15 +383,15 @@ def check_token(token_name,grant_type: Literal["application", "devicecode", "del
         if grant_type == "application":
             access_token = get_application_access_token(token_name,scope)
         elif grant_type == "devicecode":
-            access_token = get_devicecode_access_token(token_name,scope,to_gmail)
+            # access_token = get_devicecode_access_token(token_name,scope,to_gmail)
+            pass
         elif grant_type == "delegated":
             access_token = get_delegated_access_token(token_name,scope)
         else:
             print(f"Invalid grant type: {grant_type}. \n\nChoose only [ application | delegated ]")
             return None
-            
-    if access_token:
-        print(f"Access Token: {access_token[:20]}...{access_token[len(access_token)-20:]} (Truncated).")
+        
+    print(f"Access Token: {access_token[:20]}...{access_token[len(access_token)-20:]} (Truncated).")
 
     return access_token
 
@@ -825,6 +827,11 @@ def get_or_cache(key, fetch_fn, *args, expiry=None, file_path=CACHE_FILE, **kwar
         return value
 
     value = fetch_fn(*args, **kwargs)
+
+    if not value:
+        print("No value fetched from the function provided.")
+        return None
+
     save_cache(key, value, file_path=file_path, expiry=expiry)
     return value
 
@@ -1153,30 +1160,12 @@ def format_date(date_string):
 
 #######################################################################################################################################################################################################
 
-#DV
-TOKEN_NAME = "dv1"
-TABLE_NAME = "F_TEMP_SAP"
-DATAVERSE_URL = "https://orge27ae0c3.api.crm5.dynamics.com/api/data/v9.2"
-
-set_credentials()
-token = check_token(TOKEN_NAME,grant_type="devicecode",scope=DATAVERSE_URL,to_gmail="gs.gpsprojectAPI1@gmail.com")
-
-
-def dv_prep():
-    table_id = get_or_cache(TABLE_NAME, list_tables, token, DATAVERSE_URL)[TABLE_NAME] # Get column names from cache or fetch from Dataverse
-    dataverse_col_names = get_or_cache("dv_cols", get_col_logical_names, token, DATAVERSE_URL, table_id) # prep
-
-    return table_id, dataverse_col_names
-
-dv_prep()
-
-
 #for lakehouse
 OUTPUT_FILE = "./output_csv/output_sap.csv"
 
 #for logging
 GSPREAD_SS = "GPS VEHICLE LIVE DATA - ALL PLATFORMS"
-GPSREAD_WS = "TEMP SAP"
+GPSREAD_WS = "testtest"
 ROW_LOGS = 10
 
 worksheet = set_gspread(GSPREAD_SS,GPSREAD_WS)
@@ -1186,11 +1175,37 @@ set_rowlogs(ROW_LOGS,name=GPSREAD_WS)
 SAP_MASTERDATA = dict(get_sheet_data("SAP - SRC & DST")[1:]) 
 
 
+#DV
+TOKEN_NAME = "dv1"
+TABLE_NAME = "F_TEMP_SAP"
+DATAVERSE_URL = "https://orge27ae0c3.api.crm5.dynamics.com/api/data/v9.2"
+
+set_credentials()
+
+
+
+token = get_sheet_data("Tokens","B2")[0][0]
+
+print(f"Succesfully retrieved token: {token[:20]}...{token[len(token)-20:]} (Truncated).")
+
+
+def dv_prep():
+
+    table_ids = get_or_cache(TABLE_NAME, list_tables, token, DATAVERSE_URL) # Get column names from cache or fetch from Dataverse
+    table_id = table_ids[TABLE_NAME]
+    dataverse_col_names = get_or_cache("dv_cols", get_col_logical_names, token, DATAVERSE_URL, table_id) # prep
+
+    return table_id, dataverse_col_names
+
+dv_prep()
+
+
 app = Flask(__name__)
 CORS(app, resources={r"/api/upload": {"origins": "*"}})  # end point
 
 @app.route("/api/upload", methods=["POST", "OPTIONS"])  # Allow both POST and OPTIONS
 def handle_post():
+    global token
 
     if request.method == "OPTIONS":
         return '', 204  # Respond to OPTIONS request with no content
@@ -1268,7 +1283,8 @@ def handle_post():
         payload.get("orderDate", ""),
     ]
 
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S") 
+    gmt_plus_8 = timezone(timedelta(hours=8)) #timezone Asia/Manila
+    timestamp = datetime.now(gmt_plus_8).strftime("%Y-%m-%d %I:%M:%S %p")
 
     data += [
         timestamp
@@ -1322,14 +1338,27 @@ def handle_post():
         response_dict["dataverse"] = "failed"
 
 
+
     return jsonify(response_dict), 200  # Respond with JSON data
 
 
+
+def schedule_token_refresh():
+
+    def Maintoken():
+        global token
+        token = get_sheet_data("Tokens","B2")[0][0]
+        print(f"[Retrieved latest token] {token[:20]}...{token[len(token)-20:]} (Truncated).")
+
+    while True:
+        Maintoken()
+        time.sleep(3600)
 
 
 
 if __name__ == "__main__":
     print("Endpoint Initialized")
+    threading.Thread(target=schedule_token_refresh, daemon=True).start()
     app.run(host="0.0.0.0", port=5000, threaded=True) # run on local host
 
 
