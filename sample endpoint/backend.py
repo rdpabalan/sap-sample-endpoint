@@ -1165,7 +1165,7 @@ OUTPUT_FILE = "./output_csv/output_sap.csv"
 
 #for logging
 GSPREAD_SS = "GPS VEHICLE LIVE DATA - ALL PLATFORMS"
-GPSREAD_WS = "testtest"
+GPSREAD_WS = "TEMP SAP"
 ROW_LOGS = 10
 
 worksheet = set_gspread(GSPREAD_SS,GPSREAD_WS)
