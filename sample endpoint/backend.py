@@ -1338,7 +1338,7 @@ def handle_post():
         response_dict["dataverse"] = "failed"
 
 
-
+    print(response_dict)
     return jsonify(response_dict), 200  # Respond with JSON data
 
 
