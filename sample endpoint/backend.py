@@ -1165,7 +1165,7 @@ OUTPUT_FILE = "./output_csv/output_sap.csv"
 
 #for logging
 GSPREAD_SS = "GPS VEHICLE LIVE DATA - ALL PLATFORMS"
-GPSREAD_WS = "TEMP SAP"
+GPSREAD_WS = "testtest"
 ROW_LOGS = 10
 
 worksheet = set_gspread(GSPREAD_SS,GPSREAD_WS)
@@ -1202,6 +1202,15 @@ dv_prep()
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/upload": {"origins": "*"}})  # end point
+
+# Simulated OE cache using in-memory set (replace with persistent storage if needed)
+OE_CACHE = set()
+
+def get_cache(oe_id):
+    return oe_id in OE_CACHE
+
+def save_cache(oe_id, _value=None):
+    OE_CACHE.add(oe_id)
 
 @app.route("/api/upload", methods=["POST", "OPTIONS"])  # Allow both POST and OPTIONS
 def handle_post():
@@ -1293,63 +1302,35 @@ def handle_post():
     print(f"[{timestamp}] Received: {oe}")
 
     response_dict = {
-        "Uploaded OE": oe,
-        "Date received": timestamp
+        "Date received": timestamp,
+        "Uploaded OE": oe
     }
-
     # CHECK OE IF DUPLICATE ##############################################################################################################################################################
+    if get_cache(oe):
+        response_dict.update({
+            "status": "failed",
+            "message": "Duplicated OE received. Upload denied."
+        })
+        print(response_dict)
+        return jsonify(response_dict), 409
 
-    check_oe = get_cache(oe)
+    # Save OE to mark as processed
+    save_cache(oe, oe)
 
-    if check_oe:
-        response_dict["DUPLICATE"] = "Duplicated OE received. Upload denied."
-        print("Duplicated OE received. Upload denied.")
-        return jsonify(response_dict), 409  # OE duplicate detected
-    else:
-        save_cache(oe,oe)
-
-    # UPLAOD TO GSPREAD ################################################################################################################################################################
-    try:
-        for_upload = [headers, data]
-        worksheet.append_rows(for_upload[1:])
-        response_dict["gspread"] = "success"
-    except Exception as e:
-        print(f"[GSPREAD Upload failed] {e}")
-        response_dict["gspread"] = "failed"
-
-
-    # UPLOAD TO DATAVERSE ###############################################################################################################################################################
-    try:
-        table_id, dataverse_col_names = dv_prep()
-
-        header = headers
-        data = data
-
-        header = to_logical_names(header,dataverse_col_names)
-
-        f_data = to_dict([header, data])
-
-        upload_data_to_dataverse(token,DATAVERSE_URL,table_id,f_data)
-
-        response_dict["dataverse"] = "success"
-
-    except Exception as e:
-        print(f"[DATAVERSE Upload failed] {e}")
-        response_dict["dataverse"] = "failed"
-
+    # Success
+    response_dict.update({
+        "status": "success",
+        "message": "Upload successful."
+    })
 
     print(response_dict)
-    return jsonify(response_dict), 200  # Respond with JSON data
-
-
+    return jsonify(response_dict), 200
 
 def schedule_token_refresh():
-
     def Maintoken():
         global token
-        token = get_sheet_data("Tokens","B2")[0][0]
-        print(f"[Retrieved latest token] {token[:20]}...{token[len(token)-20:]} (Truncated).")
-
+        token = get_sheet_data("Tokens", "B2")[0][0]
+        print(f"[Retrieved latest token] {token[:20]}...{token[-20:]}")
     while True:
         Maintoken()
         time.sleep(3600)
