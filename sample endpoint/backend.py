@@ -1317,7 +1317,23 @@ def handle_post():
     # Save OE to mark as processed
     save_cache(oe, oe)
 
-    # Success
+    # Upload to Google Sheets
+    try:
+        for_upload = [headers, data]
+        worksheet.append_rows(for_upload[1:])  # exclude headers
+        except Exception as e:
+        print(f"[GSPREAD Upload failed] {e}")
+
+    # Upload to Dataverse
+    try:
+        table_id, dataverse_col_names = dv_prep()
+        logical_headers = to_logical_names(headers, dataverse_col_names)
+        formatted_data = to_dict([logical_headers, data])
+        upload_data_to_dataverse(token, DATAVERSE_URL, table_id, formatted_data)
+    except Exception as e:
+        print(f"[DATAVERSE Upload failed] {e}")
+
+    # Success response
     response_dict.update({
         "status": "success",
         "message": "Upload successful."
@@ -1325,6 +1341,7 @@ def handle_post():
 
     print(response_dict)
     return jsonify(response_dict), 200
+
 
 def schedule_token_refresh():
     def Maintoken():
