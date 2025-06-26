@@ -1321,7 +1321,7 @@ def handle_post():
     try:
         for_upload = [headers, data]
         worksheet.append_rows(for_upload[1:])  # exclude headers
-        except Exception as e:
+    except Exception as e:
         print(f"[GSPREAD Upload failed] {e}")
 
     # Upload to Dataverse
