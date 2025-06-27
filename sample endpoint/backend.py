@@ -51,7 +51,7 @@ import traceback
 TOKEN_FILE = "token.json"
 
 # Where to save the decoded Microsoft credentials
-msft_secret_path = "/tmp/msft-secret.json"
+msft_secret_path = "./tmp/msft-secret.json"
 
 # Decode and write key if not already written
 if "fabric_key64" in os.environ:
@@ -424,7 +424,7 @@ def delete_token(key: str):
 SPEC_ERROR = "__WATCHDOG_ERROR__:"
 
 
-key_path = "/tmp/gcp-key.json"
+key_path = "./tmp/gcp-key.json"
 
 
 if "gspread_key64" in os.environ: #decode
@@ -1203,15 +1203,6 @@ dv_prep()
 app = Flask(__name__)
 CORS(app, resources={r"/api/upload": {"origins": "*"}})  # end point
 
-# Simulated OE cache using in-memory set (replace with persistent storage if needed)
-OE_CACHE = set()
-
-def get_cache(oe_id):
-    return oe_id in OE_CACHE
-
-def save_cache(oe_id, _value=None):
-    OE_CACHE.add(oe_id)
-
 @app.route("/api/upload", methods=["POST", "OPTIONS"])  # Allow both POST and OPTIONS
 def handle_post():
     global token
@@ -1300,54 +1291,66 @@ def handle_post():
     ]
 
     print(f"[{timestamp}] Received: {oe}")
-
+    
     response_dict = {
-        "Date received": timestamp,
-        "Uploaded OE": oe
-    }
-    # CHECK OE IF DUPLICATE ##############################################################################################################################################################
-    if get_cache(oe):
-        response_dict.update({
+            "Date received": timestamp,
+            "Uploaded OE": oe,
             "status": "failed",
-            "message": "Duplicated OE received. Upload denied."
-        })
-        print(response_dict)
-        return jsonify(response_dict), 409
+            "message": "Upload failed" #default to failed so if it don't progress
+    }
 
-    # Save OE to mark as processed
-    save_cache(oe, oe)
+    # CHECK OE IF DUPLICATE ##############################################################################################################################################################
 
-    # Upload to Google Sheets
+    check_oe = get_cache(oe)
+
+    if check_oe:
+        error_Logger("Duplicated OE received",f"Duplicated OE {oe}")
+        return jsonify(response_dict), 409  # OE duplicate detected
+    else:
+        save_cache(oe,oe)
+
+    # UPLAOD TO GSPREAD ################################################################################################################################################################
     try:
         for_upload = [headers, data]
-        worksheet.append_rows(for_upload[1:])  # exclude headers
+        worksheet.append_rows(for_upload[1:])
+        response_dict["message"] = "Upload successful" #robot ahh response xD gl debugging
     except Exception as e:
-        print(f"[GSPREAD Upload failed] {e}")
+        error_Logger(e,"failed to upload to gspread")
+        response_dict["message"] = "Upload failed."
 
-    # Upload to Dataverse
+
+    # UPLOAD TO DATAVERSE ###############################################################################################################################################################
     try:
         table_id, dataverse_col_names = dv_prep()
-        logical_headers = to_logical_names(headers, dataverse_col_names)
-        formatted_data = to_dict([logical_headers, data])
-        upload_data_to_dataverse(token, DATAVERSE_URL, table_id, formatted_data)
+
+        header = headers
+        data = data
+
+        header = to_logical_names(header,dataverse_col_names)
+
+        f_data = to_dict([header, data])
+
+        upload_data_to_dataverse(token,DATAVERSE_URL,table_id,f_data)
+        response_dict["message"] = "Upload successful" #robot ahh response xD gl debugging
+
     except Exception as e:
-        print(f"[DATAVERSE Upload failed] {e}")
+        error_Logger(e,"failed to upload to dataverse")
+        response_dict["message"] = "Upload failed."
 
-    # Success response
-    response_dict.update({
-        "status": "success",
-        "message": "Upload successful."
-    })
 
+    response_dict["status"] = "success"
     print(response_dict)
-    return jsonify(response_dict), 200
+    return jsonify(response_dict), 200  # Respond with JSON data
+
 
 
 def schedule_token_refresh():
+
     def Maintoken():
         global token
-        token = get_sheet_data("Tokens", "B2")[0][0]
-        print(f"[Retrieved latest token] {token[:20]}...{token[-20:]}")
+        token = get_sheet_data("Tokens","B2")[0][0]
+        print(f"[Retrieved latest token] {token[:20]}...{token[len(token)-20:]} (Truncated).")
+
     while True:
         Maintoken()
         time.sleep(3600)
