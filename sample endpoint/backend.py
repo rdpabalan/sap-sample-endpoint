@@ -1304,6 +1304,7 @@ def handle_post():
     check_oe = get_cache(oe)
 
     if check_oe:
+        response_dict["message"] = "Duplicated OE received. Upload denied."
         error_Logger("Duplicated OE received",f"Duplicated OE {oe}")
         return jsonify(response_dict), 409  # OE duplicate detected
     else:
