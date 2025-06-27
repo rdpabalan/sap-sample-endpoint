@@ -1317,7 +1317,7 @@ def handle_post():
         response_dict["message"] = "Upload successful" #robot ahh response xD gl debugging
     except Exception as e:
         error_Logger(e,"failed to upload to gspread")
-        response_dict["message"] = "Upload failed."
+        response_dict["message"] = "Upload failed"
 
 
     # UPLOAD TO DATAVERSE ###############################################################################################################################################################
@@ -1336,7 +1336,7 @@ def handle_post():
 
     except Exception as e:
         error_Logger(e,"failed to upload to dataverse")
-        response_dict["message"] = "Upload failed."
+        response_dict["message"] = "Upload failed"
 
 
     response_dict["status"] = "success"
