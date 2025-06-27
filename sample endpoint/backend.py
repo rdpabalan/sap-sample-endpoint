@@ -51,7 +51,7 @@ import traceback
 TOKEN_FILE = "token.json"
 
 # Where to save the decoded Microsoft credentials
-msft_secret_path = "./tmp/msft-secret.json"
+msft_secret_path = "/tmp/msft-secret.json"
 
 # Decode and write key if not already written
 if "fabric_key64" in os.environ:
@@ -424,7 +424,7 @@ def delete_token(key: str):
 SPEC_ERROR = "__WATCHDOG_ERROR__:"
 
 
-key_path = "./tmp/gcp-key.json"
+key_path = "/tmp/gcp-key.json"
 
 
 if "gspread_key64" in os.environ: #decode
@@ -1165,7 +1165,7 @@ OUTPUT_FILE = "./output_csv/output_sap.csv"
 
 #for logging
 GSPREAD_SS = "GPS VEHICLE LIVE DATA - ALL PLATFORMS"
-GPSREAD_WS = "testtest"
+GPSREAD_WS = "TEMP SAP"
 ROW_LOGS = 10
 
 worksheet = set_gspread(GSPREAD_SS,GPSREAD_WS)
