@@ -1299,6 +1299,8 @@ def handle_post():
             "message": "Upload failed" #default to failed so if it don't progress
     }
 
+    response_code = 200
+
     # CHECK OE IF DUPLICATE ##############################################################################################################################################################
 
     check_oe = get_cache(oe)
@@ -1318,6 +1320,7 @@ def handle_post():
     except Exception as e:
         error_Logger(e,"failed to upload to gspread")
         # response_dict["message"] = "Upload failed"
+        # response_code = 500
 
 
     # UPLOAD TO DATAVERSE ###############################################################################################################################################################
@@ -1337,11 +1340,12 @@ def handle_post():
     except Exception as e:
         error_Logger(e,"failed to upload to dataverse")
         response_dict["message"] = "Upload failed"
+        response_code = 500
 
 
     response_dict["status"] = "success"
     print(response_dict)
-    return jsonify(response_dict), 200  # Respond with JSON data
+    return jsonify(response_dict), response_code  # Respond with JSON data
 
 
 
@@ -1362,6 +1366,7 @@ if __name__ == "__main__":
     print("Endpoint Initialized")
     threading.Thread(target=schedule_token_refresh, daemon=True).start()
     app.run(host="0.0.0.0", port=5000, threaded=True) # run on local host
+
 
 
 
