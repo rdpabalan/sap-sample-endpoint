@@ -1317,7 +1317,7 @@ def handle_post():
         response_dict["message"] = "Upload successful" #robot ahh response xD gl debugging
     except Exception as e:
         error_Logger(e,"failed to upload to gspread")
-        response_dict["message"] = "Upload failed"
+        # response_dict["message"] = "Upload failed"
 
 
     # UPLOAD TO DATAVERSE ###############################################################################################################################################################
@@ -1362,5 +1362,6 @@ if __name__ == "__main__":
     print("Endpoint Initialized")
     threading.Thread(target=schedule_token_refresh, daemon=True).start()
     app.run(host="0.0.0.0", port=5000, threaded=True) # run on local host
+
 
 
