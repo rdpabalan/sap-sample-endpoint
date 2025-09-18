@@ -1184,7 +1184,10 @@ set_credentials()
 
 
 
-token = get_sheet_data("Tokens","B2")[0][0]
+token_list = get_sheet_data("Tokens")
+token_names = [t[0] for t in token_list]
+
+token = token_list[token_names.index(TOKEN_NAME)][1]
 
 print(f"Succesfully retrieved token: {token[:20]}...{token[len(token)-20:]} (Truncated).")
 
@@ -1366,6 +1369,7 @@ if __name__ == "__main__":
     print("Endpoint Initialized")
     threading.Thread(target=schedule_token_refresh, daemon=True).start()
     app.run(host="0.0.0.0", port=5000, threaded=True) # run on local host
+
 
 
 
